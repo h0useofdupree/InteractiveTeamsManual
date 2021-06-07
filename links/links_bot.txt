@@ -1,2 +1,3 @@
 https://gate4.com/blog/wie-baut-man-einen-microsoft-teams-bot/
 https://docs.microsoft.com/de-de/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0&preserve-view=true&tabs=csharp
+https://www.youtube.com/channel/UCV_6HOhwxYLXAGd-JOqKPoQ
