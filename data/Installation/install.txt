@@ -1,0 +1,10 @@
+	Zuerst laden Sie sich Microsoft Teams herunter.
+	Unter Windows, Mac oder Linux: https://www.microsoft.com/de-de/microsoft-teams/download-app (Bild von der Webseite des DL) 
+  Unter Android, IOS, etc. gehen Sie in Ihrer entsprechenden AppStore und laden Sie sich „Microsoft Teams“ herunter.
+---- Nächste Seite -----
+	Bei der Fertigstellung des Downloads führen Sie die entsprechende EXE Datei von Microsoft Teams aus.
+	Bei Sicherheitswarnung fortfahren bzw. Ausführen (Bild der Sicherheitswarnung mit Mauszeiger auf Weiter/Ausführen)
+---- Nächste Seite -----
+	Nachdem sich das Installationsfenster für Microsoft Teams geöffnet hat. Melden Sie sich mit Ihrem Microsoft Konto an, welches Ihnen von der Schule zur Verfügung gestellt wurde. (Bild mit Beispielanmeldung und vllt GIF bis zum Login).
+
+	
