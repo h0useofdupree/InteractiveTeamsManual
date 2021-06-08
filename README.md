@@ -9,7 +9,7 @@ Ziel:
 	- Gute Note im Projekt
 	- Einfache Erklärung vom Prinzip "Teams"
 	- "Full Stack Website"
-	- (Teams Bot für User ?)
+	- Teams Bot (NodeJS, JS...)
 
 
 Frontend:
