@@ -1,0 +1,16 @@
+Title: Einrichten der einzelnen Tabs in Teams
+
+Content: 
+In Microsoft Teams befinden sich auf der linken Seite eine Tableiste, in der sich die wichtigsten Reiter von Teams für den Schnellzugriff befinden.
+Diese voreingestellten Reiter sind zwar ein guter Anfang um sofort die wichtigsten Funktionen zu erreichen, können dennoch ein wenig Arbiet vertragen.
+Vor Allem, wenn man seinen Workflow ändern möchte, ist eine neue Anreihung die Antwort.
+
+Das Standard Layout beinhaltet Tabs wie "Aktivität", "Chat", "Hausaufgaben" und "Teams". Ebenfalls enthalten sind aber auch "Anrufe" und "Dateien", Tabs die man im Schulalltag einfach nicht sehr oft braucht, da diese ihre eigene Representative in den jeweiligen Channels haben.
+
+Um das Layout einfach nach Priorität zu verschieben, lassen die Items sich per Drag and Drop verschieben. So kann z.B. der "Chat" Tab, an erste Stelle verschieben.
+
+Mit einem Rechtsklick, lassen sich Tabs entpinnen, um diese nicht mehr in der Leiste zu sehen. 
+
+Um weitere Tabs hinzuzufügen, klickt man einfach auf die drei Punkte in der Tab Leiste, und zieht, ebenfalls per Drag and Drop, die gewünschte Funktion an gewünschte Stelle.
+
+In den möglichen Tabs enthalten, sind auch von euch installierte Apps ( oder PlugIns ). Wie man diese installiert, seht ihr ""hier"".
