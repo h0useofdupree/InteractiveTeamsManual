@@ -6,7 +6,7 @@ Joel Riekemann
 Adam Joseph Cüppers Berufskolleg
 .PP
 In Microsoft Teams befinden sich auf der linken Seite eine Tableiste, in der sich die wichtigsten Reiter von Teams für den Schnellzugriff befinden.
-Diese voreingestellten Reiter sind zwar ein guter Anfang um sofort die wichtigsten Funktionen zu erreichen, können dennoch ein wenig Arbiet vertragen.
+Diese voreingestellten Reiter sind zwar ein guter Anfang um sofort die wichtigsten Funktionen zu erreichen, können dennoch ein wenig Arbeit vertragen.
 Vor Allem, wenn man seinen Workflow ändern möchte, ist eine neue Anreihung die Antwort.
 .SH
 Das Standard Layout beinhaltet Tabs wie "Aktivität", "Chat", "Hausaufgaben" und "Teams". Ebenfalls enthalten sind aber auch "Anrufe" und "Dateien", Tabs die man im Schulalltag einfach nicht sehr oft braucht, da diese ihre eigene Representative in den jeweiligen Channels haben.
