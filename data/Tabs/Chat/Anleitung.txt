@@ -1,0 +1,15 @@
+
+
+
+****Chat Öffnen/Chat Starten****
+Zuerst gehen sie auf der Linken Hälfte ihres Bildschirms auf das Icon Chat und klicken darauf.(Chat Tab.png einfügen)
+Danach kommt ein Großes fenster das in zwei Hälften unterteilt ist. Auf der linken Seite finden sie ein Icon
+das aussieht wie ein Notizbuch, da klicken sie dann drauf(Chat mit person anfangen.jpg).
+Dann geben sie in der Zeile wo (Namen, Email, Gruppe oder Tag eingeben) steht die Betroffene Person ein um mit ihr ein
+chat zu starten.
+****Ende****
+
+****Chat anfangen mit lehrer/etc****
+Wenn sie mit nem Lehrer/Schüler direkt kontakt aufnehmen möchten dann können sie auf seinem Namen Hovern(Pfeil 1)
+um eine Kachel erscheinen zu lassen. Danach drücken sie auf auf das Chat Symbol(Pfeil 2) um einen Chat direkt
+zu starten.
