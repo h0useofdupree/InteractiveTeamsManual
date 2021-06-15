@@ -18,5 +18,27 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('index');
+    return view("index");
+});
+Route::get('/install', function () {
+    return "Install page";
+});
+
+// Array ( will be JSON Response )
+/* Route::get('/users', function () {
+    return ['PHP', 'HTML', 'LARAVEL'];
+}); */
+
+// JSON Object
+/* Route::get('/users', function () {
+    return response()->json([
+        'name' => 'Joel',
+        'gender' => 'Male'
+    ]);
+}); */
+
+
+// Redirect user
+Route::get('/users', function () {
+    return redirect('/');
 });
