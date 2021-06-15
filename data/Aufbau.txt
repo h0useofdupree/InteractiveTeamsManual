@@ -1,7 +1,0 @@
-Struktur
-Hier fangen wir mit den oben liegenden Themen an.
-    
-    D.h. Grundthemen wie 
-    - Installation
-    - Einrichtung und Personalisierung
-    - Die einzelnen Tabs von Teams ( App und Web )"
