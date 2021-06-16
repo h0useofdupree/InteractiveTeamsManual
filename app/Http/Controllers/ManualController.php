@@ -10,4 +10,8 @@ class ManualController extends Controller
     {
         return view('main.index');
     }
+    public function about()
+    {
+        return view('info.about');
+    }
 }
