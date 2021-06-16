@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="../css/home_css.css" type="text/css" />
 	<meta charset="utf-8">
 	<title></title>
-	<?php include("header.php"); ?>
+	<?php include("header.blade.php"); ?>
 </head>
 
 <body>

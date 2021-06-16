@@ -14,14 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', function () {
-    return view("index");
-});
-Route::get('/install', function () {
-    return "Install page";
+    return view('index');
 });
 
 // Array ( will be JSON Response )
@@ -37,8 +30,7 @@ Route::get('/install', function () {
     ]);
 }); */
 
-
 // Redirect user
-Route::get('/users', function () {
+/* Route::get('/users', function () {
     return redirect('/');
-});
+}); */

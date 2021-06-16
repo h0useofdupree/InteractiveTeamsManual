@@ -1,0 +1,23 @@
+{
+    "article":[
+        {
+            "ID":"inst",
+            "header":"Installation von Microsoft Teams",
+
+            "pages":[
+                {"ID":"0","content":"Zuerst lädst Du sich Microsoft Teams herunter. Unter Windows, Mac oder Linux:  (Bild von der Webseite des DL) Unter Android, IOS, etc. gehst Du in Ihrer entsprechenden AppStore und lädst Du sich „Microsoft Teams“ herunter."},
+                {"ID":"1","content":"Bei der Fertigstellung des Downloads führst Du die entsprechende EXE Datei von Microsoft Teams aus. Bei Sicherheitswarnung fortfahren bzw. Ausführen (Bild der Sicherheitswarnung mit Mauszeiger auf Weiter/Ausführen)"},
+                {"ID":"2","content":"Nachdem sich das Installationsfenster für Microsoft Teams geöffnet hat. Meldest Du sich mit Ihrem Microsoft Konto an, welches Ihnen von der Schule zur Verfügung gestellt wurde. (Bild mit Beispielanmeldung und vllt GIF bis zum Login)."}
+            ]
+        },
+        {
+            "ID":"tabs",
+            "header":"Alle Tabs im Detail",
+
+            "pages":[
+                {"ID":"Aufgaben", "content":""}
+                
+            ]
+        }
+    ]
+}
