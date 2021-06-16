@@ -5,37 +5,56 @@
 
 
 
-				****Aufgaben_Tab_Aufmachen****(BILD Aufgaben_Tab.jpg einfügen)
-				Als erstes gehen sie auf die Linke Seite des Bildschirms und
-				suchen dort den Tab Aufgaben und Klicken dann auf diesen.
-				Damit gelangen sie dann zu den Aufgaben. Dort können sie auch
-				ihre zugewiesenen Aufgaben sehen sowie ihre Erledigten Aufgaben
+****Aufgaben_Tab_Aufmachen****
+1.  Auf den linken Balken Gehen
+2. Auf Aufgaben DrÃ¼cken
+                
+                
+//Als erstes gehen sie auf die Linke Seite des Bildschirms und
+//suchen dort den Tab Aufgaben und Klicken dann auf diesen.
+//Damit gelangen sie dann zu den Aufgaben. Dort kÃ¶nnen sie auch
+//ihre zugewiesenen Aufgaben sehen sowie ihre Erledigten Aufgaben
 
 
-				****Aufgaben_im_Chat_öffnen****(Bild = Aufgabe_im_Chat)
-				Zuerst gehen sie auf den Chat wo eine Aufgabe angezeigt und navigieren
-				dann zu dem Knopf "Aufgabe Anzeigen". Dort sehen sie dann die Einzel-
-				heiten der Aufgabe.
+****Aufgaben_im_Chat_Ã¶ffnen****
+1.  Chat aufmachen wo eine Aufgabe ist
+2. Auf â€Aufgabe Anzeigenâ€œ DrÃ¼cken  
 
-				
 
-				****Aufgabe_ Datei_Hochladen****(BilderAufgabe_Datei_Anhängen.jpg & Aufgabe_Hochladen_1/2)
-				Wenn sie in der Nicht abgegebennen Aufgabe sind gehen so etwa
-				in die mitte und drücken auf Arbeit-Hinzufügen. Dort können sie dann 
-				Auswählen ob sie aus der Cloud etwas Hochladen möchten oder vom PC.
-				Wenn sie etwas vom PC Hochladen möchten dann drücken sie bitte unten
-				links auf die Schaltfläche "Von diesen Gerät Hochladen". Danach sollte
-				sich ein weiteres Fenster geöffnet haben. Dann Navigieren sie an der linken
-				Seite auf den Reiter "Dieser PC" und drücken danach auf den Dokumente Ordner 
-				und dann unten Rechts auf Öffnen.
+//Zuerst gehen sie auf den Chat wo eine Aufgabe angezeigt
+//und navigieren dann zu dem Knopf "Aufgabe Anzeigen". 
+//Dort sehen sie dann die Einzel- heiten der Aufgabe.
+
+
+
+
+
+
+
+****Aufgabe_ Datei_Hochladen****
+	1. In die Aufgabe gehen.
+	2. Auf Arbeit-HinzufÃ¼gen gehen.
+	3. Unten auf â€Von diesen GerÃ¤t Hochladenâ€œ DrÃ¼cken
+ 
+//Wenn sie in der Nicht abgegebenen Aufgabe sind gehen so etwa
+//in die mitte und drÃ¼cken auf Arbeit-HinzufÃ¼gen. Dort kÃ¶nnen sie dann 
+//AuswÃ¤hlen ob sie aus der Cloud etwas Hochladen mÃ¶chten oder vom PC.
+//Wenn sie etwas vom PC Hochladen mÃ¶chten dann drÃ¼cken sie bitte unten
+//links auf die SchaltflÃ¤che "Von diesen GerÃ¤t Hochladen". Danach sollte
+//sich ein weiteres Fenster geÃ¶ffnet haben. Dann Navigieren sie an der linken
+//Seite auf den Reiter "Dieser PC" und drÃ¼cken danach auf den Dokumente Ordner 
+//und dann unten Rechts auf Ã–ffnen.
 
 
 			
 
 
-				****Aufgabe_Datei_Neu****(Bild Aufgabe_Datei_Neu.jpg)
-				Sie gehen wieder auf die Aufgabe und gehen dann statt auf Datei Anhängen auf
-				Neu. Dort können sie dann Auswählen was sie haben möchten.
+****Aufgabe_Datei_Neu****
+1. In die Aufgabe gehen.
+	2. Auf Neu Klicken
+	3. Dateityp AuswÃ¤hlen
+//Sie gehen wieder auf die Aufgabe und gehen dann statt auf Datei AnhÃ¤ngen auf Neu. Dort kÃ¶nnen //sie 
+//dann AuswÃ¤hlen was sie haben mÃ¶chten.
 								
 				
 								
@@ -44,9 +63,13 @@
 
 				
 
-				****Aufgabe_Abgeben****(Bild Abgabe_Button.jpg)
-				Wenn sie eine Aufgabe abgeben möchten dann Navigieren sie ihre Maus 
-				in der Aufgabe nach oben Rechts und drücken dann auf Aufgabe Abgeben
+
+****Aufgabe Abgeben****
+1. In die Aufgabe gehen.
+	2. Oben Rechts auf â€Aufgabe abgebenâ€œ DrÃ¼cken
+	3. Unten auf â€Von diesen GerÃ¤t Hochladenâ€œ DrÃ¼cken
+//Wenn sie eine Aufgabe abgeben mÃ¶chten dann Navigieren sie ihre Maus 
+//in der Aufgabe nach oben Rechts und drÃ¼cken dann auf Aufgabe Abgeben
 				
 
 
