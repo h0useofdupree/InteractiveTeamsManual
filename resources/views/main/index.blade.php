@@ -5,13 +5,13 @@
 	<meta charset="utf-8">
 	<title></title>
 	<section>
-		<?php include_once("header.blade.php") ?>
+		@include('main.header')
 	</section>
 </head>
 
 <body>
 
-	<?php include_once("home.blade.php") ?>
+	@include('main.home')
 
 </body>
 
