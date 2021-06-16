@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-	<link rel="stylesheet" href="../css/home_css.css" type="text/css" />
+	<link rel="stylesheet" href="../css/home.css" type="text/css" />
 	<meta charset="utf-8">
 	<title></title>
 </head>
