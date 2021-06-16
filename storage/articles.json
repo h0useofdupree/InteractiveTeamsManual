@@ -3,7 +3,7 @@
         {
             "ID":"inst",
             "header":"Installation von Microsoft Teams",
-
+            
             "pages":[
                 {"ID":"0","content":"Zuerst lädst Du sich Microsoft Teams herunter. Unter Windows, Mac oder Linux:  (Bild von der Webseite des DL) Unter Android, IOS, etc. gehst Du in Ihrer entsprechenden AppStore und lädst Du sich „Microsoft Teams“ herunter."},
                 {"ID":"1","content":"Bei der Fertigstellung des Downloads führst Du die entsprechende EXE Datei von Microsoft Teams aus. Bei Sicherheitswarnung fortfahren bzw. Ausführen (Bild der Sicherheitswarnung mit Mauszeiger auf Weiter/Ausführen)"},
@@ -16,7 +16,6 @@
 
             "pages":[
                 {"ID":"Aufgaben", "content":""}
-                
             ]
         }
     ]
