@@ -1,68 +1,60 @@
+---Aufgaben Aufmachen                            
+Als erstes gehst du auf die Linke Seite des Bildschirms und suchst dort den Tab Â´AufgabenÂ´, dieser ist meist in der Mitte.
+
+---NÃ¤chste Seite---
+
+Als NÃ¤chstes Klickst du dann darauf um zu den Â´AufgabenÂ´ zu gelangen.
+(Bild= Aufgaben_tab.jpg)
+
+--------------------------------------------------------------------------------------------------------------------------------------
 
 
+Aufgaben im Chat
+Zuerst gehst du auf den Chat wo du die Aufgabe hast
 
 
+---NÃ¤chste-Seite----
 
 
+Als nÃ¤chstes gehst du dann auf die SchaltflÃ¤che Â´Aufgabe AnzeigenÂ´.
+Jetzt mÃ¼sstest du bei den Aufgaben sein.
 
-				****Aufgaben_Tab_Aufmachen****(BILD Aufgaben_Tab.jpg einfügen)
-				Als erstes gehen sie auf die Linke Seite des Bildschirms und
-				suchen dort den Tab Aufgaben und Klicken dann auf diesen.
-				Damit gelangen sie dann zu den Aufgaben. Dort können sie auch
-				ihre zugewiesenen Aufgaben sehen sowie ihre Erledigten Aufgaben
+--------------------------------------------------------------------------------------------------------------------------------------
 
 
-				****Aufgaben_im_Chat_öffnen****(Bild = Aufgabe_im_Chat)
-				Zuerst gehen sie auf den Chat wo eine Aufgabe angezeigt und navigieren
-				dann zu dem Knopf "Aufgabe Anzeigen". Dort sehen sie dann die Einzel-
-				heiten der Aufgabe.
+Aufgabe  Datei Hochladen
+Als erstes gehst du auf die nicht Abgegebene Aufgabe.
 
+---NÃ¤chste Seite---
+
+Meist ist bei der Aufgabe dann unterhalb von den Referenzen eine SchaltflÃ¤che mit den Namen `Arbeit-HinzufÃ¼gen` (Bild = `Aufgabe_Datei_AnhÃ¤ngen.jpg`) darauf klickst du dann.
+
+---NÃ¤chste Seite---
+
+Nachdem du darauf geklickt hast Ã¶ffnet sich darauf ein weiteres Fenster, wo du dann auf die SchaltflÃ¤che `Von diesen GerÃ¤t Hochladen`.(Bild = ` Aufgabe_Hochladen_1.jpg `)
+
+---NÃ¤chste Seite---
+
+Danach suchst du die Datei die du Hochladen mÃ¶chtest herraus und klickst sie einmal an.
+Daraufhin drÃ¼ckst du dann auf Ã–ffnen.(Bild = ` Aufgabe_Hochladen_2.jpg `)
+--------------------------------------------------------------------------------------------------------------------------------------
+		
+
+
+Aufgabe Datei Neu
+
+Wenn du eine Neue Datei in der Aufgabe erstellen mÃ¶chtest dann drÃ¼ckst auf die SchaltflÃ¤che `Neu`
+
+---NÃ¤chste seite--- 
+
+Wenn du dies gemacht hast suchst du dir dann den Dateityp raus den du haben mÃ¶chtest und drÃ¼ckst dann auf den Dateityp.
+
+---NÃ¤chste Seite---
+
+Wenn du das dann gemacht hast drÃ¼ckst du dann auf die neu erstellte Datei um den Internen-Editor zu Ã¶ffnen.(Bilder Folgen noch)								
 				
+--------------------------------------------------------------------------------------------------------------------------------------
 
-				****Aufgabe_ Datei_Hochladen****(BilderAufgabe_Datei_Anhängen.jpg & Aufgabe_Hochladen_1/2)
-				Wenn sie in der Nicht abgegebennen Aufgabe sind gehen so etwa
-				in die mitte und drücken auf Arbeit-Hinzufügen. Dort können sie dann 
-				Auswählen ob sie aus der Cloud etwas Hochladen möchten oder vom PC.
-				Wenn sie etwas vom PC Hochladen möchten dann drücken sie bitte unten
-				links auf die Schaltfläche "Von diesen Gerät Hochladen". Danach sollte
-				sich ein weiteres Fenster geöffnet haben. Dann Navigieren sie an der linken
-				Seite auf den Reiter "Dieser PC" und drücken danach auf den Dokumente Ordner 
-				und dann unten Rechts auf Öffnen.
-
-
-			
-
-
-				****Aufgabe_Datei_Neu****(Bild Aufgabe_Datei_Neu.jpg)
-				Sie gehen wieder auf die Aufgabe und gehen dann statt auf Datei Anhängen auf
-				Neu. Dort können sie dann Auswählen was sie haben möchten.
-								
-				
-								
-
-
-
-				
-
-				****Aufgabe_Abgeben****(Bild Abgabe_Button.jpg)
-				Wenn sie eine Aufgabe abgeben möchten dann Navigieren sie ihre Maus 
-				in der Aufgabe nach oben Rechts und drücken dann auf Aufgabe Abgeben
-				
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Aufgabe Abgeben
+Als erstes gehst du wieder in die Â´Aufgabe` hinein und drÃ¼ckst dann oben rechts in der Ecke auf Â´Aufgabe AbgebenÂ´, solltest du alles fertig haben in dieser aufgabe. 
 
