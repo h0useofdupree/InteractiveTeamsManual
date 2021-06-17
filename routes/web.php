@@ -8,6 +8,7 @@ use App\Http\Controllers\ManualController;
 
 
 Route::get('/manuals', [ManualController::class, 'index']);
+Route::get('/about', [ManualController::class, 'about']);
 
 // Array ( will be JSON Response )
 /* Route::get('/users', function () {

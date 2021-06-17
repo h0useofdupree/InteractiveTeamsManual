@@ -13,12 +13,42 @@
         },
         {
             "ID":"tabs_aufgaben",
-            "header":"Einleitung zum Aufgaben Tab",
+            "header":"Anleitung zum 'Aufgaben' Tab",
             "link":"localhost:8000/manuals/tabs/aufgaben",
 
             "pages":[
                 {"ID":"0", "content":"blablablablabla"},
                 {"ID":"1", "content":"blablballablbalbla"}
+            ]
+        },
+        {
+            "ID":"tabs_aktivitäten",
+            "header":"Anleitung zum 'Aktivitäten' Tab",
+            "link":"localhost:8000/manuals/tabs/aktivitäten",
+            
+            "pages":[
+                {"ID":"0", "content":""},
+                {"ID":"1", "content":""}
+            ]
+        },
+        {
+            "ID":"tabs_anrufe",
+            "header":"Anleitung zum 'Anrufe' Tab",
+            "link":"localhost:8000/manuals/tabs/anrufe",
+            
+            "pages":[
+                {"ID":"0", "content":""},
+                {"ID":"1", "content":""}
+            ]
+        },
+        {
+            "ID":"tabs_dateien",
+            "header":"Anleitung zum 'Dateien' Tab",
+            "link":"localhost:8000/manuals/tabs/dateien",
+            
+            "pages":[
+                {"ID":"0", "content":""},
+                {"ID":"1", "content":""}
             ]
         }
     ]

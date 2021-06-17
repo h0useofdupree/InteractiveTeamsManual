@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="css/home.css">
 	<meta charset="utf-8">
 	<title></title>
-	@include('main.header')
+	{{-- @include('main.header') Ist glaub ich nicht richtig hier, da es schin in der Index gerufen wird --}} 
 </head>
 
 <body>
