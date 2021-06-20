@@ -10,6 +10,35 @@ use App\Http\Controllers\ManualController;
 Route::get('/manuals', [ManualController::class, 'index']);
 Route::get('/about', [ManualController::class, 'about']);
 
+
+// Parameter Routing
+
+// Pattern is Int
+/* Route::get(
+    '/manuals/{id}',
+    [ManualController::class, 'show']
+)->where('id', '[0-9]+'); */
+
+// Pattern is String
+Route::get(
+    '/manuals/{name}',
+    [ManualController::class, 'show']
+)->where('name', '[a-zA-Z0-9]+'); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Array ( will be JSON Response )
 /* Route::get('/users', function () {
     return ['PHP', 'HTML', 'LARAVEL'];

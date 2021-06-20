@@ -19,6 +19,9 @@
 				<a href="test.php">Tabs</a>
 			</div>
 		</center>
+		<p>
+			{{ $articles }}
+		</p>
 
 
 </body>
