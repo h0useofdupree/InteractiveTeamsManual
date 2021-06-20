@@ -32,7 +32,7 @@ class ManualController extends Controller
         return view('info.about');
     }
 
-    public function show($id)
+    /* public function show($id)
     {
         $data = [
             '0' => 'Installation',
@@ -43,5 +43,5 @@ class ManualController extends Controller
         return view('main.index', [
             'articles' => $data[$id] ?? 'Article ' . $id . ' does not exist'
         ]);
-    }
+    } */
 }
