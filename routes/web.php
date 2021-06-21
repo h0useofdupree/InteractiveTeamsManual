@@ -9,10 +9,13 @@ use App\Http\Controllers\ManualController;
 
 //Route::get('/about', [ManualController::class, 'about']);
 
-Route::get(
+/* Route::get(
     '/manuals',
     [ManualController::class, 'index']
-)->name('manuals');
+)->name('manuals'); */
+
+Route::get('/', [ManualController::class, 'index']);
+Route::get('/about', [ManualController::class, 'about']);
 
 
 

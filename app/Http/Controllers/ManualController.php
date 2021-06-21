@@ -20,7 +20,9 @@ class ManualController extends Controller
             'data' => $data
         ]); */
 
-        print_r(route('manuals'));
+        /* print_r(route('manuals'));
+        return view('main.index'); */
+
         return view('main.index');
     }
     public function about()

@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-
-<head>
-	<meta charset="utf-8">
-	<title></title>
-	<section>
-		@include('main.header')
-	</section>
-</head>
-
-<body>
-
-	@include('main.home')
-
-</body>
-
-</html>
+@extends('layouts.app')
+{{-- @include('main.home') --}}
+@section('content')
+    <center>
+        <div class="links">
+            <a href="test.php">Installation</a>
+            <a href="test.php">Einrichtung</a>
+            <a href="test.php">Tabs</a>
+        </div>
+    </center>
+@endsection
