@@ -8,14 +8,7 @@ class ManualController extends Controller
 {
     public function index()
     {
-        $title = "Welcome to Laravel";
-        $desc = "Description";
-
-        $data = [
-            'articelOne' => 'Installation',
-            'articleTwo' => 'Tabs'
-        ];
-
+        $data = "Test";
         // Passing vars to view with "with"
         //return view('main.index')->with('data', $data);
 
@@ -23,16 +16,19 @@ class ManualController extends Controller
         //return view('main.index', compact('title'));
 
         // Passing vars directly into view
-        return view('main.index', [
+        /* return view('main.index', [
             'data' => $data
-        ]);
+        ]); */
+
+        print_r(route('manuals'));
+        return view('main.index');
     }
     public function about()
     {
         return view('info.about');
     }
 
-    /* public function show($id)
+    public function show($id, $name)
     {
         $data = [
             '0' => 'Installation',
@@ -41,7 +37,7 @@ class ManualController extends Controller
         ];
 
         return view('main.index', [
-            'articles' => $data[$id] ?? 'Article ' . $id . ' does not exist'
+            'articles' => $data[$id] ?? 'Article ' . $name . " " . $id . ' does not exist'
         ]);
-    } */
+    }
 }

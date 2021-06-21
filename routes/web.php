@@ -7,8 +7,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ManualController;
 
 
-Route::get('/manuals', [ManualController::class, 'index']);
-Route::get('/about', [ManualController::class, 'about']);
+//Route::get('/about', [ManualController::class, 'about']);
+
+Route::get(
+    '/manuals',
+    [ManualController::class, 'index']
+)->name('manuals');
+
 
 
 // Parameter Routing
@@ -20,23 +25,13 @@ Route::get('/about', [ManualController::class, 'about']);
 )->where('id', '[0-9]+'); */
 
 // Pattern is String
-Route::get(
-    '/manuals/{name}',
+/* Route::get(
+    '/manuals/{name}/{id}',
     [ManualController::class, 'show']
-)->where('name', '[a-zA-Z0-9]+'); 
-
-
-
-
-
-
-
-
-
-
-
-
-
+)->where([
+    'name' => '[a-z]+',
+    'id' => '[0-9]+'
+]);  */
 
 
 // Array ( will be JSON Response )
