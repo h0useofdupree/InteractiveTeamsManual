@@ -28,13 +28,12 @@ Route::get('/about', [ManualController::class, 'about']);
 )->where('id', '[0-9]+'); */
 
 // Pattern is String
-/* Route::get(
-    '/manuals/{name}/{id}',
+Route::get(
+    '/manuals/{name}',
     [ManualController::class, 'show']
 )->where([
-    'name' => '[a-z]+',
-    'id' => '[0-9]+'
-]);  */
+    'name' => '[a-zA-Z]+'
+]); 
 
 
 // Array ( will be JSON Response )

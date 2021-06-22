@@ -27,19 +27,11 @@ class ManualController extends Controller
     }
     public function about()
     {
-        return view('info.about');
+        return view('other.about');
     }
 
-    public function show($id, $name)
+    public function show($name)
     {
-        $data = [
-            '0' => 'Installation',
-            '1' => 'Tabs',
-            'pers1' => 'persTabs'
-        ];
-
-        return view('main.index', [
-            'articles' => $data[$id] ?? 'Article ' . $name . " " . $id . ' does not exist'
-        ]);
+        return view('other' . '.' . $name);
     }
 }

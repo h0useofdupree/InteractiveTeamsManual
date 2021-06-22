@@ -7,21 +7,18 @@
     <title></title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
-    {{-- @include('main.header') --}}
 </head>
 
 <body>
     <header>
         @include('layouts.header')
     </header>
-    {{-- @include('main.home') --}}
-    <form method="post" action="#">
 
-        @yield('content')
+    @yield('content')
 
-        <footer>2
-            @include('layouts.footer')
-        </footer>
+    <footer>
+        @include('layouts.footer')
+    </footer>
 
 </body>
 
