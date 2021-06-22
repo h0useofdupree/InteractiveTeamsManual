@@ -12,13 +12,40 @@
             ]
         },
         {
+            "ID":"Meet",
+            "header":"Meetings Betreten",
+            "link":"localhost:8000/manuals/meeting",
+            
+            "pages":[
+                {"ID":"0","content":"Als erstes gehen sie auf das Meeting das gerade gestartet und klicken darauf"},
+                {"ID":"1","content":"Danach klicken sie auf den Reiter 'Computer Audio' damit ihr Mikrofon richtig erkannt werden kann."},
+                {"ID":"2","content":"Um das Meeting wieder zu verlassen drücken sie oben rechts auf 'Meeting Verlassen' "},
+                {"ID":"3","content":"Um das Mikrofon Stummzuschalten drücken sie bitte oben neben 'Meeting verlassen' auf das mikrofon Symbol um sich Stummzuschalten. Das gleiche kann auch genutzt werden um wieder reden zu Können"}
+            ]
+        },
+        {
             "ID":"tabs_aufgaben",
             "header":"Anleitung zum 'Aufgaben' Tab",
             "link":"localhost:8000/manuals/tabs/aufgaben",
 
             "pages":[
-                {"ID":"0", "content":"blablablablabla"},
-                {"ID":"1", "content":"blablballablbalbla"}
+                {"ID":"0", "content":"Als erstes gehst du auf die Linke Seite des Bildschirms und suchst dort den Tab ´Aufgaben´, dieser ist meist in der Mitte."},
+                
+                {"ID":"1", "content":"Als Nächstes Klickst du dann darauf um zu den ´Aufgaben´ zu gelangen."},
+                
+                {"ID":"2", "content":"Meist ist bei der Aufgabe dann unterhalb von den Referenzen eine Schaltfläche mit den Namen `Arbeit-Hinzufügen` darauf klickst du dann."},
+                
+                {"ID":"3", "content":"Nachdem du darauf geklickt hast öffnet sich darauf ein weiteres Fenster, wo du dann auf die Schaltfläche `Von diesen Gerät Hochladen`."},
+                
+                {"ID":"4", "content":"Danach suchst du die Datei die du Hochladen möchtest herraus und klickst sie einmal an. Daraufhin drückst du dann auf Öffnen."},
+                
+                {"ID":"5", "content":"Wenn du eine Neue Datei in der Aufgabe erstellen möchtest dann drückst auf die Schaltfläche `Neu`"},
+                
+                {"ID":"6", "content":"Wenn du dies gemacht hast suchst du dir dann den Dateityp raus den du haben möchtest und drückst dann auf den Dateityp."},
+                
+                {"ID":"7", "content":"Wenn du das dann gemacht hast drückst du dann auf die neu erstellte Datei um den Internen-Editor zu öffnen."},
+                
+                {"ID":"8", "content":"Als erstes gehst du wieder in die ´Aufgabe` hinein und drückst dann oben rechts in der Ecke auf ´Aufgabe Abgeben´, solltest du alles fertig haben in dieser aufgabe."}
             ]
         },
         {
@@ -27,8 +54,8 @@
             "link":"localhost:8000/manuals/tabs/aktivitäten",
             
             "pages":[
-                {"ID":"0", "content":""},
-                {"ID":"1", "content":""}
+                {"ID":"0", "content":"Als erstes gehst du auf die Linke Seite des Bildschirmes und klickst auf ´Aktivitäten´"},
+                {"ID":"1", "content":"Als nächstes siehst du dann in der Mitte deine Aktivitäten und an der Linken Seite findest du was für Aktivitäten gerade vorhanden sind"}
             ]
         },
         {
@@ -37,8 +64,9 @@
             "link":"localhost:8000/manuals/tabs/anrufe",
             
             "pages":[
-                {"ID":"0", "content":""},
-                {"ID":"1", "content":""}
+                {"ID":"0", "content":"Als erstes gehst du auf die Linke Seite des Bildschirmes und klickst auf ´Anrufe´"},
+                {"ID":"1", "content":"Als nächstes, wenn du auf die Rechte Seite schaust, dann siehst du deinen Anruf Verlauf. Bisschen weiter links findest du deine Kontakte, mit denen du schon geschrieben hast."},
+                {"ID":"2", "content":"Wenn du wen anrufen möchtest aber ihn gerade nicht eigespeichert hast kannst du über den Verlauf auf ´Namen Eingeben´ drücken. Dies öffnet dann eine suchleiste wo du dann deinen Kontakt suchen kannst"}
             ]
         },
         {
@@ -47,9 +75,33 @@
             "link":"localhost:8000/manuals/tabs/dateien",
             
             "pages":[
-                {"ID":"0", "content":""},
-                {"ID":"1", "content":""}
+                {"ID":"0", "content":"Als erstes gehst du auf den Linken Tab Namens ´Dateien´ und klickst darauf. "},
+                {"ID":"1", "content":"Als nächstes kannst du an der Linken Seite dein Speicher ansehen. Dort kannst du auch unten links einen weiteren Cloud-Speicher einbinden wen du einen externen hast."},
+                {"ID":"2", "content":"Auf der Rechte Seite siehst du dann deine letzten verwendeten Dateien"}
             ]
+        },
+        {
+            "ID":"tabs_Chat",
+            "header":"Anleitung zum 'Chat' Tab",
+            "link":"localhost:8000/manuals/tabs/chat",
+            
+            "pages":[
+                {"ID":"0", "content":"Zuerst gehen sie auf der Linken Hälfte ihres Bildschirms auf das Icon Chat und klicken darauf."},
+                {"ID":"1", "content":"Danach kommt ein Großes fenster das in zwei Hälften unterteilt ist. Auf der linken Seite finden sie ein Icon das aussieht wie ein Notizbuch, da klicken sie dann drauf."},
+                {"ID":"2", "content":"Dann geben sie in der Zeile wo (Namen, Email, Gruppe oder Tag eingeben) steht die Betroffene Person ein um mit ihr einchat zu starten."},
+                {"ID":"3", "content":"Wenn sie mit nem Lehrer/Schüler direkt kontakt aufnehmen möchten dann können sie auf seinem Namen Hovern um eine Kachel erscheinen zu lassen. Danach drücken sie auf auf das Chat Symbol um einen Chat direkt zu starten."}
+            ]
+        },
+        {
+            "ID":"Tabs_Kalender",
+            "header":"Anleitung zum 'Kalender' Tab",
+            "link":"localhost:8000/manuals/tabs/chat",
+
+            "pages":[
+                {"ID":"0", "content":"Als erstes gehst du auf den Linken Tab Namens ´Kalender´ und klickst darauf."},
+                {"ID":"1", "content":"Als nächstes kannst du deine Termine ansehen. Du kannst auch noch eigene Termine machen sowie Besprechungen erstellen und beitreten."}
+            ]   
+
         }
     ]
 }
