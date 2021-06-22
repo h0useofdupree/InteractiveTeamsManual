@@ -16,6 +16,7 @@ use App\Http\Controllers\ManualController;
 
 Route::get('/', [ManualController::class, 'index']);
 Route::get('/about', [ManualController::class, 'about']);
+Route::get('/bot', [ManualController::class, 'bot']);
 
 
 

@@ -1,16 +1,9 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container">
-        <a href="main.html">Home</a>
-        <a href="#">Installation</a>
-        <a href="#">Einrichtung</a>
-        <a href="#">Tabs</a>
-        <input type="text" id="search" placeholder="Suche..">
-    </div>
-
+    <link rel="stylesheet" href="../css/home_css/home.css">
     <div class="links">
         <a href="#">Aktivität</a>
-        <a href="#">Chat</a>
+        <a href="bot">Chat</a>
         <a href="#">Teams</a>
         <a href="#">Aufgaben</a>
         <a href="#">Kalender</a>

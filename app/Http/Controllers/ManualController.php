@@ -34,4 +34,8 @@ class ManualController extends Controller
     {
         return view('other' . '.' . $name);
     }
+    public function bot()
+    {
+        return view('other.bot.index');
+    }
 }

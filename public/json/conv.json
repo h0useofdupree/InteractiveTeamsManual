@@ -1,0 +1,304 @@
+{
+    "article":[
+        {
+            "keywords":[
+                "OK",
+                "HM",
+                "LOL",
+                "XD",
+                "LMFAO",
+                "YEE",
+                "NICHTS",
+                "NEIN"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                "Ehhhmm...okay",
+                "Ok ^^"
+            ]
+        },
+
+        { 
+            "keywords":[
+                "DANKE",
+                "THX"
+                
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                "Das habe ich doch gerne gemacht :)",
+                "Für dich doch immer"
+            ]
+
+        },
+        {
+            "keywords":[
+                 "JA",
+                 "NEIN",
+                 "WIESO",
+                 "WESHALB",
+                 "WARUM"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                "Der...Die...Das... Wieso.  Weshalb. Warum. Wer nicht fragt bleibt dumm :)",
+                "Möchtest du mich was fragen?"
+            ]
+        },
+
+        {
+            "keywords":[
+                 "HURE",
+                 "FICK DICH",
+                 "FUCK YOU",
+                 "ARSCHLOCH",
+                 "PISSER",
+                 "WIXXER",
+                 "DU BIST DUMM"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                "Eyy das ist nicht nett, ich will dir doch nur helfen :(",
+                "...",
+                "Ich ignoriere mal das du das gerade geschrieben hast.",
+                "Das ist frech!",
+                "Halts maul..."
+            ]
+        },
+
+        {
+            "keywords":[
+                 "EDGAR",
+                 "BOCK"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "Ich mag auch den Weihnachtsmann :)",
+                 "Meinst du der ist heute Bockig?",
+                 "Haste Bock?"
+            ]
+        },
+
+        {
+            "keywords":[
+                 "JENS",
+                 "RENKEN"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "Der Jens.",
+                 "Lust auf ne 100km Runde in 30 Minuten ?",
+                 "Hast du dich heute schon gedehnt? - wenn nicht: Dann tu ES!"
+            ]
+        },
+        
+        {
+            "keywords":[
+                 ":)",
+                 "^^",
+                 "C:",
+                 "COOL",
+                 "WOW"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 ":)"
+            ]
+        },
+
+          
+        {
+            "keywords":[
+                 ":(",
+                 ":C",
+                 "WTF"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "Was ist los? :("
+            ]
+        },
+
+          
+        {
+            "keywords":[
+                 "WIE GEHT",
+                 "GUT UND DIR?"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "Mir geht es sehr gut. Vorallem wenn ich dir helfen kann ✌"
+            ]
+        },
+
+        {
+            "keywords":[
+                 "INDIEN",
+                 "INDER",
+                 "INDISCH",
+                 "INDA"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "नमस्ते। मैं माला हूँ मैं आपकी कैसे मदद कर सकता हूँ?",
+                 "Hallo mein Name ist Shiva, wie kann ich helfen?"
+            ]
+        },
+        {
+            "keywords":[
+                 "HEY",
+                 "HALLO",
+                 "GUTEN TAG",
+                 "GUTEN MORGEN",
+                 "HELLO",
+                 "HI"
+              
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "Hallo :) Wie kann ich dir helfen?",
+                 "Hi. Wie kann ich dir behilflich sein?"
+            ]
+        },
+        {
+            "keywords":[
+                 "HILFE",
+                 "HELP"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "Wie kann ich dir helfen?",
+                 "Wobei kann ich dir helfen?"
+            ]
+        },
+
+        {
+            "keywords":[
+                 "WAS",
+                 "WIE BITTE",
+                 "GENAU"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "Was?",
+                 "Hm?"
+            ]
+        },
+
+        {
+            "keywords":[
+                 "SORRY",
+                 "SRY",
+                 "TUT MIR LEID"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "Okay :)",
+                 "Besser ist es ^^"
+            ]
+        },
+        {
+            "keywords":[
+                 "TSCHÜSS",
+                 "BYE",
+                 "TSCHAU",
+                 "AUF WIEDERSEHEN"
+            ],
+
+            "disabledwords":[
+                "",
+                ""
+           ],
+
+
+            "inhalt":[
+                 "Schade das du schon gehst. Bis bald",
+                 "Bis bald :)"
+            ]
+        }
+    ]
+}

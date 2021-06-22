@@ -6,7 +6,7 @@
             <a href="#" id="einrichtung">Einrichtung</a>
             <a href="#" id="tabs">Tabs</a>
             <a href="#" id="gesucht">Meist gesucht</a>
-            <a href="#" id="chatbot"></a>
+            <a href="bot" id="chatbot"></a>
         </div>
     </center>
 @endsection

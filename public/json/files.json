@@ -1,0 +1,85 @@
+{
+    "article":[ 
+        {
+            "ID":"installation",
+            "header":"Installation von Microsoft Teams",
+            "link":"localhost:8000/manuals/installation",
+
+            "keywords":[
+                "INSTALL"
+            ],
+            
+            "pages":[
+                {"ID":"0","content":"Zuerst lädst du dir Microsoft Teams herunter. Unter Windows, Mac oder Linux:  (Bild von der Webseite des DL) Unter Android, IOS, etc. gehst Du in Ihrer entsprechenden AppStore und lädst du dir „Microsoft Teams“ herunter."},
+                {"ID":"1","content":"Bei der Fertigstellung des Downloads führst Du die entsprechende EXE Datei von Microsoft Teams aus. Bei Sicherheitswarnung fortfahren bzw. Ausführen (Bild der Sicherheitswarnung mit Mauszeiger auf Weiter/Ausführen)"},
+                {"ID":"2","content":"Nachdem sich das Installationsfenster für Microsoft Teams geöffnet hat. Meldest du dich mit Ihrem Microsoft Konto an, welches dir von der Schule zur Verfügung gestellt wurde. (Bild mit Beispielanmeldung und vllt GIF bis zum Login)."}
+            ]
+        },
+        {
+            "ID":"tabs_aufgaben",
+            "header":"Einleitung zum Aufgaben Tab",
+            "link":"localhost:8000/manuals/tabs/aufgaben",
+
+            "keywords":[
+                "TABS",
+                "MENÜ" 
+             ],
+
+            "pages":[
+                {"ID":"0", "content":"blablablablabla"},
+                {"ID":"1", "content":"blablballablbalbla"}
+            ]
+        },
+        {
+            "ID":"tabs_aktivitäten",
+            "header":"Anleitung zum 'Aktivitäten' Tab",
+            "link":"localhost:8000/manuals/tabs/aktivitäten",
+
+            "keywords":[
+                "TABS AKTIVITÄTEN",
+                "AKTIVITÄTEN"
+
+            ],
+            
+            "pages":[
+                {"ID":"0", "content":""},
+                {"ID":"1", "content":""}
+            ]
+        },
+        {
+            "ID":"tabs_anrufe",
+            "header":"Anleitung zum 'Anrufe' Tab",
+            "link":"localhost:8000/manuals/tabs/anrufe",
+
+            "keywords":[
+                "TABS ANRUF",
+                "ANRUF"
+
+            ],
+            
+            "pages":[
+                {"ID":"0", "content":""},
+                {"ID":"1", "content":""}
+            ]
+        },
+        {
+            "ID":"tabs_dateien",
+            "header":"Anleitung zum 'Dateien' Tab",
+            "link":"localhost:8000/manuals/tabs/dateien",
+
+            "keywords":[
+                "TABS DATEI",
+                "DATEI"
+
+            ],
+            
+            "pages":[
+                {"ID":"0", "content":""},
+                {"ID":"1", "content":""}
+            ]
+        }
+
+        
+        
+    ]
+}
