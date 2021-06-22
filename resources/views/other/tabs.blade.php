@@ -2,13 +2,13 @@
 @section('content')
     <link rel="stylesheet" href="../css/home_css/home.css">
     <div class="links">
-        <a href="#">Aktivität</a>
+        <a href="manuals/activity">Aktivität</a>
         <a href="bot">Chat</a>
-        <a href="#">Teams</a>
-        <a href="#">Aufgaben</a>
-        <a href="#">Kalender</a>
-        <a href="#">Anrufe</a>
-        <a href="#">Datein</a>
-        <a href="#">Apps</a>
+        <a href="manuals/teams">Teams</a>
+        <a href="manuals/assignments">Aufgaben</a>
+        <a href="manuals/calendar">Kalender</a>
+        <a href="manuals/calls">Anrufe</a>
+        <a href="manuals/files">Datein</a>
+        <a href="manuals/apps">Apps</a>
     </div>
 @endsection

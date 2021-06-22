@@ -14,27 +14,47 @@ use App\Http\Controllers\ManualController;
     [ManualController::class, 'index']
 )->name('manuals'); */
 
+// Static Route to Index Page
 Route::get('/', [ManualController::class, 'index']);
+
+// Static Route to about page
 Route::get('/about', [ManualController::class, 'about']);
+
+//Static Route to bot
 Route::get('/bot', [ManualController::class, 'bot']);
 
 
 
 // Parameter Routing
 
+// Route to manuals
+Route::get(
+    '/manuals/{name}',
+    [ManualController::class, 'show']
+)->where([
+    // String RegEx Pattern
+    'name' => '[a-zA-Z]+'
+]); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Pattern is Int
 /* Route::get(
     '/manuals/{id}',
     [ManualController::class, 'show']
 )->where('id', '[0-9]+'); */
-
-// Pattern is String
-Route::get(
-    '/manuals/{name}',
-    [ManualController::class, 'show']
-)->where([
-    'name' => '[a-zA-Z]+'
-]); 
 
 
 // Array ( will be JSON Response )

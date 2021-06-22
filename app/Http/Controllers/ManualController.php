@@ -8,21 +8,7 @@ class ManualController extends Controller
 {
     public function index()
     {
-        $data = "Test";
-        // Passing vars to view with "with"
-        //return view('main.index')->with('data', $data);
-
-        // Passing vars to view with "compact"
-        //return view('main.index', compact('title'));
-
-        // Passing vars directly into view
-        /* return view('main.index', [
-            'data' => $data
-        ]); */
-
-        /* print_r(route('manuals'));
-        return view('main.index'); */
-
+        // TODO: #3 Parse JSON File to View in PlainText Format
         return view('main.index');
     }
     public function about()
@@ -39,3 +25,21 @@ class ManualController extends Controller
         return view('other.bot.index');
     }
 }
+
+
+// INFO
+
+// Passing vars to view with "with"
+//return view('main.index')->with('data', $data);
+
+// Passing vars to view with "compact"
+//return view('main.index', compact('title'));
+
+// Passing vars directly into view
+/* return view('main.index', [
+    'data' => $data
+]); */
+
+// Print route
+/* print_r(route('manuals'));
+*/

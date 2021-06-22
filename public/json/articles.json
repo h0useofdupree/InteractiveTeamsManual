@@ -12,19 +12,19 @@
             ]
         },
         {
-            "ID":"Meet",
+            "ID":"Meeting",
             "header":"Meetings Betreten",
             "link":"localhost:8000/manuals/meeting",
             
             "pages":[
-                {"ID":"0","content":"Als erstes gehen sie auf das Meeting das gerade gestartet und klicken darauf"},
-                {"ID":"1","content":"Danach klicken sie auf den Reiter 'Computer Audio' damit ihr Mikrofon richtig erkannt werden kann."},
-                {"ID":"2","content":"Um das Meeting wieder zu verlassen drücken sie oben rechts auf 'Meeting Verlassen' "},
-                {"ID":"3","content":"Um das Mikrofon Stummzuschalten drücken sie bitte oben neben 'Meeting verlassen' auf das mikrofon Symbol um sich Stummzuschalten. Das gleiche kann auch genutzt werden um wieder reden zu Können"}
+                {"ID":"0","content":"Als erstes gehst du auf das Meeting das gerade gestartet und klicken darauf"},
+                {"ID":"1","content":"Danach klickst du auf den Reiter 'Computer Audio' damit ihr Mikrofon richtig erkannt werden kann."},
+                {"ID":"2","content":"Um das Meeting wieder zu verlassen drückst du oben rechts auf 'Meeting Verlassen' "},
+                {"ID":"3","content":"Um das Mikrofon Stummzuschalten drückst du bitte oben neben 'Meeting verlassen' auf das mikrofon Symbol um sich Stummzuschalten. Das gleiche kann auch genutzt werden um wieder reden zu Können"}
             ]
         },
         {
-            "ID":"tabs_aufgaben",
+            "ID":"tabs_Aufgaben",
             "header":"Anleitung zum 'Aufgaben' Tab",
             "link":"localhost:8000/manuals/tabs/aufgaben",
 
@@ -37,7 +37,7 @@
                 
                 {"ID":"3", "content":"Nachdem du darauf geklickt hast öffnet sich darauf ein weiteres Fenster, wo du dann auf die Schaltfläche `Von diesen Gerät Hochladen`."},
                 
-                {"ID":"4", "content":"Danach suchst du die Datei die du Hochladen möchtest herraus und klickst sie einmal an. Daraufhin drückst du dann auf Öffnen."},
+                {"ID":"4", "content":"Danach suchst du die Datei die du Hochladen möchtest herraus und klickst du einmal an. Daraufhin drückst du dann auf Öffnen."},
                 
                 {"ID":"5", "content":"Wenn du eine Neue Datei in der Aufgabe erstellen möchtest dann drückst auf die Schaltfläche `Neu`"},
                 
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "ID":"tabs_aktivitäten",
+            "ID":"tabs_Aktivitäten",
             "header":"Anleitung zum 'Aktivitäten' Tab",
             "link":"localhost:8000/manuals/tabs/aktivitäten",
             
@@ -59,7 +59,7 @@
             ]
         },
         {
-            "ID":"tabs_anrufe",
+            "ID":"tabs_Anrufe",
             "header":"Anleitung zum 'Anrufe' Tab",
             "link":"localhost:8000/manuals/tabs/anrufe",
             
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "ID":"tabs_dateien",
+            "ID":"tabs_Dateien",
             "header":"Anleitung zum 'Dateien' Tab",
             "link":"localhost:8000/manuals/tabs/dateien",
             
@@ -86,10 +86,10 @@
             "link":"localhost:8000/manuals/tabs/chat",
             
             "pages":[
-                {"ID":"0", "content":"Zuerst gehen sie auf der Linken Hälfte ihres Bildschirms auf das Icon Chat und klicken darauf."},
-                {"ID":"1", "content":"Danach kommt ein Großes fenster das in zwei Hälften unterteilt ist. Auf der linken Seite finden sie ein Icon das aussieht wie ein Notizbuch, da klicken sie dann drauf."},
-                {"ID":"2", "content":"Dann geben sie in der Zeile wo (Namen, Email, Gruppe oder Tag eingeben) steht die Betroffene Person ein um mit ihr einchat zu starten."},
-                {"ID":"3", "content":"Wenn sie mit nem Lehrer/Schüler direkt kontakt aufnehmen möchten dann können sie auf seinem Namen Hovern um eine Kachel erscheinen zu lassen. Danach drücken sie auf auf das Chat Symbol um einen Chat direkt zu starten."}
+                {"ID":"0", "content":"Zuerst gehst du auf der linken Hälfte ihres Bildschirms auf das Icon Chat und klicken darauf."},
+                {"ID":"1", "content":"Danach kommt ein großes Fenster das in zwei Hälften unterteilt ist. Auf der linken Seite findest du ein Icon, welches aussieht wie ein Notizbuch, da klickst du dann drauf."},
+                {"ID":"2", "content":"Dann gibst du in der Zeile wo (Namen, Email, Gruppe oder Tag eingeben) steht, die betroffene Person ein um mit ihr einen Chat zu starten."},
+                {"ID":"3", "content":"Wenn du mit einem Lehrer/Schüler direkt Kontakt aufnehmen möchten dann können sie auf seinem Namen Hovern um eine Kachel erscheinen zu lassen. Danach drücken sie auf auf das Chat Symbol um einen Chat direkt zu starten."}
             ]
         },
         {

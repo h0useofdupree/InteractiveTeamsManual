@@ -10,9 +10,6 @@ html {
 }
 
 body {
-  margin: 0px;
-  background-color: #e5e7ea;
-  font-family: Arial, Helvetica, sans-serif, sans-serif;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -20,7 +17,7 @@ body {
   user-select: none;
 }
 
-#container {
+body #container {
   padding: 12px;
   width: 610px;
   height: 735px;
@@ -35,7 +32,7 @@ body {
   display: block;
 }
 
-#space {
+body #space {
   float: left;
   margin-left: 0px;
   width: 580px;
@@ -44,7 +41,7 @@ body {
   background: none;
 }
 
-#controls {
+body #controls {
   width: 610px;
   height: 60px;
   margin: 0px auto;
@@ -54,7 +51,7 @@ body {
           box-shadow: 4px 4px 2px #a8b2c1;
 }
 
-textarea {
+body textarea {
   border-radius: 12px;
   resize: none;
   width: 400px;
@@ -67,7 +64,7 @@ textarea {
   margin: -43px 82px;
 }
 
-#send {
+body #send {
   background: none;
   border: none;
   color: #03071e;
@@ -79,19 +76,19 @@ textarea {
   float: right;
 }
 
-#send:focus {
+body #send:focus {
   outline: none;
 }
 
-#send:hover {
+body #send:hover {
   color: #6a040f;
 }
 
-textarea:focus {
+body textarea:focus {
   outline: none;
 }
 
-div [id^="chatb"] {
+body div [id^="chatb"] {
   max-width: 450px;
   min-width: 310px;
   background: #a8a5a5;
@@ -104,19 +101,19 @@ div [id^="chatb"] {
   display: block;
 }
 
-#links {
+body #links {
   text-decoration: none;
   color: black;
   font-weight: bolder;
 }
 
-#links:hover {
+body #links:hover {
   text-decoration: underline;
   color: black;
   font-weight: bolder;
 }
 
-div [id^="chatu"] {
+body div [id^="chatu"] {
   max-width: 450px;
   min-width: 310px;
   background: #afb1b1;
@@ -129,7 +126,7 @@ div [id^="chatu"] {
   display: block;
 }
 
-#title {
+body #title {
   float: right;
   color: #370617;
   font-size: 24px;
@@ -139,7 +136,7 @@ div [id^="chatu"] {
   margin-right: 305px;
 }
 
-#titleuser {
+body #titleuser {
   float: left;
   color: #370617;
   font-size: 24px;
@@ -149,14 +146,14 @@ div [id^="chatu"] {
   margin-right: 310px;
 }
 
-#date {
+body #date {
   float: left;
   margin-top: 12px;
   font-size: 12px;
   margin-left: 2px;
 }
 
-#options_button {
+body #options_button {
   background: none;
   border: none;
   color: #03071e;
@@ -169,15 +166,15 @@ div [id^="chatu"] {
   margin-top: 0px;
 }
 
-#options_button:focus {
+body #options_button:focus {
   outline: none;
 }
 
-#options_button:hover {
+body #options_button:hover {
   color: #6a040f;
 }
 
-#options_menu {
+body #options_menu {
   visibility: hidden;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
@@ -195,20 +192,20 @@ div [id^="chatu"] {
   text-align: center;
 }
 
-#options_tts {
+body #options_tts {
   background: white;
   padding: 5px;
   border-radius: 4px;
 }
 
-#options_link {
+body #options_link {
   background: white;
   padding: 5px;
   border-radius: 4px;
   margin-left: 5px;
 }
 
-#options_volume {
+body #options_volume {
   display: none;
   background: white;
   padding: 5px;
@@ -219,7 +216,7 @@ div [id^="chatu"] {
   margin-top: -45px;
 }
 
-#pimg {
+body #pimg {
   background: white;
   border: solid #000;
   border-width: 0 1px;
@@ -234,16 +231,16 @@ div [id^="chatu"] {
   margin-left: -5px;
 }
 
-::-webkit-scrollbar {
+body ::-webkit-scrollbar {
   width: 10px;
 }
 
-::-webkit-scrollbar-track {
+body ::-webkit-scrollbar-track {
   border-radius: 10px;
   margin-top: 2px;
 }
 
-::-webkit-scrollbar-thumb {
+body ::-webkit-scrollbar-thumb {
   background: #03071e;
   border-radius: 10px;
 }

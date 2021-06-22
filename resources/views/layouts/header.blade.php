@@ -1,19 +1,19 @@
 <div class="container">
-    <a href="/" class="{{ request()->is('/') ? 'active' : 'container' }}">Home</a>
+    <a href="/" class="{{ request()->is('/') ? 'active' : '' }}">Home</a>
 
-    <a href="/manuals/install" class="{{ request()->is('install') ? 'active' : 'container' }}">
+    <a href="/manuals/install" class="{{ request()->is('install') ? 'active' : '' }}">
         Installation
     </a>
 
-    <a href="/manuals/tabs" class="{{ request()->is('tabs') ? 'active' : 'container' }}">
+    <a href="/manuals/tabs" class="{{ request()->is('tabs') ? 'active' : '' }}">
         Tabs
     </a>
 
-    <a href="/manuals/pers" class="{{ request()->is('pers') ? 'active' : 'container' }}">
+    <a href="/manuals/pers" class="{{ request()->is('pers') ? 'active' : '' }}">
         Personalisierung
     </a>
 
-    <a href="about" class="{{ request()->is('about') ? 'active' : 'container' }}">
+    <a href="about" class="{{ request()->is('about') ? 'active' : '' }}">
         About
     </a>
     <input type="text" placeholder="Suchen.." id="suchbar">
