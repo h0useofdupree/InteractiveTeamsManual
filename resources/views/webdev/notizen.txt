@@ -1,0 +1,34 @@
+if link active 
+a:active color:
+
+div p{}: das heißt alle p in div werden verändert
+
+div > p heißt wenn p direkt das kind von div ist und nicht in span oder was anderes
+
+#id kann man durch id stylen 
+
+
+button onclick mit html tag a href versuchen
+
+in div a href machen und div mit hintergrund stylen
+
+div inline machen und a href mit margin stylen
+
+text decoration:none; heißt kein unterschtrich bei link
+
+postition fixed für nachoben springen button
+
+postition sticky kann man für die menu bar benutzen
+
+nach visited gucken
+
+Navigationsbar mit display neu designen
+
+display flex basis Größe und grow auf 1 machen aber shrink auf 0
+
+ab bestimmte größe wie auf handy machen
+
+justify content kann man div zentrieren oder alles
+
+
+
