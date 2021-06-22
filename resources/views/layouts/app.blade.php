@@ -19,7 +19,7 @@
 
         @yield('content')
 
-        <footer>
+        <footer>2
             @include('layouts.footer')
         </footer>
 

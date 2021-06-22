@@ -1,0 +1,7 @@
+					----Kalender----
+
+			Als erstes gehst du auf den Linken Tab Namens ´Kalender´ und klickst darauf.(Bild = Kalender_Tab.png)
+
+					---Nächste Seite---
+			Als nächstes kannst du deine Termine ansehen. 
+			Du kannst auch noch eigene Termine machen sowie Besprechungen erstellen und beitreten.(Bild = Kalender.png)
