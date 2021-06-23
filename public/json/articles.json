@@ -6,9 +6,9 @@
             "link":"localhost:8000/manuals/installation",
             
             "pages":[
-                {"ID":"0","content":"Zuerst lädst du dir Microsoft Teams herunter. Unter Windows, Mac oder Linux:  Unter Android, IOS, etc. gehst Du in Ihrer entsprechenden AppStore und lädst du dir „Microsoft Teams“ herunter."},
+                {"ID":"0","content":"Zuerst lädst du dir Microsoft Teams herunter. Unter Windows, Mac oder Linux:  Unter Android, IOS, etc. gehst du in Ihrer entsprechenden App-Store und lädst du dir „Microsoft Teams“ herunter."},
                 {"ID":"1","content":"Bei der Fertigstellung des Downloads, führst Du die entsprechende EXE Datei von Microsoft Teams aus. Bei Sicherheitswarnung fortfahren bzw. Ausführen"},
-                {"ID":"2","content":"Nachdem sich das Installationsfenster für Microsoft Teams geöffnet hat. Meldest Du dich mit deinem Microsoft Konto an, welches dir von der Schule zur Verfügung gestellt wurde."}
+                {"ID":"2","content":"Nachdem sich das Installationsfenster für Microsoft Teams geöffnet hat. Meldest du dich mit deinem Microsoft Konto an, welches dir von der Schule zur Verfügung gestellt wurde."}
             ]
         },
         {
@@ -17,10 +17,10 @@
             "link":"localhost:8000/manuals/meeting",
             
             "pages":[
-                {"ID":"0","content":"Als erstes gehst du auf das Meeting, welches gerade gestartet und klicken darauf"},
+                {"ID":"0","content":"Als Erstes gehst du auf das Meeting, welches gerade gestartet ist und klickst darauf."},
                 {"ID":"1","content":"Danach klickst du auf den Reiter 'Computer Audio' damit ihr Mikrofon richtig erkannt werden kann."},
-                {"ID":"2","content":"Um das Meeting wieder zu verlassen drückst du oben rechts auf 'Meeting Verlassen' "},
-                {"ID":"3","content":"Um das Mikrofon stummzuschalten drückst du bitte oben neben 'Meeting verlassen' auf das mikrofon Symbol um sich Stummzuschalten. Das gleiche kann auch genutzt werden um wieder reden zu Können"}
+                {"ID":"2","content":"Um das Meeting wieder zu verlassen, drückst du oben rechts auf 'Meeting Verlassen' "},
+                {"ID":"3","content":"Um das Mikrofon stummzuschalten drückst du bitte oben neben 'Meeting verlassen' auf das Mikrofon Symbol um sich stummzuschalten. Das gleiche kann auch genutzt werden um wieder reden zu Können."}
             ]
         },
         {
@@ -29,23 +29,24 @@
             "link":"localhost:8000/manuals/tabs/aufgaben",
 
             "pages":[
-                {"ID":"0", "content":"Als erstes gehst du auf die Linke Seite des Bildschirms und suchst dort den Tab ´Aufgaben´, dieser ist meist in der Mitte."},
+                {"ID":"0", "content":"Als Erstes gehst du auf die Linke Seite des Bildschirms und suchst dort den Tab ´Aufgaben´, dieser ist meist in der Mitte. "},
                 
-                {"ID":"1", "content":"Als Nächstes Klickst du dann darauf um zu den ´Aufgaben´ zu gelangen."},
+                {"ID":"1", "content":"Als Nächstes klickst du dann darauf um zu den ´Aufgaben´ zu gelangen."},
                 
-                {"ID":"2", "content":"Meist ist bei der Aufgabe dann unterhalb von den Referenzen eine Schaltfläche mit den Namen `Arbeit-Hinzufügen` darauf klickst du dann."},
+                {"ID":"2", "content":"Meist ist bei der Aufgabe dann unterhalb von den Referenzen eine Schaltfläche mit den Namen `Arbeit-Hinzufügen`, darauf klickst du dann."},
                 
-                {"ID":"3", "content":"Nachdem du darauf geklickt hast öffnet sich darauf ein weiteres Fenster, wo du dann auf die Schaltfläche `Von diesen Gerät Hochladen`."},
+                {"ID":"3", "content":"Nachdem du dies gemacht hast, öffnet sich darauf ein weiteres Fenster, wo du dann auf die Schaltfläche ´Von diesen Gerät-Hochladen´."},
                 
-                {"ID":"4", "content":"Danach suchst du die Datei die du Hochladen möchtest herraus und klickst du einmal an. Daraufhin drückst du dann auf Öffnen."},
-                
-                {"ID":"5", "content":"Wenn du eine Neue Datei in der Aufgabe erstellen möchtest dann drückst auf die Schaltfläche `Neu`"},
-                
-                {"ID":"6", "content":"Wenn du dies gemacht hast suchst du dir dann den Dateityp raus den du haben möchtest und drückst dann auf den Dateityp."},
-                
-                {"ID":"7", "content":"Wenn du das dann gemacht hast drückst du dann auf die neu erstellte Datei um den Internen-Editor zu öffnen."},
-                
-                {"ID":"8", "content":"Als erstes gehst du wieder in die ´Aufgabe` hinein und drückst dann oben rechts in der Ecke auf ´Aufgabe Abgeben´, solltest du alles fertig haben in dieser aufgabe."}
+                {"ID":"4", "content":"Danach suchst du die Datei heraus, die du Hochladen möchtest heraus und klickst du einmal an. Daraufhin drückst du dann auf Öffnen."},
+            
+                {"ID":"5", "content":"Wenn du eine neue Datei in der Aufgabe erstellen möchtest dann drückst auf die Schaltfläche `Neu`"},
+
+                {"ID":"6", "content":"Wenn du dies gemacht hast suchst du dir dann den Dateityp raus, den du haben möchtest und drückst dann auf den Dateityp."},
+
+                {"ID":"7", "content":"Wenn du das dann gemacht hast drückst du dann auf die neu erstellte Datei, um den Internen-Editor zu öffnen."},
+
+                {"ID":"8", "content":"Als Erstes gehst du wieder in die ´Aufgabe` hinein und drückst dann oben rechts in der Ecke auf ´Aufgabe Abgeben´, solltest du alles fertig haben in dieser Aufgabe."}
+
             ]
         },
         {
@@ -54,8 +55,10 @@
             "link":"localhost:8000/manuals/tabs/aktivitäten",
             
             "pages":[
-                {"ID":"0", "content":"Als erstes gehst du auf die Linke Seite des Bildschirmes und klickst auf ´Aktivitäten´"},
-                {"ID":"1", "content":"Als nächstes siehst du dann in der Mitte deine Aktivitäten und an der Linken Seite findest du was für Aktivitäten gerade vorhanden sind"}
+
+                {"ID":"0", "content":"Als Erstes gehst du auf die Linke Seite des Bildschirmes und klickst auf ´Aktivitäten´"},
+
+                {"ID":"1", "content":"Als Nächstes siehst du dann in der Mitte deine Aktivitäten und an der Linken Seite findest du was für Aktivitäten gerade vorhanden sind"}
             ]
         },
         {
@@ -64,9 +67,11 @@
             "link":"localhost:8000/manuals/tabs/anrufe",
             
             "pages":[
-                {"ID":"0", "content":"Als erstes gehst du auf die Linke Seite des Bildschirmes und klickst auf ´Anrufe´"},
-                {"ID":"1", "content":"Als nächstes, wenn du auf die Rechte Seite schaust, dann siehst du deinen Anruf Verlauf. Bisschen weiter links findest du deine Kontakte, mit denen du schon geschrieben hast."},
-                {"ID":"2", "content":"Wenn du wen anrufen möchtest aber ihn gerade nicht eigespeichert hast kannst du über den Verlauf auf ´Namen Eingeben´ drücken. Dies öffnet dann eine suchleiste wo du dann deinen Kontakt suchen kannst"}
+
+                {"ID":"0", "content":"Als Erstes gehst du auf die Linke Seite des Bildschirmes und klickst auf ´Anrufe´"},
+                {"ID":"1", "content":"Als nächstes, wenn du auf die rechte Seite schaust, dann siehst du deinen Anruf Verlauf. Bisschen weiter links findest du deine Kontakte, mit denen du schon geschrieben hast."},
+                {"ID":"2", "content":"Wenn du wen anrufen möchtest aber ihn gerade nicht eingespeichert hast kannst du über den Verlauf auf ´Namen Eingeben´ drücken. Dies öffnet dann eine Suchleiste wo du dann deinen Kontakt suchen kannst"}
+
             ]
         },
         {
@@ -75,9 +80,9 @@
             "link":"localhost:8000/manuals/tabs/dateien",
             
             "pages":[
-                {"ID":"0", "content":"Als erstes gehst du auf den Linken Tab Namens ´Dateien´ und klickst darauf. "},
-                {"ID":"1", "content":"Als nächstes kannst du an der Linken Seite dein Speicher ansehen. Dort kannst du auch unten links einen weiteren Cloud-Speicher einbinden wen du einen externen hast."},
-                {"ID":"2", "content":"Auf der Rechte Seite siehst du dann deine letzten verwendeten Dateien"}
+                {"ID":"0", "content":"Als Erstes gehst du auf den Linken Tab namens ´Dateien´ und klickst darauf. "},
+                {"ID":"1", "content":"Als Nächstes kannst du an der Linken Seite dein Speicher ansehen. Dort kannst du auch unten links einen weiteren Cloud-Speicher einbinden, wen du einen externen hast."},
+                {"ID":"2", "content":"Auf der rechten Seite siehst du dann deine letzten verwendeten Dateien"}
             ]
         },
         {
@@ -87,9 +92,9 @@
             
             "pages":[
                 {"ID":"0", "content":"Zuerst gehst du auf der linken Hälfte ihres Bildschirms auf das Icon Chat und klicken darauf."},
-                {"ID":"1", "content":"Danach kommt ein großes Fenster das in zwei Hälften unterteilt ist. Auf der linken Seite findest du ein Icon, welches aussieht wie ein Notizbuch, da klickst du dann drauf."},
+                {"ID":"1", "content":"Danach kommt ein großes Fenster, das in zwei Hälften unterteilt ist. Auf der linken Seite findest du ein Icon, welches aussieht wie ein Notizbuch, da klickst du dann drauf."},
                 {"ID":"2", "content":"Dann gibst du in der Zeile wo (Namen, Email, Gruppe oder Tag eingeben) steht, die betroffene Person ein um mit ihr einen Chat zu starten."},
-                {"ID":"3", "content":"Wenn du mit einem Lehrer/Schüler direkt Kontakt aufnehmen möchten dann können sie auf seinem Namen Hovern um eine Kachel erscheinen zu lassen. Danach drücken sie auf auf das Chat Symbol um einen Chat direkt zu starten."}
+                {"ID":"3", "content":"Wenn du mit einem Lehrer/Schüler direkt Kontakt aufnehmen möchten dann können sie auf seinem Namen Hovern, um eine Kachel erscheinen zu lassen. Danach drücken sie auf auf das Chat Symbol um einen Chat direkt zu starten."}
             ]
         },
         {
@@ -98,8 +103,8 @@
             "link":"localhost:8000/manuals/tabs/chat",
 
             "pages":[
-                {"ID":"0", "content":"Als erstes gehst du auf den Linken Tab Namens ´Kalender´ und klickst darauf."},
-                {"ID":"1", "content":"Als nächstes kannst du deine Termine ansehen. Du kannst auch noch eigene Termine machen sowie Besprechungen erstellen und beitreten."}
+                {"ID":"0", "content":"Als Erstes gehst du auf den Linken Tab namens ´Kalender´ und klickst darauf."},
+                {"ID":"1", "content":"Als Nächstes kannst du deine Termine ansehen. Du kannst auch noch eigene Termine machen sowie Besprechungen erstellen und beitreten."}
             ]   
         }
     ]
