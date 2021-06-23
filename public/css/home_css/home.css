@@ -41,6 +41,7 @@
           box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   color: black;
   background-color: #ddd;
+  border-radius: 30px;
 }
 
 .container input[type="text"] {
@@ -48,8 +49,10 @@
   width: 250px;
   margin-left: 10px;
   font-size: 17px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  /* border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px; */
+  border-radius: 15px;
+  border: none;
   margin: 5px;
 }
 

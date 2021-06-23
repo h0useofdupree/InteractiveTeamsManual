@@ -6,9 +6,9 @@
             "link":"localhost:8000/manuals/installation",
             
             "pages":[
-                {"ID":"0","content":"Zuerst lädst Du sich Microsoft Teams herunter. Unter Windows, Mac oder Linux:  (Bild von der Webseite des DL) Unter Android, IOS, etc. gehst Du in Ihrer entsprechenden AppStore und lädst Du sich „Microsoft Teams“ herunter."},
-                {"ID":"1","content":"Bei der Fertigstellung des Downloads führst Du die entsprechende EXE Datei von Microsoft Teams aus. Bei Sicherheitswarnung fortfahren bzw. Ausführen (Bild der Sicherheitswarnung mit Mauszeiger auf Weiter/Ausführen)"},
-                {"ID":"2","content":"Nachdem sich das Installationsfenster für Microsoft Teams geöffnet hat. Meldest Du sich mit Ihrem Microsoft Konto an, welches Ihnen von der Schule zur Verfügung gestellt wurde. (Bild mit Beispielanmeldung und vllt GIF bis zum Login)."}
+                {"ID":"0","content":"Zuerst lädst du dir Microsoft Teams herunter. Unter Windows, Mac oder Linux:  Unter Android, IOS, etc. gehst Du in Ihrer entsprechenden AppStore und lädst du dir „Microsoft Teams“ herunter."},
+                {"ID":"1","content":"Bei der Fertigstellung des Downloads, führst Du die entsprechende EXE Datei von Microsoft Teams aus. Bei Sicherheitswarnung fortfahren bzw. Ausführen"},
+                {"ID":"2","content":"Nachdem sich das Installationsfenster für Microsoft Teams geöffnet hat. Meldest Du dich mit deinem Microsoft Konto an, welches dir von der Schule zur Verfügung gestellt wurde."}
             ]
         },
         {
@@ -17,10 +17,10 @@
             "link":"localhost:8000/manuals/meeting",
             
             "pages":[
-                {"ID":"0","content":"Als erstes gehst du auf das Meeting das gerade gestartet und klicken darauf"},
+                {"ID":"0","content":"Als erstes gehst du auf das Meeting, welches gerade gestartet und klicken darauf"},
                 {"ID":"1","content":"Danach klickst du auf den Reiter 'Computer Audio' damit ihr Mikrofon richtig erkannt werden kann."},
                 {"ID":"2","content":"Um das Meeting wieder zu verlassen drückst du oben rechts auf 'Meeting Verlassen' "},
-                {"ID":"3","content":"Um das Mikrofon Stummzuschalten drückst du bitte oben neben 'Meeting verlassen' auf das mikrofon Symbol um sich Stummzuschalten. Das gleiche kann auch genutzt werden um wieder reden zu Können"}
+                {"ID":"3","content":"Um das Mikrofon stummzuschalten drückst du bitte oben neben 'Meeting verlassen' auf das mikrofon Symbol um sich Stummzuschalten. Das gleiche kann auch genutzt werden um wieder reden zu Können"}
             ]
         },
         {
