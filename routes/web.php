@@ -33,7 +33,7 @@ Route::get(
     [ManualController::class, 'show']
 )->where([
     // String RegEx Pattern
-    'name' => '[a-zA-Z]+'
+    'name' => '[a-zA-Z_]+'
 ]); 
 
 

@@ -16,5 +16,5 @@
     <a href="about" class="{{ request()->is('about') ? 'active' : '' }}">
         About
     </a>
-    <input type="text" placeholder="Suchen.." id="suchbar">
+    <input type="text" placeholder="Suchen..." id="suchbar">
 </div>
