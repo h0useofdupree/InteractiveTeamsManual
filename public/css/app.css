@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body #container {
+  padding: 12px;
+  width: 610px;
+  height: 735px;
+  overflow-y: auto;
+  margin: 10px auto;
+  background-color: white;
+  box-shadow: 4px 4px 2px #a8b2c1;
+  border-radius: 12px 12px 0px 0px;
+  margin-bottom: 5px;
+  padding: 15px;
+  display: block;
+}
+
+body #space {
+  float: left;
+  margin-left: 0px;
+  width: 580px;
+  margin-bottom: 0px;
+  height: 7px;
+  background: none;
+}
+
+body #controls {
+  width: 610px;
+  height: 60px;
+  margin: 0px auto;
+  border-radius: 0px 0px 12px 12px;
+  background: white;
+  box-shadow: 4px 4px 2px #a8b2c1;
+}
+
+body textarea {
+  border-radius: 12px;
+  resize: none;
+  width: 400px;
+  float: left;
+  height: 46px;
+  padding: 6px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  margin: -43px 82px;
+}
+
+body #send {
+  background: none;
+  border: none;
+  color: #03071e;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 30px;
+  margin: -63px 0px 0px 70px;
+  float: right;
+}
+
+body #send:focus {
+  outline: none;
+}
+
+body #send:hover {
+  color: #6a040f;
+}
+
+body textarea:focus {
+  outline: none;
+}
+
+body div [id^="chatb"] {
+  max-width: 450px;
+  min-width: 310px;
+  background: #a8a5a5;
+  padding: 10px 20px 30px 20px;
+  border-radius: 5px 50px 50px 50px;
+  box-shadow: 6px 5px 7px 2px #404244;
+  float: left;
+  margin-bottom: 20px;
+  display: block;
+}
+
+body #links {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+body #links:hover {
+  text-decoration: underline;
+  color: black;
+  font-weight: bolder;
+}
+
+body div [id^="chatu"] {
+  max-width: 450px;
+  min-width: 310px;
+  background: #afb1b1;
+  padding: 20px 20px 30px 20px;
+  border-radius: 50px 5px 50px 50px;
+  box-shadow: 6px 5px 7px 2px #555657;
+  float: right;
+  margin-bottom: 20px;
+  display: block;
+}
+
+body #title {
+  float: right;
+  color: #370617;
+  font-size: 24px;
+  font-family: "Ropa Sans";
+  margin-top: 7px;
+  margin-bottom: 17px;
+  margin-right: 305px;
+}
+
+body #titleuser {
+  float: left;
+  color: #370617;
+  font-size: 24px;
+  font-family: "Ropa Sans";
+  margin-top: 7px;
+  margin-bottom: 30px;
+  margin-right: 310px;
+}
+
+body #date {
+  float: left;
+  margin-top: 12px;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+body #options_button {
+  background: none;
+  border: none;
+  color: #03071e;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 30px;
+  margin: -5px;
+  float: left;
+  margin-top: 0px;
+}
+
+body #options_button:focus {
+  outline: none;
+}
+
+body #options_button:hover {
+  color: #6a040f;
+}
+
+body #options_menu {
+  visibility: hidden;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  resize: none;
+  width: 610px;
+  float: left;
+  height: 46px;
+  max-height: 76px;
+  padding: 6px;
+  background: white;
+  border: none;
+  font-size: 16px;
+  box-shadow: 4px 4px 2px #a8b2c1;
+  text-align: center;
+}
+
+body #options_tts {
+  background: white;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+body #options_link {
+  background: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+body #options_volume {
+  display: none;
+  background: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 80px;
+  width: 60px;
+  float: left;
+  margin-top: -45px;
+}
+
+body #pimg {
+  background: white;
+  border: solid #000;
+  border-width: 0 1px;
+  border-radius: 50%;
+  border-width: 2.5px;
+  border-color: black;
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: -5px;
+}
+
+body ::-webkit-scrollbar {
+  width: 10px;
+}
+
+body ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background: #03071e;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #4b2d91;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-top: -7.6px;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 14px 16px;
+  margin-left: 40px;
+}
+
+.container a:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  background-color: #ddd;
+}
+
+.container input[type="text"] {
+  height: 80%;
+  width: 250px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.links a:link,
+.links a:visited {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: black;
+  font-size: 20px;
+  height: 280px;
+  width: 500px;
+  background-size: 400px;
+  border-radius: 8px;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-weight: bolder;
+  background-color: aqua;
+}
+
+.links a:hover {
+  opacity: 0.8;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.links #installation {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuwaterloo.ca%2Finformation-systems-technology-newsletter%2Fsites%2Fca.information-systems-technology-newsletter%2Ffiles%2Fuploads%2Fimages%2Fist-newsletter-banner-microsoft-teams.png&f=1&nofb=1");
+}
+
+.links #einrichtung {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.avepoint.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F09%2Fpositive-business-man-with-a-giant-pencil-on-his-shoulder-nearby-on-vector-id1000027400-1024x439.jpg&f=1&nofb=1");
+}
+
+.links #tabs {
+  background-image: url("https://teams.microsoft.com/dl/launcher/images/edu.svg");
+}
+
+.links #gesucht {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.sherweb.com%2Fblog%2Fwp-content%2Fuploads%2FThings-You-Should-Know-About-Microsoft-Teams-Banner.jpg%3Fssl%3D1&f=1&nofb=1");
+}
+
+.links #chatbot {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F5Ga-17AxHRQ%2Fmaxresdefault.jpg&f=1&nofb=1");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #4b2d91;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-top: 7.6px;
+}
+.container a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 14px 16px;
+  margin-left: 40px;
+}
+.container a:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  background-color: #ddd;
+  border-radius: 30px;
+}
+.container input[type=text] {
+  height: 60%;
+  width: 250px;
+  margin-left: 10px;
+  font-size: 17px;
+  /* border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px; */
+  border-radius: 15px;
+  border: none;
+  margin: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.links a:link,
+.links a:visited {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: black;
+  font-size: 20px;
+  height: 280px;
+  width: 500px;
+  background-size: 400px;
+  border-radius: 8px;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-weight: bolder;
+  background-color: aqua;
+}
+.links a:hover {
+  opacity: 0.8;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.links #installation {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuwaterloo.ca%2Finformation-systems-technology-newsletter%2Fsites%2Fca.information-systems-technology-newsletter%2Ffiles%2Fuploads%2Fimages%2Fist-newsletter-banner-microsoft-teams.png&f=1&nofb=1");
+}
+.links #einrichtung {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.avepoint.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F09%2Fpositive-business-man-with-a-giant-pencil-on-his-shoulder-nearby-on-vector-id1000027400-1024x439.jpg&f=1&nofb=1");
+}
+.links #tabs {
+  background-image: url("https://teams.microsoft.com/dl/launcher/images/edu.svg");
+}
+.links #gesucht {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.sherweb.com%2Fblog%2Fwp-content%2Fuploads%2FThings-You-Should-Know-About-Microsoft-Teams-Banner.jpg%3Fssl%3D1&f=1&nofb=1");
+}
+.links #chatbot {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F5Ga-17AxHRQ%2Fmaxresdefault.jpg&f=1&nofb=1");
+}
+
+.active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #622ddd;
+  width: 50%;
+  height: 25px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.active a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 14px 16px;
+  margin-left: 20px;
+}
+.active a:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  background-color: #ddd;
+}

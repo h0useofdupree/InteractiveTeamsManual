@@ -1,11 +1,11 @@
 @extends('layouts.app')
 @section('content')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/chatbot.js"></script>
+    <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     <script type="text/javascript" src="json/files.json"></script>
     <script type="text/javascript" src="json/conv.json"></script>
     <script type="text/javascript" src="json/filter.json"></script>
-    <link rel="stylesheet" href="css/bot_css/bot_style.css" />
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
 

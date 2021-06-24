@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-    <link rel="stylesheet" href="../css/home_css/home.css">
     <div class="links">
         <a href="manuals/activity">Aktivität</a>
         <a href="bot">Chat</a>
