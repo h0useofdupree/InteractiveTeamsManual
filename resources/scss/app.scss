@@ -1,15 +1,16 @@
-@import url("./bot.css");
-@import url("./about.css");
+@import url("./bot.scss");
+@import url("./about.scss");
 $teams_Purple: #9ea2ff;
 $teams_Purple_active: #7678c0;
 * {
+    font-family: "Baloo Tammudu 2", cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     overflow: hidden;
@@ -101,12 +102,11 @@ $teams_Purple_active: #7678c0;
 }
 .active {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     overflow: hidden;
     background-color: $teams_Purple_active;
-    width: 50%;
     height: 25px;
     border-radius: 15px;
     font-size: 20px;
