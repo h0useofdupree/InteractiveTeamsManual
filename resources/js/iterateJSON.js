@@ -1,4 +1,4 @@
-let articlesJSON;
+/* let articlesJSON;
 
 fetch('../json/articles.json')
   .then(response => response.json())
@@ -23,4 +23,4 @@ fetch('../json/articles.json')
 
   function appendData(data){
     
-  }
+  } */

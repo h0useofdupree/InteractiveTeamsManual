@@ -1,5 +1,7 @@
 @import url("./bot.css");
 @import url("./about.css");
+$teams_Purple: #9ea2ff;
+$teams_Purple_active: #7678c0;
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@
     align-items: center;
     flex-direction: row;
     overflow: hidden;
-    background-color: rgb(75, 45, 145);
+    background-color: $teams_Purple;
     width: 100%;
     height: 50px;
     border-radius: 8px;
@@ -103,7 +105,7 @@
     align-items: center;
     flex-direction: row;
     overflow: hidden;
-    background-color: rgb(98, 45, 221);
+    background-color: $teams_Purple_active;
     width: 50%;
     height: 25px;
     border-radius: 15px;
@@ -125,43 +127,38 @@
     }
 }
 .popUp {
-    display: hidden;
+    display: block;
     position: fixed;
     bottom: 0;
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9;
-    .formContainer {
-        max-width: 300px;
-        padding: 10px;
-        background-color: white;
 
-        .controls {
-            .btn {
-                background-color: #04aa6d;
-                columns: white;
-                padding: 16px 20px;
-                border: none;
-                cursor: pointer;
-                width: 100%;
-                margin-bottom: 10px;
-                opacity: 0.8;
-            }
-            .btn:hover {
-                opacity: 1;
-            }
-        }
-        .openButton {
-            background-color: rebeccapurple;
-            color: white;
+    .controls {
+        .btn {
+            background-color: #04aa6d;
+            columns: white;
             padding: 16px 20px;
             border: none;
             cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
             opacity: 0.8;
-            position: fixed;
-            bottom: 23px;
-            right: 28px;
-            width: 280px;
         }
+        .btn:hover {
+            opacity: 1;
+        }
+    }
+    .openButton {
+        background-color: $teams_Purple;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        position: fixed;
+        bottom: 23px;
+        right: 28px;
+        width: 280px;
     }
 }

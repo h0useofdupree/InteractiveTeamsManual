@@ -19,8 +19,8 @@
 
 
             "inhalt":[
-                "Ehhhmm...okay",
-                "Ok ^^"
+                "Ehm...okay",
+                "Ok 😄"
             ]
         },
 
@@ -38,7 +38,7 @@
 
 
             "inhalt":[
-                "Das habe ich doch gerne gemacht :)",
+                "Das habe ich doch gerne gemacht 🌝",
                 "Für dich doch immer"
             ]
 
@@ -59,7 +59,7 @@
 
 
             "inhalt":[
-                "Der...Die...Das... Wieso.  Weshalb. Warum. Wer nicht fragt bleibt dumm :)",
+                "Der...Die...Das... Wieso.  Weshalb. Warum. Wer nicht fragt bleibt dumm 🌝",
                 "Möchtest du mich was fragen?"
             ]
         },
@@ -72,7 +72,8 @@
                  "ARSCHLOCH",
                  "PISSER",
                  "WIXXER",
-                 "DU BIST DUMM"
+                 "DU BIST DUMM",
+                 "SCHNAUZE"
             ],
 
             "disabledwords":[
@@ -82,7 +83,7 @@
 
 
             "inhalt":[
-                "Eyy das ist nicht nett, ich will dir doch nur helfen :(",
+                "Eyy das ist nicht nett, ich will dir doch nur helfen 🙁",
                 "...",
                 "Ich ignoriere mal das du das gerade geschrieben hast.",
                 "Das ist frech!",
@@ -103,7 +104,7 @@
 
 
             "inhalt":[
-                 "Ich mag auch den Weihnachtsmann :)",
+                 "Ich mag auch den Weihnachtsmann 🌝",
                  "Meinst du der ist heute Bockig?",
                  "Haste Bock?"
             ]
@@ -122,9 +123,9 @@
 
 
             "inhalt":[
-                 "Der Jens.",
+                 "Der Jens",
                  "Lust auf ne 100km Runde in 30 Minuten ?",
-                 "Hast du dich heute schon gedehnt? - wenn nicht: Dann tu ES!"
+                 "Hast du dich heute schon gedehnt? - wenn nicht: Dann tue ES!"
             ]
         },
         
@@ -144,7 +145,7 @@
 
 
             "inhalt":[
-                 ":)"
+                 "🌝"
             ]
         },
 
@@ -153,7 +154,8 @@
             "keywords":[
                  ":(",
                  ":C",
-                 "WTF"
+                 "WTF",
+                 "😕"
             ],
 
             "disabledwords":[
@@ -163,27 +165,11 @@
 
 
             "inhalt":[
-                 "Was ist los? :("
+                 "Was ist los? 🙁"
             ]
         },
 
-          
-        {
-            "keywords":[
-                 "WIE GEHT",
-                 "GUT UND DIR?"
-            ],
 
-            "disabledwords":[
-                "",
-                ""
-           ],
-
-
-            "inhalt":[
-                 "Mir geht es sehr gut. Vorallem wenn ich dir helfen kann ✌"
-            ]
-        },
 
         {
             "keywords":[
@@ -222,7 +208,7 @@
 
 
             "inhalt":[
-                 "Hallo :) Wie kann ich dir helfen?",
+                 "Hallo. Wie kann ich dir helfen?",
                  "Hi. Wie kann ich dir behilflich sein?"
             ]
         },
@@ -263,6 +249,25 @@
             ]
         },
 
+                  
+        {
+          "keywords":[
+               "WIE GEHT",
+               "GUT UND DIR?",
+               "WAS GEHT"
+          ],
+
+          "disabledwords":[
+              "",
+              ""
+         ],
+
+
+          "inhalt":[
+               "Mir geht es sehr gut. Vorallem wenn ich dir helfen kann ✌"
+          ]
+      },
+
         {
             "keywords":[
                  "SORRY",
@@ -277,8 +282,8 @@
 
 
             "inhalt":[
-                 "Okay :)",
-                 "Besser ist es ^^"
+                 "Okay 🌝",
+                 "Besser ist es 😄"
             ]
         },
         {
@@ -297,8 +302,24 @@
 
             "inhalt":[
                  "Schade das du schon gehst. Bis bald",
-                 "Bis bald :)"
+                 "Bis bald 🌝"
             ]
-        }
+        },
+        {
+          "keywords":[
+               "CHRISTOPH"
+          ],
+
+          "disabledwords":[
+              "",
+              ""
+         ],
+
+
+          "inhalt":[
+               "wEn du wass ist dann fullt SICH deein Mägün",
+               "Biss, balt"
+          ]
+      }
     ]
 }

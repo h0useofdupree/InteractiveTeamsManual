@@ -1,21 +1,22 @@
 @extends('layouts.app')
 @section('content')
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="{{ asset('js/chatbot.js') }}"></script>
-    <script type="text/javascript" src="json/files.json"></script>
-    <script type="text/javascript" src="json/conv.json"></script>
-    <script type="text/javascript" src="json/filter.json"></script>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
-
     <div id="container"></div>
-
-
     <div id="controls">
         <button id="options_button" title="Optionen" onclick="options_click()">≡</button>
-        <textarea id="textbox" placeholder="Stelle deine Frage hier..."></textarea>
+        <textarea rows="1" maxlength="40" id="textbox" placeholder="Stelle deine Frage hier..."></textarea>
+        <div id="vertical_line_01"></div>
+        <button id="input_speech" title="Spracherkennung (Funktioniert nicht in jedem Browser)"
+            onclick="speech_click()">🎙️</button>
+        <button id="emoji" title="Emojis" onclick="emoji_click()">😂</button>
+        <div id="vertical_line_02"></div>
         <button id="send">➤</button>
+        <div id="emoji_menu">
+            <button id="sel_emoji" onclick="emoji_select(this.textContent)">😊</button>
+            <button id="sel_emoji" onclick="emoji_select(this.textContent)">😕</button>
+            <button id="sel_emoji" onclick="emoji_select(this.textContent)">😂</button>
+            <button id="sel_emoji" onclick="emoji_select(this.textContent)">😇</button>
+            <button id="sel_emoji" onclick="emoji_select(this.textContent)">😎</button>
+        </div>
         <div id="options_menu">
             <button id="options_tts" title="Aktiviere bzw. Deaktiviere Text-to-Speech" onclick="options_tts_click()">TTS
                 aktivieren</button>
@@ -27,4 +28,5 @@
         </div>
         <br><br><br>
     </div>
+
 @endsection

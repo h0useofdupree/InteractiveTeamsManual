@@ -106,58 +106,6 @@
                 {"ID":"0", "content":"Als Erstes gehst du auf den Linken Tab namens ´Kalender´ und klickst darauf."},
                 {"ID":"1", "content":"Als Nächstes kannst du deine Termine ansehen. Du kannst auch noch eigene Termine machen sowie Besprechungen erstellen und beitreten."}
             ]   
-        },
-        {
-            "ID":"settings_General",
-            "header":"Anleitung zum Settings_General Tab",
-            "link":"localhost:8000/manuals/settings",
-            "pages":[
-                {"ID":"0", "content":"In dem Menüpunkt allgemein findest du die wichtigsten Einstellungen zu MS Teams und zudem auch Einstellungen zum Design."},
-                {"ID":"1","content":"Du kannst beim generellen Design zwischen drei Stufen wählen: Standard (welches ein helles Design bietet), Dunkel (welches den allgemein Kontrast auf dunkele Farben legt)  und hoher Kontrast (welches einen dunklen Hintergrund bietet, wo die meisten Elemente aber in hellen und kontrastreichen Farben gezeigt werden)."}
-            ]   
-        },
-        {
-            "ID":"settings_Layout",
-            "header":"Anleitung zum Settings_Layout Tab",
-            "link":"localhost:8000/manuals/settings",
-            "pages":[
-                {"ID":"0","content":"Du kannst bei MS Teams zwischen zwei Layouts wählen: Du kannst zwischen einer Kachelstruktur wählen"},
-                {"ID":"1","content":"Oder zwischen dem Listenlayout wählen, welches folgend aussieht:"},
-                {"ID":"2","content":"Folgend können noch personalisierte Einstellungen für Teams vorgenommen werden, wie z.B.: die Ausführung des automatischen Startens der Applikation."}
-                
-            ]   
-        },
-        {
-            "ID":"settings_Datenschutz",
-            "header":"Anleitung zum Settings_Datenschutz Tab",
-            "link":"localhost:8000/manuals/settings",
-            "pages":[
-                {"ID":"0","content":"Hier kannst du einstellen, ob priorisierte Personen dir trotzdem Schreiben können, obwohl du den Status „Nicht Stören“ festgelegt hast. Zudem kannst du auch die MS Teams eigenen Umfragen, die nach Konversationen oder zwischendurch erscheinen, deaktivieren."}
-            ]   
-        },
-        {
-            "ID":"settings_Benachrichtigungen",
-            "header":"Anleitung zum Settings_Benachrichtigungen Tab",
-            "link":"localhost:8000/manuals/settings",
-            "pages":[
-                {"ID":"0","content":"In den Benachrichtigungen kannst du Verwalten ob einkommende Anrufe, Nachrichten oder Sonstiges angezeigt werden sollen und wie sie angezeigt werden sollen. Die Anzeige von verschiedenen Benachrichtigungen kann zu Beispiel über einem Banner oder sogar per E-Mail erfolgen."}
-            ]   
-        },
-        {
-            "ID":"settings_Geräte",
-            "header":"Anleitung zum Settings_Geräte Tab",
-            "link":"localhost:8000/manuals/settings",
-            "pages":[
-                {"ID":"0","content":"In den Geräteeinstellungen kannst du dein Mikrofon(Also dein Audioeingang) verwalten, dein Audioausgang und deine Kamera bestimmen und zudem lässt sich ein Testanruf durchführen, wo du deine Geräte nach ihrer Funktionalität überprüfen kannst."}
-            ]   
-        },
-        {
-            "ID":"settings_Berechtigungen",
-            "header":"Anleitung zum Settings_berechtigungen Tab",
-            "link":"localhost:8000/manuals/settings",
-            "pages":[
-                {"ID":"8","content":"Hier kannst du die Berechtigung der App verwalten. Hier kannst du die  Medien (sprich deine Geräte), deinen Standort, Benachrichtigungen, Externe Links, und weitere Geräte aktivieren und deaktivieren."}
-            ]   
         }
     ]
 }

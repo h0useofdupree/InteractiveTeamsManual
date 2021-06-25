@@ -30,13 +30,29 @@ var __webpack_exports__ = {};
 {
   var b = "";
 }
+{
+  var botwrited = true;
+} //
 
-var oF = function openForm() {
-  document.getElementById("formContainer").style.display = "block";
+var speechElement = new webkitSpeechRecognition();
+speechElement.lang = 'de-DE';
+speechElement.interimResults = true;
+speechElement.continuous = true;
+var final_transcript = '';
+
+speechElement.onstart = function () {};
+
+speechElement.onresult = function (event) {
+  for (var i = event.resultIndex; i < event.results.length; ++i) {
+    if (event.results[i].isFinal) {
+      final_transcript += event.results[i][0].transcript;
+    }
+  }
+
+  document.getElementById('textbox').value += final_transcript;
 };
 
-var cF = function closeForm() {
-  document.getElementById("formContainer").style.display = "hidden";
+speechElement.onspeechend = function () {//
 };
 
 function getRandomInt(max) {
@@ -44,15 +60,35 @@ function getRandomInt(max) {
 }
 
 function options_click() {
-  if (document.getElementById('options_menu').style.visibility == 'hidden') {
-    document.getElementById('options_menu').style.visibility = 'visible';
+  if (document.getElementById('options_menu').style.display == 'none') {
+    document.getElementById('emoji_menu').style.display = 'none';
+    document.getElementById('options_menu').style.display = 'inline';
     document.getElementById('options_button').style.color = '#6a040f';
     document.getElementById('controls').style.borderRadius = '0px 0px 0px 0px';
   } else {
-    document.getElementById('options_menu').style.visibility = 'hidden';
+    document.getElementById('options_menu').style.display = 'none';
     document.getElementById('options_button').style.color = 'black';
     document.getElementById('controls').style.borderRadius = '0px 0px 12px 12px';
   }
+}
+
+function emoji_click() {
+  if (document.getElementById('emoji_menu').style.display == 'none') {
+    document.getElementById('options_menu').style.display = 'none';
+    document.getElementById('emoji_menu').style.display = 'inline';
+    document.getElementById('emoji').style.color = '#6a040f';
+    document.getElementById('controls').style.borderRadius = '0px 0px 0px 12px';
+    document.getElementById('emoji').textContent = "😄";
+  } else {
+    document.getElementById('emoji_menu').style.display = 'none';
+    document.getElementById('emoji').style.color = 'black';
+    document.getElementById('controls').style.borderRadius = '0px 0px 12px 12px';
+    document.getElementById('emoji').textContent = "😂";
+  }
+}
+
+function emoji_select(emoji) {
+  document.getElementById('textbox').value += emoji;
 }
 
 function options_tts_click() {
@@ -86,6 +122,28 @@ function options_link_click() {
     document.getElementById("options_link").textContent = 'Linkdarstellung aktivieren';
     document.getElementById("options_link").style.background = 'white';
     linkvar = false;
+  }
+}
+
+function speech_click() {
+  if (document.getElementById("input_speech").textContent == '🎙️') {
+    navigator.permissions.query({
+      name: 'microphone'
+    }).then(function (permissionStatus) {
+      if (permissionStatus.state == "granted") {
+        document.getElementById("input_speech").textContent = '🔴';
+        console.log("Speechrecognition wurde gestartet...");
+        speechElement.start();
+      } else {
+        send_message('<a style="color:darkred">Spracherkennung konnte nicht initialisiert werden, weil kein Mikrofon erkannt wurde.</a>');
+      }
+    });
+  } else {
+    document.getElementById("input_speech").textContent = '🎙️';
+    speechElement.stop();
+    interim_transcript = "";
+    final_transcript = "";
+    console.log("Speechrecognition wurde gestoppt...");
   }
 }
 
@@ -135,9 +193,10 @@ function datetime() {
 function send_message(message) {
   var timeout = setTimeout(function () {
     var div = document.getElementById('container');
-    div.innerHTML += '</img><div id="chatb"><img src="data/bot-1.png" id="pimg" onmousedown="return false"><a id="title">' + namebot + '</a><br><br>' + message + '<br><a id="date"><br>' + datetime() + '</a></div><span id="space"></span>';
+    div.innerHTML += '</img><div id="chatb"><div id="pimg"><object id="object" type="image/svg+xml" data="data/bot-1.svg"></object></div><a id="title">' + namebot + '</a><br><br>' + message + '<br><a id="date"><br>' + datetime() + '</a></div><span id="space"></span>';
     gotoBottom('container');
-  }, 500);
+    botwrited = true;
+  }, 1200);
   $(".current_message").hide();
   $(".current_message").delay(2000 * 20).fadeIn();
   $(".current_message").removeClass("current_message");
@@ -156,11 +215,11 @@ function send_message(message) {
         return response.json();
       }).then(function (filter) {
         for (var o = 0; o < filter['filter'].length; o++) {
-          string = string.replace(filter['filter'][o]['string'] + "/g", filter['filter'][o]['re']);
-          console.log(filter['filter'][o]['string'] + " - " + filter['filter'][o]['re']);
+          var searchRegEx = new RegExp(String(filter['filter'][o]['string']), 'g');
+          var replacewith = filter['filter'][o]['re'];
+          string = string.replace(searchRegEx, replacewith);
         }
 
-        console.log(string);
         tts(string);
       });
     });
@@ -181,7 +240,7 @@ function bot(message) {
                 writingelement = 'Informationen zu deinem gewünschtem Thema findest du hier: <a id="links" href="' + data['article'][u]['link'] + '">' + data['article'][u]['header'] + '</a>';
                 b = data['article'][u]['link'];
               } else {
-                writingelement += "<b>" + [x + 1] + ".</b> " + data['article'][u]['pages'][x]['content'] + " <br>";
+                writingelement += "<b>" + [x + 1] + ".</b> " + data['article'][u]['pages'][x]['content'] + "<br>";
               }
             }
           }
@@ -193,14 +252,16 @@ function bot(message) {
       }).then(function (data) {
         var rdm = 0;
 
-        for (var x = 0; x < data['article'].length; x++) {
-          for (var y = 0; y <= data['article'][x]['keywords'].length; y++) {
-            if (i.indexOf(data['article'][x]['keywords'][y]) >= 0) {
-              for (var u = 0; u <= data['article'][x]['inhalt'].length; u++) {
-                rdm = getRandomInt(u);
-              }
+        if (writingelement == "") {
+          for (var x = 0; x < data['article'].length; x++) {
+            for (var y = 0; y <= data['article'][x]['keywords'].length; y++) {
+              if (i.indexOf(data['article'][x]['keywords'][y]) >= 0) {
+                for (var u = 0; u <= data['article'][x]['inhalt'].length; u++) {
+                  rdm = getRandomInt(u);
+                }
 
-              writingelement = data['article'][x]['inhalt'][rdm];
+                writingelement = data['article'][x]['inhalt'][rdm];
+              }
             }
           }
         }
@@ -224,7 +285,7 @@ function bot(message) {
         } //* Easter Eggs mit Spezialfunktionen
 
 
-        if (i.indexOf("HINDI") >= 0 || i.indexOf("INDER") >= 0 || i.indexOf("INDIEN") >= 0 || i.indexOf("INDISCH") >= 0 || i.indexOf("INDIA") >= 0 && ttsvar == true) {
+        if (i.indexOf("INDER") >= 0 || i.indexOf("INDIEN") >= 0 || i.indexOf("INDISCH") >= 0 || i.indexOf("INDIA") >= 0 && ttsvar == true) {
           hindi = true;
           namebot = "Shiva";
         }
@@ -256,7 +317,7 @@ function bot(message) {
 $(function () {
   document.onselectstart = new Function("return false");
   document.getElementById("textbox").focus();
-  send_message("Hallo mein Name ist Jenny. Ich helfe dir gerne bei allen Problemen bezüglich Microsoft Teams. Was ist dein Anliegen?<br> Notiz: Ich bin nicht sehr schlau :)");
+  send_message("Hey mein Name ist Jenny. Ich helfe dir gerne bei allen Problemen bezüglich Microsoft Teams. Was ist dein Anliegen?<br> Notiz: Ich bin nicht sehr schlau :)");
   $("#textbox").keypress(function (event) {
     if (event.which == 13) {
       event.preventDefault();
@@ -264,17 +325,21 @@ $(function () {
     }
   });
   $("#send").click(function () {
+    final_transcript = "";
     var user = '<b><a id="titleuser">Du</a></b><br>';
     var message = $("#textbox").val();
     $("#textbox").val("");
 
-    if (message != "") {
-      var div = document.getElementById('container');
-      div.innerHTML += '<div id="chatu"><img src="data/user-1.png" id="pimg" onmousedown="return false">' + user + message + '<br><a id="date"><br>' + datetime() + '</a>' + '</div><br><br>';
-    }
+    if (botwrited == true) {
+      if (message != "") {
+        var div = document.getElementById('container');
+        div.innerHTML += '<div id="chatu"><img src="data/user-2.png" id="pimg" onmousedown="return false">' + user + message.replace(':)', '🌝') + '<br><a id="date"><br>' + datetime() + '</a>' + '</div><br><br>';
+        botwrited = false;
+      }
 
-    $("#container").scrollTop($("#container").prop("scrollHeight"));
-    bot(message);
+      $("#container").scrollTop($("#container").prop("scrollHeight"));
+      bot(message);
+    }
   });
 });
 /******/ })()
