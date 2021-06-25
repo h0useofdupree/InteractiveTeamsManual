@@ -17,4 +17,5 @@ mix.js('resources/js/app.js', 'public/js')
     ]);
 
 // CHAT BOT
-mix.js('resources/js/chatbot.js', 'public/js');
+// mix.js('resources/js/chatbot.js', 'public/js');
+

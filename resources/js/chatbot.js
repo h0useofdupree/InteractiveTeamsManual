@@ -8,6 +8,7 @@
 {var namebot = "Jenny";}
 {var b = "";}
 
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -270,5 +271,6 @@ send_message("Hallo mein Name ist Jenny. Ich helfe dir gerne bei allen Problemen
 
 
 });
+
 
         

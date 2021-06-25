@@ -31,6 +31,14 @@ var __webpack_exports__ = {};
   var b = "";
 }
 
+var oF = function openForm() {
+  document.getElementById("formContainer").style.display = "block";
+};
+
+var cF = function closeForm() {
+  document.getElementById("formContainer").style.display = "hidden";
+};
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
