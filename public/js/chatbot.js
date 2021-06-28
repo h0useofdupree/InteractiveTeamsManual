@@ -40,7 +40,6 @@ function getRandomInt(max) {
 }
 
 function optionsClick(){
-  alert("test");
   if(document.getElementById('options_menu').style.display == 'none'){
       document.getElementById('emoji_menu').style.display = 'none';
       document.getElementById('options_menu').style.display = 'inline';
