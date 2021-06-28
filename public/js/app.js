@@ -1943,7 +1943,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-function options_click() {
+function optionsClick() {
   if (document.getElementById('options_menu').style.display == 'none') {
     document.getElementById('emoji_menu').style.display = 'none';
     document.getElementById('options_menu').style.display = 'inline';
@@ -1956,7 +1956,7 @@ function options_click() {
   }
 }
 
-function emoji_click() {
+function emojiClick() {
   if (document.getElementById('emoji_menu').style.display == 'none') {
     document.getElementById('options_menu').style.display = 'none';
     document.getElementById('emoji_menu').style.display = 'inline';
@@ -1971,7 +1971,7 @@ function emoji_click() {
   }
 }
 
-function emoji_select(emoji) {
+function emojiSelect(emoji) {
   document.getElementById('textbox').value += emoji;
 }
 

@@ -27,10 +27,10 @@
     </header>
 
     @yield('content')
-    <div class="popUp" id="popUp">
-        {{-- @include('other.bot.bot_raw') --}}
+    {{-- <div class="popUp" id="popUp">
+        @include('other.bot.bot_raw')
         <button class="openButton" id="openButton" onclick="openForm()">ChatBot</button>
-    </div>
+    </div> --}}
 
     <footer>
         @include('layouts.footer')
