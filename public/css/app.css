@@ -331,15 +331,14 @@ div [id^="chatu"] {
     margin-top: -30px;
 }
 
+$teams_Purple: #9ea2ff;
+$teams_Purple_active: #7678c0;
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .content {
-    $teams_Purple: #9ea2ff;
-    $teams_Purple_active: #7678c0;
-
     position: relative;
     width: 50%;
     .p {

@@ -9,8 +9,6 @@
 {var b = "";}
 {var botwrited = true;}
 
-//
-
 var speechElement = new webkitSpeechRecognition();
 speechElement.lang = 'de-DE';
 speechElement.interimResults = true;

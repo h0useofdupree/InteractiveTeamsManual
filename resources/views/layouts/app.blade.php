@@ -12,9 +12,7 @@
     {{-- ChatBot Meta --}}
     <meta name="description">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
-    </link>
+    <script type="text/javascript" src="js/chatbot.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
