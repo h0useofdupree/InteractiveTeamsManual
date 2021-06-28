@@ -7,7 +7,7 @@ fetch('../json/articles.json')
   .then(response => response.json())
   .then(data => {
     files = data;
-    outputData(files);
+    logData(files);
 
     document.getElementById("header").innerText = data.article[0].header;
   })
@@ -17,7 +17,7 @@ fetch('../json/articles.json')
 
 
 
-  function outputData(data){
+  function logData(data){
     for (let a = 0; a < data.article.length; a++) {
       console.log(data.article[a].ID);
       console.log(data.article[a].header);
@@ -26,19 +26,20 @@ fetch('../json/articles.json')
   }
 
   function nextArticle(){
-    if (count < files.article[0].pages.length) {
+    if (true){
       count++;
-    }else alert("No more pages to display!");
-    document.getElementById("page").innerText = files.article[0].pages[count].ID;
-    document.getElementById("text").innerText = files.article[0].pages[count].content;
-
+      document.getElementById("page").innerText = files.article[0].pages[count].ID;
+      document.getElementById("text").innerText = files.article[0].pages[count].content;
+    }
   }
   function prevArticle(){
-    console.log(count);
-    if (count < 1) {
+
+    if (count > 0) {
       count--;
-    }else alert("No more pages to display!");
-    document.getElementById("page").innerText = files.article[0].pages[count].ID;
-    document.getElementById("text").innerText = files.article[0].pages[count].content;
+      document.getElementById("page").innerText = files.article[0].pages[count].ID;
+      document.getElementById("text").innerText = files.article[0].pages[count].content;
+    }
   }
+
+  function getPagesCount(){return files.article[0].pages.length - 1;}
 
