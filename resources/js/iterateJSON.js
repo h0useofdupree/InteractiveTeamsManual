@@ -1,11 +1,20 @@
-let articlesJSON;
+let files;
+let count = 0;
 
 fetch('../json/articles.json')
   .then(response => response.json())
   .then(data => {
-    articlesJSON = data;
-    outputData(articlesJSON);
-    appendData(articlesJSON);
+    files = data;
+    outputData(files);
+    function nextArticle(){
+      count++;
+      document.getElementById("header").innerText = data.article[count].header;
+  
+    }
+    function prevArticle(){
+      count--;
+      document.getElementById("header").innerText = data.article[count].header;
+    }
   })
   .catch(function (err){
     alert("JSON ERROR: " + err);
@@ -21,6 +30,3 @@ fetch('../json/articles.json')
     }
   }
 
-  function appendData(data){
-    
-  }

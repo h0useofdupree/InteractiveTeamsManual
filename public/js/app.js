@@ -1840,12 +1840,7 @@ module.exports = {
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-__webpack_require__(/*! ./iterateJSON */ "./resources/js/iterateJSON.js"); //require('./chatbot');
-
-
-__webpack_require__(/*! ./chatbotPopUp */ "./resources/js/chatbotPopUp.js");
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); //require('./iterateJSON');
 
 /***/ }),
 
@@ -1877,51 +1872,6 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
-
-/***/ }),
-
-/***/ "./resources/js/chatbotPopUp.js":
-/*!**************************************!*\
-  !*** ./resources/js/chatbotPopUp.js ***!
-  \**************************************/
-/***/ (() => {
-
-var oF = function openForm() {
-  document.getElementById("formContainer").style.display = "block";
-};
-
-var cF = function closeForm() {
-  document.getElementById("formContainer").style.display = "hidden";
-};
-
-/***/ }),
-
-/***/ "./resources/js/iterateJSON.js":
-/*!*************************************!*\
-  !*** ./resources/js/iterateJSON.js ***!
-  \*************************************/
-/***/ (() => {
-
-var articlesJSON;
-fetch('../json/articles.json').then(function (response) {
-  return response.json();
-}).then(function (data) {
-  articlesJSON = data;
-  outputData(articlesJSON);
-  appendData(articlesJSON);
-})["catch"](function (err) {
-  alert("JSON ERROR: " + err);
-});
-
-function outputData(data) {
-  for (var a = 0; a < data.article.length; a++) {
-    console.log(data.article[a].ID);
-    console.log(data.article[a].header);
-    console.log(data.article[a].link);
-  }
-}
-
-function appendData(data) {}
 
 /***/ }),
 
