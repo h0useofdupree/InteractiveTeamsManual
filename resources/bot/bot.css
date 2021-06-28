@@ -67,7 +67,7 @@ textarea {
   font-family: 'Josefin Sans', sans-serif;
   margin: 14px 5px;
   white-space: nowrap;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 #emoji {

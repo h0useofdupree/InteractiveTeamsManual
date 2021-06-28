@@ -1,5 +1,4 @@
 @extends('layouts.app')
-<link rel="stylesheet" href="css/about_css/about.css">
 @section('content')
     <div class="body">
         <div class="title">
