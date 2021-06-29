@@ -12,5 +12,6 @@
     </div>
     <div class="pages">
         <p id="page"></p>
+        <p id="info">Maus über das Bild ziehen, um zu vergrößern.</p>
     </div>
 </div>

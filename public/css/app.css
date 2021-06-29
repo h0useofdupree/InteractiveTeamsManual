@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 0px;
+  margin-top: 80px;
   background-color: #e5e7ea;
   font-family: Arial, Helvetica, sans-serif, sans-serif;
   -webkit-touch-callout: none;
@@ -11,6 +11,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
 }
 
 #container {
@@ -351,7 +352,7 @@ div [id^=chatu] {
   width: 50%;
   background-color: #2e2e2e;
   border-radius: 10px;
-  margin: 80px 0 0 0;
+  margin: 40px 0 0 0;
   padding-top: 50px;
   position: fixed;
   left: 25%;
@@ -367,11 +368,11 @@ div [id^=chatu] {
   color: white;
 }
 .site .texts {
-  min-height: 200px;
+  min-height: 130px;
   width: 50ch;
-  background-color: white;
+  background-color: #adadad;
   border-radius: 15px;
-  padding: 50px 10px 0 10px;
+  padding: 20px 10px 0px 10px;
   margin-top: 30px;
 }
 .site .texts .text {
@@ -379,10 +380,10 @@ div [id^=chatu] {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px 50px 0px 50px;
   border-radius: 6px;
   flex-shrink: 1;
   flex-grow: 1;
-  background-color: white;
 }
 .site .picture {
   display: flex;
@@ -391,21 +392,30 @@ div [id^=chatu] {
   padding: 0;
   flex-shrink: 1;
   flex-grow: 1;
-  /*background-image: url("Download.jpeg");*/
   background-size: cover;
   width: 50%;
-  height: 300px;
   background-position: center;
   border-radius: 6px;
 }
 .site .picture img {
+  margin-bottom: 80px;
   max-width: 400px;
   transition: all 300ms ease-in-out;
   transform: translateY(40px);
 }
 .site .picture img:hover {
-  transform: translateY(-100px);
+  transform: translateY(-300px);
   max-width: 1000px;
+}
+.site .pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .buttons {
@@ -414,7 +424,7 @@ div [id^=chatu] {
   align-items: center;
   margin: 20px 20px;
   position: relative;
-  top: 800px;
+  top: 750px;
 }
 .buttons button {
   position: relative;
@@ -434,7 +444,7 @@ div [id^=chatu] {
 }
 .buttons button:hover {
   z-index: 100;
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 .buttons #left {
   border-left: 2px solid black;
@@ -449,50 +459,27 @@ div [id^=chatu] {
   border-bottom-right-radius: 10px;
 }
 
-@media screen and (max-width: 600px) {
-  .site {
-    width: 100%;
-  }
-  .site .Text {
-    width: 100%;
-    margin: 0;
-  }
-  .site .Picture {
-    width: 100%;
-    margin: 0;
-  }
-}
-@media screen and (max-width: 700px) {
-  .site {
-    width: 100%;
-  }
-  .site .Text {
-    width: 100%;
-    margin: 0;
-  }
-  .site .Picture {
-    width: 100%;
-    margin: 0;
-  }
-}
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 100%;
   left: 0;
   top: 0;
   z-index: 99;
-  padding: 10px 0 0 0;
 }
 .header .container {
-  max-width: 1170px;
-  margin: auto;
+  width: 1370px;
+  max-width: 1370px;
+  margin-top: 10px;
 }
 .header .container .header-main {
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0 0 0;
+  padding: 5px 0 0 0;
   border-radius: 5px;
 }
 .header .container ul {
@@ -505,6 +492,9 @@ div [id^=chatu] {
 }
 .header .logo {
   padding: 0 15px;
+}
+.header .logo:hover {
+  translate: scale(1.1);
 }
 .header .logo a {
   font-size: 30px;
@@ -520,12 +510,13 @@ div [id^=chatu] {
   margin-left: 40px;
   position: relative;
   border-radius: 4px;
+  transition: all 300ms ease-in-out;
 }
 .header .menu > .menu-item:hover {
   color: white;
   background-color: none;
   background-color: #4a51be;
-  border-radius: 15px;
+  border-radius: 10px;
   transform: scale(1.05);
 }
 .header .menu > .menu-item > a {
@@ -535,7 +526,7 @@ div [id^=chatu] {
   color: black;
   text-transform: capitalize;
   font-weight: 500;
-  transition: all 200ms ease-in-out;
+  transition: all 300ms ease-in-out;
   border-radius: 5px;
 }
 .header .menu > .menu-item > a .plus {
@@ -576,6 +567,7 @@ div [id^=chatu] {
 }
 .header .menu > .menu-item > .sub-menu > .menu-item {
   display: block;
+  transition: all 100ms ease-in-out;
 }
 .header .menu > .menu-item > .sub-menu > .menu-item > a {
   display: block;
@@ -584,12 +576,10 @@ div [id^=chatu] {
   font-weight: 600;
   color: black;
   text-transform: capitalize;
-  transition: all 400ms ease-in-out forwards;
 }
-.header .menu > .menu-item > .sub-menu > .menu-item:hover {
-  color: white;
+.header .menu > .menu-item > .sub-menu :hover {
   border-radius: 15px;
-  transform: scale(1.1);
+  transform: scale(1.05) translateX(10px);
 }
 @media (min-width: 992px) {
   .header .menu > .menu-item-with-children:hover > .sub-menu {
@@ -662,10 +652,11 @@ body {
   background-position: center;
   background-size: cover;
   font-weight: bolder;
-  background-color: rgba(0, 255, 255, 0.021);
+  background-color: #7a81e7;
+  transition: all 300ms ease-in-out;
 }
 .links a:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.05);
 }
 .links #installation {
   background-image: url(/images/install.png?638552576e6146240020ac4f4909c762);

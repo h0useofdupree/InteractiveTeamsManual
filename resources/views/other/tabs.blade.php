@@ -10,7 +10,4 @@
         <a href="/manuals/files">Datein</a>
         <a href="/manuals/apps">Apps</a>
     </div>
-    <div class="articles">
-        <!-- TODO: Karten für Tabs erstellen und ähnlich wie unten benennen -->
-    </div>
 @endsection

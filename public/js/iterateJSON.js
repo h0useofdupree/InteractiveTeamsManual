@@ -26,7 +26,7 @@ fetch('../json/files.json')
 
   function initialLoad(currentPageID){
     document.getElementById("header").innerText = files.article[currentPageID].header;
-    document.getElementById("page").innerText = files.article[currentPageID].pages[0].ID;
+    document.getElementById("page").innerText = files.article[currentPageID].pages[0].ID + "/" + getPagesCount();
     document.getElementById("text").innerText = files.article[currentPageID].pages[0].content;
     document.getElementById("pic").src = files.article[currentPageID].pages[0].pic;
   }
@@ -35,7 +35,7 @@ fetch('../json/files.json')
     var pages = getPagesCount();
     if (count < pages){
       count++;
-      document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID;
+      document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID + "/" + getPagesCount();
       document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
       document.getElementById("pic").src = files.article[currentPageID].pages[count].pic;
     }
@@ -45,8 +45,7 @@ fetch('../json/files.json')
 
     if (count > 0) {
       count--;
-      console.log("Count " + count);
-      document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID;
+      document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID + "/" + getPagesCount();
       document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
       document.getElementById("pic").src = files.article[currentPageID].pages[count].pic;
     }

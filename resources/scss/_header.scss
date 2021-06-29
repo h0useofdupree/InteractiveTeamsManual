@@ -2,21 +2,24 @@ $teams_purple: #7a81e7;
 $teams_purple_dark: #4a51be;
 
 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
     z-index: 99;
-    padding: 10px 0 0 0;
     .container {
-        max-width: 1170px;
-        margin: auto;
+        width: 1370px;
+        max-width: 1370px;
+        margin-top: 10px;
         .header-main {
             background-color: white;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 0 0 0;
+            padding: 5px 0 0 0;
             border-radius: 5px;
         }
         ul {
@@ -30,6 +33,9 @@ $teams_purple_dark: #4a51be;
     }
     .logo {
         padding: 0 15px;
+        &:hover {
+            translate: scale(1.1);
+        }
     }
     .logo a {
         font-size: 30px;
@@ -45,11 +51,12 @@ $teams_purple_dark: #4a51be;
         margin-left: 40px;
         position: relative;
         border-radius: 4px;
+        transition: all 300ms ease-in-out;
         &:hover {
             color: white;
             background-color: none;
             background-color: $teams_purple_dark;
-            border-radius: 15px;
+            border-radius: 10px;
             transform: scale(1.05);
         }
         > a {
@@ -59,7 +66,7 @@ $teams_purple_dark: #4a51be;
             color: black;
             text-transform: capitalize;
             font-weight: 500;
-            transition: all 200ms ease-in-out;
+            transition: all 300ms ease-in-out;
 
             border-radius: 5px;
         }
@@ -99,22 +106,21 @@ $teams_purple_dark: #4a51be;
         transition: all 300ms ease-in-out;
         opacity: 0;
         visibility: hidden;
-        & > .menu-item {
+        > .menu-item {
             display: block;
-            & > a {
-                display: block;
-                padding: 10px 20px;
-                font-size: 16px;
-                font-weight: 600;
-                color: black;
-                text-transform: capitalize;
-                transition: all 400ms ease-in-out forwards;
-            }
-            &:hover {
-                color: white;
-                border-radius: 15px;
-                transform: scale(1.1);
-            }
+            transition: all 100ms ease-in-out;
+        }
+        > .menu-item > a {
+            display: block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            color: black;
+            text-transform: capitalize;
+        }
+        :hover {
+            border-radius: 15px;
+            transform: scale(1.05) translateX(10px);
         }
     }
     @media (min-width: 992px) {
