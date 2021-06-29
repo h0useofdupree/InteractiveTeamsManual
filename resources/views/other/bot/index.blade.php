@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+    <script type="text/javascript" src="../../js/chatbot.js"></script>
     <div id="container"></div>
     <div id="controls">
         <button id="options_button" title="Optionen">≡</button>

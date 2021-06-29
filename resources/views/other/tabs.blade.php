@@ -16,6 +16,5 @@
             $arr = json_decode($data, true);
         @endphp
         <!-- TODO: Karten für Tabs erstellen und ähnlich wie unten benennen -->
-        <input type="text" name="ID" id="ID" value="{{ $arr['article']['0']['ID'] }}"><br>
     </div>
 @endsection
