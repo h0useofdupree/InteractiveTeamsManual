@@ -52,32 +52,32 @@
                 {
                     "ID":"0",
                     "content":"Gehe auf die linke Seite des Bildschirms und klicke dort auf den Tab 'Aufgaben'.",
-                    "pic":"../data/tabs/Aufgaben_Tab.jpg"
+                    "pic":"../data/tabs/"
                 },
                 {
                     "ID":"1",
-                    "content":"Klicke dann darauf um zu deiner Aufgaben zu gelangen.",
-                    "pic":"../data/tabs/Zugewiesene_Aufgaben.jpg"
+                    "content":"Klicke dann darauf um zu deinen Aufgaben zu gelangen.",
+                    "pic":"../data/tabs/AufgabenErledigtUndZugewiesen.png"
                 },
                 {
                     "ID":"2",
                     "content":"Wenn du die Berechtigung hast, ist bei der Aufgabe dann unterhalb von den Referenzen eine Schaltfläche mit dem Namen 'Arbeit-Hinzufügen', darauf klickst du dann.",
-                    "pic":"../data/tabs/Aufgaben_Hochladen_1.jpg"
+                    "pic":"../data/tabs/AufgabenEigeneDateiHinzufügen.png"
                 },
                 {
                     "ID":"3",
                     "content":"Nachdem du dies gemacht hast, öffnet sich daraufhin ein weiteres Fenster, wo du dann auf die Schaltfläche 'Von diesem Gerät-Hochladen' drückst.",
-                    "pic":"../data/tabs/Aufgaben_Hochladen_1.jpg"
+                    "pic":"../data/tabs/AufgabenLösungHochladen.png"
                 },
                 {
                     "ID":"4",
                     "content":"Danach suchst du die Datei heraus, die du hochladen möchtest, heraus und klickst diese einmal an. Daraufhin drückst du dann auf 'Öffnen'.",
-                    "pic":"../data/tabs/Aufgaben_Hochladen_2.jpg"
+                    "pic":"../data/tabs/AufgabenLösungHochladen2.png"
                 },
                 {
                     "ID":"5",
                     "content":"Wenn du eine neue Datei in der Aufgabe erstellen möchtest dann drückst auf die Schaltfläche 'Neu'.",
-                    "pic":"../data/tabs/"
+                    "pic":"../data/tabs/AufgabenNeueDatei.png"
                 },
                 {
                     "ID":"6",
@@ -92,7 +92,7 @@
                 {
                     "ID":"8",
                     "content":"Nun gehst du wieder in die 'Aufgaben' hinein und drückst dann oben rechts in der Ecke auf 'Aufgabe Abgeben', solltest du die Aufgabe beendet haben.",
-                    "pic":"{{ asset('data/tabs/"
+                    "pic":"{{ asset('data/tabs/AufgabenAbgabebutton.png"
                 }
 
             ]
@@ -111,7 +111,11 @@
             "pages":[
 
                 {"ID":"0", "content":"Gehe auf die linke Seite des Bildschirmes und klicke auf 'Aktivitäten'."},
-                {"ID":"1", "content":"Nun siehst du dann in der Mitte deine Aktivitäten und an der linken Seite findest du was für Aktivitäten gerade vorhanden sind."}
+                {
+                    "ID":"1",
+                    "content":"Nun siehst du dann in der Mitte deine Aktivitäten und an der linken Seite findest du was für Aktivitäten gerade vorhanden sind.",
+                    "pic":"{{ asset('data/tabs/Aktivitäten.png"
+                }
             ]
         },
         {
@@ -127,9 +131,21 @@
             
             "pages":[
 
-                {"ID":"0", "content":"Gehe auf die linke Seite des Bildschirmes und klicke auf 'Anrufe'"},
-                {"ID":"1", "content":"Als nächstes, wenn du auf die rechte Seite schaust, dann siehst du deinen Anrufverlauf. Links davon findest du deine Kontakte, mit denen du schon geschrieben hast."},
-                {"ID":"2", "content":"Wenn du wen anrufen möchtest aber ihn gerade nicht eingespeichert hast kannst du über den Verlauf auf 'Namen Eingeben' drücken. Dies öffnet dann eine Suchleiste wo du dann nach deinen Kontakt suchen kannst."}
+                {
+                    "ID":"0",
+                    "content":"Gehe auf die linke Seite des Bildschirmes und klicke auf 'Anrufe'",
+                    "pic":"{{ asset('data/tabs/Anrufe.png"
+                },
+                {
+                    "ID":"1",
+                    "content":"Als nächstes, wenn du auf die rechte Seite schaust, dann siehst du deinen Anrufverlauf. Links davon findest du deine Kontakte, mit denen du schon geschrieben hast.",
+                    "pic":"{{ asset('data/tabs/Anrufe.png"
+                },
+                {
+                    "ID":"2",
+                    "content":"Wenn du wen anrufen möchtest aber ihn gerade nicht eingespeichert hast kannst du über den Verlauf auf 'Namen Eingeben' drücken. Dies öffnet dann eine Suchleiste wo du dann nach deinen Kontakt suchen kannst.",
+                    "pic":"{{ asset('data/tabs/Anrufe.png"
+                }
 
             ]
         },
@@ -145,9 +161,21 @@
             
             
             "pages":[
-                {"ID":"0", "content":"Gehe auf den linken Tab namens 'Dateien' und klicke darauf. "},
-                {"ID":"1", "content":"Als Nächstes kannst du an der linken Seite dein Speicher ansehen. Dort kannst du auch unten links einen weiteren Cloud-Speicher einbinden, wenn du einen externen haben solltest."},
-                {"ID":"2", "content":"Auf der rechten Seite siehst du dann deine letzten verwendeten Dateien."}
+                {
+                    "ID":"0",
+                    "content":"Gehe auf den linken Tab namens 'Dateien' und klicke darauf. ",
+                    "pic":"{{ asset('data/tabs/Dateien.png"
+                },
+                {
+                    "ID":"1",
+                    "content":"Als Nächstes kannst du an der linken Seite dein Speicher ansehen. Dort kannst du auch unten links einen weiteren Cloud-Speicher einbinden, wenn du einen externen haben solltest.",
+                    "pic":"{{ asset('data/tabs/Dateien.png"
+                },
+                {
+                    "ID":"2",
+                    "content":"Auf der rechten Seite siehst du dann deine letzten verwendeten Dateien.",
+                    "pic":"{{ asset('data/tabs/Dateien.png"
+                }
             ]
         },
         {
@@ -161,10 +189,31 @@
             
             
             "pages":[
-                {"ID":"0", "content":"Klicke auf der linken Hälfte deines Bildschirms auf das Feld 'Chat'."},
-                {"ID":"1", "content":"Danach kommt ein großes Fenster, das in zwei Hälften unterteilt ist. Auf der linken Seite findest du ein Icon, welches aussieht wie ein Notizbuch, da klickst du dann drauf."},
-                {"ID":"2", "content":"Dann gibst du in der Zeile wo (Namen, Email, Gruppe oder Tag eingeben) steht, die betroffene Person ein um mit ihr einen Chat zu starten."},
-                {"ID":"3", "content":"Wenn du mit einem Lehrer/Schüler direkt Kontakt aufnehmen möchten dann kannst du auf seinem Namen gehen, um eine Kachel erscheinen zu lassen. Danach drückst du auf auf das Chat Symbol um einen Chat direkt zu starten."}
+                {
+                    "ID":"0",
+                    "content":"Klicke auf der linken Hälfte deines Bildschirms auf das Feld 'Chat'.",
+                    "pic":"{{ asset('data/tabs/"
+                },
+                {
+                    "ID":"1",
+                    "content":"Danach kommt ein großes Fenster, das in zwei Hälften unterteilt ist. Auf der linken Seite findest du ein Icon, welches aussieht wie ein Notizbuch, da klickst du dann drauf.";
+                    "pic":"{{ asset('data/tabs/ChatBeginnen.png"
+                },
+                {
+                    "ID":"2",
+                    "content":"Dann gibst du in der Zeile wo (Namen, Email, Gruppe oder Tag eingeben) steht, die betroffene Person ein um mit ihr einen Chat zu starten.";
+                    "pic":"{{ asset('data/tabs/ChatBeginnen.png"
+                },
+                {
+                    "ID":"3",
+                    "content":"Wenn du mit einem Lehrer/Schüler direkt Kontakt aufnehmen möchten dann kannst du auf seinem Namen gehen, um eine Kachel erscheinen zu lassen. Danach drückst du auf auf das Chat Symbol um einen Chat direkt zu starten.",
+                    "pic":"{{ asset('data/tabs/ChatBeginnen.png"
+                }
+                 {
+                    "ID":"4",
+                    "content":"Chaträume werden wie in der folgenden Darstellung dargestellt.",
+                    "pic":"{{ asset('data/tabs/ChatRäume.png"
+                }
             ]
         },
         {
@@ -179,8 +228,16 @@
             
 
             "pages":[
-                {"ID":"0", "content":"Gehe auf den linken Tab namens 'Kalender' und klicke darauf."},
-                {"ID":"1", "content":"Als Nächstes kannst du deine Termine ansehen. Du kannst auch noch eigene Termine erstellen, sowie Besprechungen erstellen und beitreten."}
+                {
+                    "ID":"0",
+                    "content":"Gehe auf den linken Tab namens 'Kalender' und klicke darauf.",
+                    "pic":"{{ asset('data/tabs/" 
+                },
+                {
+                    "ID":"1",
+                    "content":"Als Nächstes kannst du deine Termine ansehen. Du kannst auch noch eigene Termine erstellen, sowie Besprechungen erstellen und beitreten.",
+                    "pic":"{{ asset('data/tabs/Kalender.png" 
+                }
             ]   
 
         },
