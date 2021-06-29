@@ -1,25 +1,28 @@
 let files;
 let count = 0;
 let url = location.href;
-let filename = url.substring(url.lastIndexOf('/')+1);
-console.log(filename);
+let currentPage = url.substring(url.lastIndexOf('/')+1);
+let currentPageID = 0;
+
 
 fetch('../json/files.json')
   .then(response => response.json())
   .then(data => {
     files = data;
-    //logData(files);
     getFileForCurrentPage();
-    initialLoad();
+    console.log(currentPage + " " + currentPageID);
+    //logData(files);
+    
+    initialLoad(currentPageID);
   })
   .catch(function (err){
     alert("JSON ERROR: " + err);
   });
 
-  function initialLoad(){
-    //document.getElementById("header").innerText = files.article[0].header;
-    //document.getElementById("page").innerText = files.article[article].pages[0].ID;
-    document.getElementById("text").innerText = files.article[0].pages[0].content;
+  function initialLoad(index){
+    document.getElementById("header").innerHTML = files.article[index].header;
+    document.getElementById("page").innerHTML = files.article[index].pages[0].ID;
+    document.getElementById("text").innerHTML = files.article[index].pages[0].content;
   }
 
   function nextArticle(){
@@ -28,20 +31,25 @@ fetch('../json/files.json')
     if (count < pages){
       count++;
     }
-    document.getElementById("page").innerText = files.article[article].pages[count].ID;
-    document.getElementById("text").innerText = files.article[article].pages[count].content;
+    document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID;
+    document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
   }
   function prevArticle(){
 
     if (count > 0) {
       count--;
-      document.getElementById("page").innerText = files.article[article].pages[count].ID;
-      document.getElementById("text").innerText = files.article[article].pages[count].content;
+      document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID;
+      document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
     }
   }
 
   function getFileForCurrentPage(){
-    
+    for (let e = 0; e < files.article.length; e++) {
+      if (files.article[e].ID == currentPage) {
+        console.log(files.article[e].ID);
+        currentPageID = e;
+      }//else console.log("not found");
+    }
   }
 
   function getPagesCount(){return files.article[0].pages.length;}

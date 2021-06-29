@@ -25,10 +25,7 @@
             <p id="page"></p>
         </div>
     </div>
-    <div class="buttons">
-        <button onclick="nextArticle()">Next</button>
-        <button onclick="prevArticle()">Previous</button>
-    </div>
+    
 </body>
 
 
