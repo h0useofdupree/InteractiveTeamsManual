@@ -49,15 +49,51 @@
             
 
             "pages":[
-                {"ID":"0", "content":"Gehe auf die linke Seite des Bildschirms und klicke dort auf den Tab 'Aufgaben'.", "pic":"Aufgaben_Tab.jpg"},
-                {"ID":"1", "content":"Klicke dann darauf um zu deiner Aufgaben zu gelangen.", "pic":"Zugewiesene_Aufgaben.jpg"},
-                {"ID":"2", "content":"Wenn du die Berechtigung hast, ist bei der Aufgabe dann unterhalb von den Referenzen eine Schaltfläche mit dem Namen 'Arbeit-Hinzufügen', darauf klickst du dann.", "pic":"Aufgaben_Hochladen_1.jpg"},
-                {"ID":"3", "content":"Nachdem du dies gemacht hast, öffnet sich daraufhin ein weiteres Fenster, wo du dann auf die Schaltfläche 'Von diesem Gerät-Hochladen' drückst.", "pic":"Aufgaben_Hochladen_1.jpg"},
-                {"ID":"4", "content":"Danach suchst du die Datei heraus, die du hochladen möchtest, heraus und klickst diese einmal an. Daraufhin drückst du dann auf 'Öffnen'.", "pic":"Aufgaben_Hochladen_2.jpg"},
-                {"ID":"5", "content":"Wenn du eine neue Datei in der Aufgabe erstellen möchtest dann drückst auf die Schaltfläche 'Neu'."},
-                {"ID":"6", "content":"Wenn du dies gemacht hast suchst du dir dann den Dateityp raus, den du haben möchtest und drückst dann auf den Dateityp."},
-                {"ID":"7", "content":"Wenn du dies dann gemacht hast drückst du dann auf die neu erstellte Datei, um den Internen-Editor zu öffnen."},
-                {"ID":"8", "content":"Nun gehst du wieder in die 'Aufgaben' hinein und drückst dann oben rechts in der Ecke auf 'Aufgabe Abgeben', solltest du die Aufgabe beendet haben."}
+                {
+                    "ID":"0",
+                    "content":"Gehe auf die linke Seite des Bildschirms und klicke dort auf den Tab 'Aufgaben'.",
+                    "pic":"../data/tabs/Aufgaben_Tab.jpg"
+                },
+                {
+                    "ID":"1",
+                    "content":"Klicke dann darauf um zu deiner Aufgaben zu gelangen.",
+                    "pic":"../data/tabs/Zugewiesene_Aufgaben.jpg"
+                },
+                {
+                    "ID":"2",
+                    "content":"Wenn du die Berechtigung hast, ist bei der Aufgabe dann unterhalb von den Referenzen eine Schaltfläche mit dem Namen 'Arbeit-Hinzufügen', darauf klickst du dann.",
+                    "pic":"../data/tabs/Aufgaben_Hochladen_1.jpg"
+                },
+                {
+                    "ID":"3",
+                    "content":"Nachdem du dies gemacht hast, öffnet sich daraufhin ein weiteres Fenster, wo du dann auf die Schaltfläche 'Von diesem Gerät-Hochladen' drückst.",
+                    "pic":"../data/tabs/Aufgaben_Hochladen_1.jpg"
+                },
+                {
+                    "ID":"4",
+                    "content":"Danach suchst du die Datei heraus, die du hochladen möchtest, heraus und klickst diese einmal an. Daraufhin drückst du dann auf 'Öffnen'.",
+                    "pic":"../data/tabs/Aufgaben_Hochladen_2.jpg"
+                },
+                {
+                    "ID":"5",
+                    "content":"Wenn du eine neue Datei in der Aufgabe erstellen möchtest dann drückst auf die Schaltfläche 'Neu'.",
+                    "pic":"../data/tabs/"
+                },
+                {
+                    "ID":"6",
+                    "content":"Wenn du dies gemacht hast suchst du dir dann den Dateityp raus, den du haben möchtest und drückst dann auf den Dateityp.",
+                    "pic":"../data/tabs/"
+                },
+                {
+                    "ID":"7",
+                    "content":"Wenn du dies dann gemacht hast drückst du dann auf die neu erstellte Datei, um den Internen-Editor zu öffnen.",
+                    "pic":"{{ asset('data/tabs/"
+                },
+                {
+                    "ID":"8",
+                    "content":"Nun gehst du wieder in die 'Aufgaben' hinein und drückst dann oben rechts in der Ecke auf 'Aufgabe Abgeben', solltest du die Aufgabe beendet haben.",
+                    "pic":"{{ asset('data/tabs/"
+                }
 
             ]
         },
