@@ -26,7 +26,7 @@ fetch('../json/articles.json')
   }
 
   function nextArticle(){
-    if (true){
+    if (count < getPagesCount()){
       count++;
       document.getElementById("page").innerText = files.article[0].pages[count].ID;
       document.getElementById("text").innerText = files.article[0].pages[count].content;
