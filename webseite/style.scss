@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+body{
+    //background-color: lightgray;
+    background-color: whitesmoke;
+}
+
+.navigation{
+    width: 100%;
+    height: 60px;
+    background-color: #282A35;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .menu-bar{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+
+        .menu-link{
+            list-style: none;
+            //float: left;
+            position: relative;
+
+            &:hover .sub-bar{
+                display: block;
+            }
+
+            a{
+                display: block;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+
+                &:hover{
+                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);        
+                    color: black;
+                    background-color: rgb(194, 191, 191); 
+                    border-radius: 6px;
+                }
+            }
+
+            .sub-bar{
+                display: none;
+                position: absolute;
+                background-color: #282A35;
+                width: 100px;
+                padding: 5px;
+                border-radius: 0px 0px 7px 7px;
+
+                .sub-link{
+                    width: 100px;
+                    list-style-type: none;
+                }
+
+                a{
+                    padding: 12px 14px;
+
+                    &:hover{
+                        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);        
+                        color: black;
+                        background-color: rgb(194, 191, 191); 
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.burger{
+    display: none;
+
+    .line{
+        width: 25px;
+        height: 5px;
+        background-color: white;
+        margin: 5px;
+    }
+}
+
+//              Header Fertig
+
+.links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px 50px;
+
+    a:link, a:visited{
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 2;
+        color: black;
+        font-size: 20px;
+        height: 280px;
+        width: 500px;
+        background-size:400px;
+        border-radius: 6px;
+        margin: 6px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;   
+        font-weight: bolder;  
+        background-color: aqua;
+    }
+    a:hover{
+        opacity: 0.8;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    #installation{
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuwaterloo.ca%2Finformation-systems-technology-newsletter%2Fsites%2Fca.information-systems-technology-newsletter%2Ffiles%2Fuploads%2Fimages%2Fist-newsletter-banner-microsoft-teams.png&f=1&nofb=1");
+    }
+    #einrichtung{
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.avepoint.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F09%2Fpositive-business-man-with-a-giant-pencil-on-his-shoulder-nearby-on-vector-id1000027400-1024x439.jpg&f=1&nofb=1");
+    }
+
+    #tabs{
+        background-image: url("https://teams.microsoft.com/dl/launcher/images/edu.svg");
+    }
+    #gesucht{
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.sherweb.com%2Fblog%2Fwp-content%2Fuploads%2FThings-You-Should-Know-About-Microsoft-Teams-Banner.jpg%3Fssl%3D1&f=1&nofb=1");
+    }
+    #chatbot{
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F5Ga-17AxHRQ%2Fmaxresdefault.jpg&f=1&nofb=1");
+    }   
+}
+
+
+
+//          Main Fertig
+
+
+
+
+@media screen and (max-width:700px){
+    .navigation{
+        width: 100%;
+        .menu-bar{
+            position: absolute;
+            right: 0px;
+            height: 50%;
+            top: 60px;
+            background-color: #282A35;
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            //transform: translateX(100%);
+            transition: transform 0.5s ease-in;
+
+
+            .menu-link:hover .sub-bar{
+                display: none;
+            }
+
+        }
+        justify-content: flex-end;
+    }
+
+    .burger{
+        display: block;
+        margin-right: 80px;
+        cursor: pointer;
+    }
+
+    .links{
+        margin-top: 10px;
+        margin: 40px 0px;
+        justify-content: center;
+        align-items: center;
+
+        a:link, a:visited{
+            flex-shrink: 2;
+            width: 500px;
+            height: 260px;
+        }
+    }
+
+}
+.menu-bar.active{
+    //transform: translateX(0%);
+    display: flex;
+}
+.navigation.active{
+    justify-content: center;
+    align-items: center;
+
+    .burger{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .links{
+        margin: 15px 0px;
+        justify-content: center;
+        align-items: center;
+
+        a:link, a:visited{
+            flex-shrink: 2;
+            width: 500px;
+            height: 240px;
+            margin: 4px;
+        }
+    }
+
+    .burger{
+        margin-right: 10px;
+    }
+}
+
+

@@ -1,6 +1,7 @@
 let files;
 let count = 0;
 let url = window.location.href;
+let article = 1;
 console.log(url);
 
 fetch('../json/articles.json')
@@ -8,8 +9,7 @@ fetch('../json/articles.json')
   .then(data => {
     files = data;
     logData(files);
-
-    document.getElementById("header").innerText = data.article[0].header;
+    initialLoad();
   })
   .catch(function (err){
     alert("JSON ERROR: " + err);
@@ -19,27 +19,35 @@ fetch('../json/articles.json')
 
   function logData(data){
     for (let a = 0; a < data.article.length; a++) {
-      console.log(data.article[a].ID);
-      console.log(data.article[a].header);
-      console.log(data.article[a].link);
+      console.log(files.article[a].ID);
+      console.log(files.article[a].header);
+      console.log(files.article[a].link);
     }
   }
 
+  function initialLoad(){
+    document.getElementById("header").innerText = files.article[0].header;
+    document.getElementById("page").innerText = files.article[article].pages[0].ID;
+    document.getElementById("text").innerText = files.article[article].pages[0].content;
+  }
+
   function nextArticle(){
-    if (count < getPagesCount()){
+    var pages = getPagesCount();
+    console.log(pages);
+    if (count < pages){
       count++;
-      document.getElementById("page").innerText = files.article[0].pages[count].ID;
-      document.getElementById("text").innerText = files.article[0].pages[count].content;
     }
+    document.getElementById("page").innerText = files.article[article].pages[count].ID;
+    document.getElementById("text").innerText = files.article[article].pages[count].content;
   }
   function prevArticle(){
 
     if (count > 0) {
       count--;
-      document.getElementById("page").innerText = files.article[0].pages[count].ID;
-      document.getElementById("text").innerText = files.article[0].pages[count].content;
+      document.getElementById("page").innerText = files.article[article].pages[count].ID;
+      document.getElementById("text").innerText = files.article[article].pages[count].content;
     }
   }
 
-  function getPagesCount(){return files.article[0].pages.length - 1;}
+  function getPagesCount(){return files.article[0].pages.length;}
 
