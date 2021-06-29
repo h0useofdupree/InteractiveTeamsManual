@@ -3,9 +3,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    width: 100%;
+    background-color: rebeccapurple;
+    border-radius: 5%;
     .Title {
-        width: 100%;
+        width: 50%;
         height: 80px;
         display: flex;
         justify-content: center;
@@ -31,7 +33,37 @@
         border-radius: 6px;
     }
 }
-
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 20px;
+    button {
+        background-color: rebeccapurple;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        bottom: 0px;
+    }
+    button:hover {
+        transition: growDown 300ms ease-in-out forwards;
+    }
+}
+@keyframes growDown {
+    0% {
+        transform: scaleY(0);
+    }
+    80% {
+        transform: scaleY(1.1);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
 @media screen and (max-width: 600px) {
     .site {
         width: 100%;

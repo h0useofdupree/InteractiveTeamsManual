@@ -8,8 +8,24 @@
 }
 
 body {
+    font-family: "Baloo Tammudu 2", cursive;
     //background-color: lightgray;
     background-color: whitesmoke;
+}
+// Logo auf Index ( Home )
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        margin: 60px 0px 0px 0px;
+        align-items: center;
+    }
+    img {
+        width: 500px;
+        height: 200px;
+    }
 }
 
 .navigation {
@@ -37,7 +53,17 @@ body {
             &:hover .sub-bar {
                 display: block;
             }
-
+            @keyframes growDown {
+                0% {
+                    transform: scaleY(0);
+                }
+                80% {
+                    transform: scaleY(1.1);
+                }
+                100% {
+                    transform: scaleY(1);
+                }
+            }
             a {
                 display: block;
                 padding: 14px 16px;
@@ -66,7 +92,6 @@ body {
                     width: 100px;
                     list-style-type: none;
                 }
-
                 a {
                     padding: 12px 14px;
 
@@ -81,7 +106,17 @@ body {
         }
     }
 }
-
+@keyframes growDown {
+    0% {
+        transform: scaleY(0);
+    }
+    80% {
+        transform: scaleY(1.1);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
 .burger {
     display: none;
 
@@ -112,7 +147,8 @@ body {
         justify-content: center;
         flex-shrink: 2;
         color: black;
-        font-size: 20px;
+        font-size: 25px;
+        text-shadow: 1px 2px 1px rgb(255, 255, 255);
         height: 280px;
         width: 500px;
         background-size: 400px;
@@ -122,7 +158,7 @@ body {
         background-position: center;
         background-size: cover;
         font-weight: bolder;
-        background-color: aqua;
+        background-color: rgba(0, 255, 255, 0.021);
     }
     a:hover {
         opacity: 0.8;
@@ -133,18 +169,35 @@ body {
     #installation {
         background-image: url("../../public/data/install.png");
     }
-    /* #einrichtung {
-        background-image: url("data/");
-    } */
 
     #tabs {
         background-image: url("../../public/data/tabs.svg");
     }
-    /* #gesucht {
-        background-image: url("");
-    } */
+
     #chatbot {
         background-image: url("../../public/data/chatbot.jpeg");
+    }
+}
+.headings {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.narrow-links {
+    display: none;
+}
+
+@media screen and (max-width: 1590px) {
+    .narrow-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wide-links {
+        display: none;
+    }
+    .headings {
+        display: none;
     }
 }
 

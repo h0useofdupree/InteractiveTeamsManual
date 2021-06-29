@@ -10,7 +10,6 @@ fetch('../json/files.json')
   .then(data => {
     files = data;
     getFileForCurrentPage();
-    console.log(currentPage + " " + currentPageID);
     //logData(files);
     
     initialLoad(currentPageID);
@@ -20,39 +19,39 @@ fetch('../json/files.json')
   });
 
   function initialLoad(index){
-    document.getElementById("header").innerHTML = files.article[index].header;
-    document.getElementById("page").innerHTML = files.article[index].pages[0].ID;
-    document.getElementById("text").innerHTML = files.article[index].pages[0].content;
+    document.getElementById("header").innerText = files.article[index].header;
+    document.getElementById("page").innerText = files.article[index].pages[0].ID;
+    document.getElementById("text").innerText = files.article[index].pages[0].content;
   }
 
   function nextArticle(){
     var pages = getPagesCount();
-    console.log(pages);
     if (count < pages){
       count++;
-    }
-    document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID;
+      document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID;
     document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
+    }
+    
   }
   function prevArticle(){
 
     if (count > 0) {
       count--;
+      console.log("Count " + count);
       document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID;
       document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
     }
   }
 
   function getFileForCurrentPage(){
-    for (let e = 0; e < files.article.length; e++) {
-      if (files.article[e].ID == currentPage) {
-        console.log(files.article[e].ID);
-        currentPageID = e;
+    for (let index = 0; index < files.article.length; index++) {
+      if (files.article[index].ID == currentPage) {
+        currentPageID = index;
       }//else console.log("not found");
     }
   }
 
-  function getPagesCount(){return files.article[currentPageID].pages.length;}
+  function getPagesCount(){return files.article[currentPageID].pages.length - 1;}
 
 
 

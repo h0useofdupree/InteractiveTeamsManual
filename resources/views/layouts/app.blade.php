@@ -25,13 +25,11 @@
     </header>
 
     @yield('content')
-
-    <footer>
+    {{-- <footer>
         @include('layouts.footer')
-    </footer>
+    </footer> --}}
 
 </body>
 <script type="text/javascript" src="{{ asset('js/burger.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/iterateJSON.js') }}"></script>
 
 </html>
