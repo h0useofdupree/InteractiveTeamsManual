@@ -342,6 +342,72 @@ div [id^="chatu"] {
     }
 }
 
+.site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .Title {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Text {
+        margin: 30px 50px 0px 50px;
+        background-color: yellow;
+        border-radius: 6px;
+        width: 80%;
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+    .Picture {
+        flex-shrink: 1;
+        flex-grow: 1;
+        /*background-image: url("Download.jpeg");*/
+        background-size: cover;
+        width: 80%;
+        height: 600px;
+        background-position: center;
+        border-radius: 6px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .site {
+        width: 100%;
+
+        .Text {
+            width: 100%;
+            margin: 0;
+        }
+
+        .Picture {
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .site {
+        width: 100%;
+
+        .Text {
+            width: 100%;
+            margin: 0;
+        }
+
+        .Picture {
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -353,6 +419,8 @@ body {
 }
 
 .navigation {
+  /* position: fixed;
+  top: 0; */
   width: 100%;
   height: 60px;
   background-color: #282a35;
@@ -425,6 +493,12 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 40px 50px;
+  /* #einrichtung {
+      background-image: url("data/");
+  } */
+  /* #gesucht {
+      background-image: url("");
+  } */
 }
 .links a:link,
 .links a:visited {
@@ -452,19 +526,13 @@ body {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .links #installation {
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuwaterloo.ca%2Finformation-systems-technology-newsletter%2Fsites%2Fca.information-systems-technology-newsletter%2Ffiles%2Fuploads%2Fimages%2Fist-newsletter-banner-microsoft-teams.png&f=1&nofb=1");
-}
-.links #einrichtung {
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.avepoint.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F09%2Fpositive-business-man-with-a-giant-pencil-on-his-shoulder-nearby-on-vector-id1000027400-1024x439.jpg&f=1&nofb=1");
+  background-image: url(/images/install.png?638552576e6146240020ac4f4909c762);
 }
 .links #tabs {
-  background-image: url("https://teams.microsoft.com/dl/launcher/images/edu.svg");
-}
-.links #gesucht {
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.sherweb.com%2Fblog%2Fwp-content%2Fuploads%2FThings-You-Should-Know-About-Microsoft-Teams-Banner.jpg%3Fssl%3D1&f=1&nofb=1");
+  background-image: url(/images/tabs.svg?64c00efa188b7e41c131397e8b8f394b);
 }
 .links #chatbot {
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F5Ga-17AxHRQ%2Fmaxresdefault.jpg&f=1&nofb=1");
+  background-image: url(/images/chatbot.jpeg?46e363f7446ec1919360d5db6ab7e050);
 }
 
 @media screen and (max-width: 700px) {

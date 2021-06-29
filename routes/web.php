@@ -34,7 +34,7 @@ Route::get(
 )->where([
     // String RegEx Pattern
     'name' => '[a-zA-Z_]+'
-]); 
+]);
 
 
 

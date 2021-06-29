@@ -4,7 +4,7 @@
 <head>
     {{-- App Meta --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <script type="text/javascript" src="{{ asset('js/burger.js') }}"></script>
+
     <meta charset="utf-8">
 
     {{-- Fonts --}}
@@ -31,5 +31,6 @@
     </footer>
 
 </body>
+<script type="text/javascript" src="{{ asset('js/burger.js') }}"></script>
 
 </html>

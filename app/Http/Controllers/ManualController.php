@@ -8,7 +8,6 @@ class ManualController extends Controller
 {
     public function index()
     {
-        // TODO: #3 Parse JSON File to View in PlainText Format
         return view('main.index');
     }
     public function about()
@@ -22,7 +21,7 @@ class ManualController extends Controller
     }
     public function bot()
     {
-        return view('other.bot.index');
+        return view('other.bot.chatbot');
     }
 }
 

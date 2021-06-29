@@ -1,0 +1,65 @@
+.site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .Title {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Text {
+        margin: 30px 50px 0px 50px;
+        background-color: yellow;
+        border-radius: 6px;
+        width: 80%;
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+    .Picture {
+        flex-shrink: 1;
+        flex-grow: 1;
+        /*background-image: url("Download.jpeg");*/
+        background-size: cover;
+        width: 80%;
+        height: 600px;
+        background-position: center;
+        border-radius: 6px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .site {
+        width: 100%;
+
+        .Text {
+            width: 100%;
+            margin: 0;
+        }
+
+        .Picture {
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .site {
+        width: 100%;
+
+        .Text {
+            width: 100%;
+            margin: 0;
+        }
+
+        .Picture {
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
