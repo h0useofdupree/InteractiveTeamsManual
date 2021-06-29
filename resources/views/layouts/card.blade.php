@@ -1,5 +1,5 @@
 <div class="site">
-    <div class="Title">
+    <div class="title">
         <h1 id="header"></h1>
     </div>
 
@@ -7,7 +7,7 @@
         <p id="text"></p>
     </div>
 
-    <div class="Picture">
+    <div class="picture">
         <img src="" alt="" id="pic">
     </div>
     <div class="pages">

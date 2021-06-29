@@ -87,12 +87,12 @@
                 {
                     "ID":"7",
                     "content":"Wenn du dies dann gemacht hast drückst du dann auf die neu erstellte Datei, um den Internen-Editor zu öffnen.",
-                    "pic":"{{ asset('data/tabs/"
+                    "pic":"../data/tabs/"
                 },
                 {
                     "ID":"8",
                     "content":"Nun gehst du wieder in die 'Aufgaben' hinein und drückst dann oben rechts in der Ecke auf 'Aufgabe Abgeben', solltest du die Aufgabe beendet haben.",
-                    "pic":"{{ asset('data/tabs/AufgabenAbgabebutton.png"
+                    "pic":"../data/tabs/AufgabenAbgabebutton.png"
                 }
 
             ]
@@ -114,7 +114,7 @@
                 {
                     "ID":"1",
                     "content":"Nun siehst du dann in der Mitte deine Aktivitäten und an der linken Seite findest du was für Aktivitäten gerade vorhanden sind.",
-                    "pic":"{{ asset('data/tabs/Aktivitäten.png"
+                    "pic":"../data/tabs/Aktivitäten.png"
                 }
             ]
         },
@@ -134,17 +134,17 @@
                 {
                     "ID":"0",
                     "content":"Gehe auf die linke Seite des Bildschirmes und klicke auf 'Anrufe'",
-                    "pic":"{{ asset('data/tabs/Anrufe.png"
+                    "pic":"../data/tabs/Anrufe.png"
                 },
                 {
                     "ID":"1",
                     "content":"Als nächstes, wenn du auf die rechte Seite schaust, dann siehst du deinen Anrufverlauf. Links davon findest du deine Kontakte, mit denen du schon geschrieben hast.",
-                    "pic":"{{ asset('data/tabs/Anrufe.png"
+                    "pic":"../data/tabs/Anrufe.png"
                 },
                 {
                     "ID":"2",
                     "content":"Wenn du wen anrufen möchtest aber ihn gerade nicht eingespeichert hast kannst du über den Verlauf auf 'Namen Eingeben' drücken. Dies öffnet dann eine Suchleiste wo du dann nach deinen Kontakt suchen kannst.",
-                    "pic":"{{ asset('data/tabs/Anrufe.png"
+                    "pic":"../data/tabs/Anrufe.png"
                 }
 
             ]
@@ -164,17 +164,17 @@
                 {
                     "ID":"0",
                     "content":"Gehe auf den linken Tab namens 'Dateien' und klicke darauf. ",
-                    "pic":"{{ asset('data/tabs/Dateien.png"
+                    "pic":"../data/tabs/Dateien.png"
                 },
                 {
                     "ID":"1",
                     "content":"Als Nächstes kannst du an der linken Seite dein Speicher ansehen. Dort kannst du auch unten links einen weiteren Cloud-Speicher einbinden, wenn du einen externen haben solltest.",
-                    "pic":"{{ asset('data/tabs/Dateien.png"
+                    "pic":"../data/tabs/Dateien.png"
                 },
                 {
                     "ID":"2",
                     "content":"Auf der rechten Seite siehst du dann deine letzten verwendeten Dateien.",
-                    "pic":"{{ asset('data/tabs/Dateien.png"
+                    "pic":"../data/tabs/Dateien.png"
                 }
             ]
         },
@@ -192,27 +192,27 @@
                 {
                     "ID":"0",
                     "content":"Klicke auf der linken Hälfte deines Bildschirms auf das Feld 'Chat'.",
-                    "pic":"{{ asset('data/tabs/"
+                    "pic":""
                 },
                 {
                     "ID":"1",
-                    "content":"Danach kommt ein großes Fenster, das in zwei Hälften unterteilt ist. Auf der linken Seite findest du ein Icon, welches aussieht wie ein Notizbuch, da klickst du dann drauf.";
-                    "pic":"{{ asset('data/tabs/ChatBeginnen.png"
+                    "content":"Danach kommt ein großes Fenster, das in zwei Hälften unterteilt ist. Auf der linken Seite findest du ein Icon, welches aussieht wie ein Notizbuch, da klickst du dann drauf.",
+                    "pic":"../data/tabs/ChatBeginnen.png"
                 },
                 {
                     "ID":"2",
-                    "content":"Dann gibst du in der Zeile wo (Namen, Email, Gruppe oder Tag eingeben) steht, die betroffene Person ein um mit ihr einen Chat zu starten.";
-                    "pic":"{{ asset('data/tabs/ChatBeginnen.png"
+                    "content":"Dann gibst du in der Zeile wo (Namen, Email, Gruppe oder Tag eingeben) steht, die betroffene Person ein um mit ihr einen Chat zu starten.",
+                    "pic":"../data/tabs/ChatBeginnen.png"
                 },
                 {
                     "ID":"3",
                     "content":"Wenn du mit einem Lehrer/Schüler direkt Kontakt aufnehmen möchten dann kannst du auf seinem Namen gehen, um eine Kachel erscheinen zu lassen. Danach drückst du auf auf das Chat Symbol um einen Chat direkt zu starten.",
-                    "pic":"{{ asset('data/tabs/ChatBeginnen.png"
-                }
-                 {
+                    "pic":"../data/tabs/ChatBeginnen.png"
+                },
+                {
                     "ID":"4",
                     "content":"Chaträume werden wie in der folgenden Darstellung dargestellt.",
-                    "pic":"{{ asset('data/tabs/ChatRäume.png"
+                    "pic":"../data/tabs/ChatRäume.png"
                 }
             ]
         },
@@ -231,12 +231,12 @@
                 {
                     "ID":"0",
                     "content":"Gehe auf den linken Tab namens 'Kalender' und klicke darauf.",
-                    "pic":"{{ asset('data/tabs/" 
+                    "pic":"../data/tabs/" 
                 },
                 {
                     "ID":"1",
                     "content":"Als Nächstes kannst du deine Termine ansehen. Du kannst auch noch eigene Termine erstellen, sowie Besprechungen erstellen und beitreten.",
-                    "pic":"{{ asset('data/tabs/Kalender.png" 
+                    "pic":"../data/tabs/Kalender.png" 
                 }
             ]   
 

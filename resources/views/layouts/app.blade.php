@@ -30,6 +30,5 @@
     </footer> --}}
 
 </body>
-<script type="text/javascript" src="{{ asset('js/burger.js') }}"></script>
 
 </html>

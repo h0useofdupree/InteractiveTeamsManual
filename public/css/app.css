@@ -348,80 +348,107 @@ div [id^=chatu] {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  background-color: rebeccapurple;
-  border-radius: 5%;
+  width: 50%;
+  background-color: #2e2e2e;
+  border-radius: 10px;
+  margin: 80px 0 0 0;
+  padding-top: 50px;
+  position: fixed;
+  left: 25%;
 }
-.site .Title {
+.site .title {
   width: 50%;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #4b4b4b;
+  border-radius: 5px;
+  color: white;
 }
-.site .Text {
-  margin: 30px 50px 0px 50px;
-  background-color: yellow;
+.site .texts {
+  min-height: 200px;
+  width: 50ch;
+  background-color: white;
+  border-radius: 15px;
+  padding: 50px 10px 0 10px;
+  margin-top: 30px;
+}
+.site .texts .text {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 6px;
-  width: 80%;
   flex-shrink: 1;
   flex-grow: 1;
+  background-color: white;
 }
-.site .Picture {
+.site .picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
   flex-shrink: 1;
   flex-grow: 1;
   /*background-image: url("Download.jpeg");*/
   background-size: cover;
-  width: 80%;
-  height: 600px;
+  width: 50%;
+  height: 300px;
   background-position: center;
   border-radius: 6px;
+}
+.site .picture img {
+  max-width: 400px;
+  transition: all 300ms ease-in-out;
+  transform: translateY(40px);
+}
+.site .picture img:hover {
+  transform: translateY(-100px);
+  max-width: 1000px;
 }
 
 .buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin: 20px 20px;
+  position: relative;
+  top: 800px;
 }
 .buttons button {
-  background-color: rebeccapurple;
-  border: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #4a51be;
+  border: 2px solid black;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 38px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   bottom: 0px;
+  transition: all 100ms ease-in-out;
 }
 .buttons button:hover {
-  transition: growDown 300ms ease-in-out forwards;
+  z-index: 100;
+  transform: scale(1.05);
+}
+.buttons #left {
+  border-left: 2px solid black;
+  border-right: 1px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.buttons #right {
+  border-right: 2px solid black;
+  border-left: 1px solid black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-@-webkit-keyframes growDown {
-  0% {
-    transform: scaleY(0);
-  }
-  80% {
-    transform: scaleY(1.1);
-  }
-  100% {
-    transform: scaleY(1);
-  }
-}
-
-@keyframes growDown {
-  0% {
-    transform: scaleY(0);
-  }
-  80% {
-    transform: scaleY(1.1);
-  }
-  100% {
-    transform: scaleY(1);
-  }
-}
 @media screen and (max-width: 600px) {
   .site {
     width: 100%;
