@@ -8,8 +8,8 @@
                 <ul class="menu">
                     <li class="menu-item"><a href="/">Home</a></li>
                     <li class="menu-item"><a href="/manuals/install">Installation</a></li>
-                    <li class="menu-item">
-                        <a href="/manuals/tabs">Tabs</a>
+                    <li class="menu-item menu-item-with-children">
+                        <a href="/manuals/tabs">Tabs <i class="plus"></i></a>
                         <ul class="sub-menu">
                             <li class="menu-item"><a href="/manuals/activity">Aktivität</a></li>
                             <li class="menu-item"><a href="/manuals/chat">Chat</a></li>

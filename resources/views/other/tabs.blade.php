@@ -2,7 +2,7 @@
 @section('content')
     <div class="links">
         <a href="/manuals/activity">Aktivität</a>
-        <a href="/bot">Chat</a>
+        <a href="/manuals/chat">Chat</a>
         <a href="/manuals/teams">Teams</a>
         <a href="/manuals/assignments">Aufgaben</a>
         <a href="/manuals/calendar">Kalender</a>

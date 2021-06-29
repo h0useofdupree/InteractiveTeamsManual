@@ -1,20 +1,22 @@
+$teams_purple: #7a81e7;
+$teams_purple_dark: #4a51be;
+
 .header {
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
     z-index: 99;
-    padding: 15px 0;
+    padding: 10px 0 0 0;
     .container {
         max-width: 1170px;
-        background-color: #282a35;
         margin: auto;
         .header-main {
             background-color: white;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 5px 0;
+            padding: 10px 0 0 0;
             border-radius: 5px;
         }
         ul {
@@ -32,7 +34,7 @@
     .logo a {
         font-size: 30px;
         text-transform: capitalize;
-        color: rebeccapurple;
+        color: $teams_purple;
         font-weight: 600;
     }
     .nav-menu {
@@ -42,48 +44,84 @@
         display: inline-block;
         margin-left: 40px;
         position: relative;
-        border-radius: 8px;
-        :hover {
-            color: rebeccapurple;
+        border-radius: 4px;
+        &:hover {
+            color: white;
             background-color: none;
-            background-color: #282a35;
-            border-radius: 10px;
-            transform: scale(1.1);
+            background-color: $teams_purple_dark;
+            border-radius: 15px;
+            transform: scale(1.05);
         }
         > a {
             display: block;
             padding: 10px 15px;
-            font-size: 16px;
-            //color: #000000;
+            font-size: 20px;
+            color: black;
             text-transform: capitalize;
             font-weight: 500;
-            transition: all 300ms ease-in-out;
+            transition: all 200ms ease-in-out;
+
+            border-radius: 5px;
         }
-        > .sub-menu {
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            width: 220px;
+        > a .plus {
+            display: inline-block;
+            height: 12px;
+            width: 12px;
+            position: relative;
+        }
+        > a .plus:before,
+        > a .plus:after {
+            content: "";
             position: absolute;
-            left: 0;
-            top: 100%;
-            background-color: white;
-            border-radius: 15px;
-            padding: 10px 0;
-            border-top: 3px solid rebeccapurple;
-            transition: all 300ms ease-in-out;
-            /* > .menu-item {
-                display: block;
-            }
-            > .menu-item > a {
+            box-sizing: border-box;
+            left: 50%;
+            top: 50%;
+            background-color: black;
+            height: 2px;
+            width: 100%;
+            transform: translate(-50%, -50%);
+        }
+        > a .plus:after {
+            transform: translate(-50%, -50%) rotate(-90deg);
+        }
+    }
+    .menu > .menu-item > .sub-menu {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 220px;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px 0;
+        border-top: 4px solid $teams_purple;
+        transform: translateY(10px);
+        transition: all 300ms ease-in-out;
+        opacity: 0;
+        visibility: hidden;
+        & > .menu-item {
+            display: block;
+            & > a {
                 display: block;
                 padding: 10px 20px;
                 font-size: 16px;
                 font-weight: 600;
                 color: black;
-                transition: all 300ms ease-in-out;
                 text-transform: capitalize;
-            } */
+                transition: all 400ms ease-in-out forwards;
+            }
+            &:hover {
+                color: white;
+                border-radius: 15px;
+                transform: scale(1.1);
+            }
         }
     }
-    .menu > .menu-item > a {
+    @media (min-width: 992px) {
+        .menu > .menu-item-with-children:hover > .sub-menu {
+            transform: translateY(0);
+            opacity: 1;
+            visibility: visible;
+        }
     }
 }
