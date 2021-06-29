@@ -1,6 +1,6 @@
-@import url("./bot.scss");
-@import url("./about.scss");
-@import url("./tabs.scss");
+@import "_bot";
+@import "_about";
+@import "_tabs";
 * {
     margin: 0px;
     padding: 0px;

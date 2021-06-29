@@ -1,34 +1,25 @@
 let files;
 let count = 0;
-let url = window.location.href;
-let article = 1;
-console.log(url);
+let url = location.href;
+let filename = url.substring(url.lastIndexOf('/')+1);
+console.log(filename);
 
-fetch('../json/articles.json')
+fetch('../json/files.json')
   .then(response => response.json())
   .then(data => {
     files = data;
-    logData(files);
+    //logData(files);
+    getFileForCurrentPage();
     initialLoad();
   })
   .catch(function (err){
     alert("JSON ERROR: " + err);
   });
 
-
-
-  function logData(data){
-    for (let a = 0; a < data.article.length; a++) {
-      console.log(files.article[a].ID);
-      console.log(files.article[a].header);
-      console.log(files.article[a].link);
-    }
-  }
-
   function initialLoad(){
-    document.getElementById("header").innerText = files.article[0].header;
-    document.getElementById("page").innerText = files.article[article].pages[0].ID;
-    document.getElementById("text").innerText = files.article[article].pages[0].content;
+    //document.getElementById("header").innerText = files.article[0].header;
+    //document.getElementById("page").innerText = files.article[article].pages[0].ID;
+    document.getElementById("text").innerText = files.article[0].pages[0].content;
   }
 
   function nextArticle(){
@@ -49,5 +40,20 @@ fetch('../json/articles.json')
     }
   }
 
+  function getFileForCurrentPage(){
+    
+  }
+
   function getPagesCount(){return files.article[0].pages.length;}
+
+
+
+
+  function logData(data){
+    for (let a = 0; a < data.article.length; a++) {
+      console.log(files.article[a].ID);
+      console.log(files.article[a].header);
+      console.log(files.article[a].link);
+    }
+  }
 

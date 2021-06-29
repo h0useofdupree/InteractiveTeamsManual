@@ -1,7 +1,7 @@
 {
     "article":[
         {
-            "ID":"inst",
+            "ID":"install",
             "header":"Installation von Microsoft Teams",
             "link":"localhost:8000/manuals/installation",
 
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "ID":"Meeting",
+            "ID":"meeting",
             "header":"Meetings Betreten",
             "link":"localhost:8000/manuals/meeting",
 
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "ID":"tabs_Aufgaben",
+            "ID":"tasks",
             "header":"Anleitung zum 'Aufgaben' Tab",
             "link":"localhost:8000/manuals/tabs/aufgaben",
 
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "ID":"tabs_Aktivitäten",
+            "ID":"activity",
             "header":"Anleitung zum 'Aktivitäten' Tab",
             "link":"localhost:8000/manuals/tabs/aktivitäten",
 
@@ -74,7 +74,7 @@
             ]
         },
         {
-            "ID":"tabs_Anrufe",
+            "ID":"calls",
             "header":"Anleitung zum 'Anrufe' Tab",
             "link":"localhost:8000/manuals/tabs/anrufe",
 
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "ID":"tabs_Dateien",
+            "ID":"files",
             "header":"Anleitung zum 'Dateien' Tab",
             "link":"localhost:8000/manuals/tabs/dateien",
 
@@ -110,7 +110,7 @@
             ]
         },
         {
-            "ID":"tabs_Chat",
+            "ID":"chat",
             "header":"Anleitung zum 'Chat' Tab",
             "link":"localhost:8000/manuals/tabs/chat",
 
@@ -127,7 +127,7 @@
             ]
         },
         {
-            "ID":"Tabs_Kalender",
+            "ID":"calender",
             "header":"Anleitung zum 'Kalender' Tab",
             "link":"localhost:8000/manuals/tabs/chat",
 
@@ -144,7 +144,7 @@
 
         },
         {
-            "ID":"settings_General",
+            "ID":"general",
             "header":"Anleitung zum Settings_General Tab",
             "link":"localhost:8000/manuals/settings",
             "keywords":[
@@ -157,7 +157,7 @@
             ]   
         },
         {
-            "ID":"settings_Layout",
+            "ID":"layout",
             "header":"Anleitung zum Settings_Layout Tab",
             "link":"localhost:8000/manuals/settings",
             "keywords":[
@@ -171,7 +171,7 @@
             ]   
         },
         {
-            "ID":"settings_Datenschutz",
+            "ID":"privacy",
             "header":"Anleitung zum Settings_Datenschutz Tab",
             "link":"localhost:8000/manuals/settings",
             "keywords":[
@@ -183,7 +183,7 @@
             ]   
         },
         {
-            "ID":"settings_Benachrichtigungen",
+            "ID":"notifications",
             "header":"Anleitung zum Settings_Benachrichtigungen Tab",
             "link":"localhost:8000/manuals/settings",
             "keywords":[
@@ -195,7 +195,7 @@
             ]   
         },
         {
-            "ID":"settings_Geräte",
+            "ID":"devices",
             "header":"Anleitung zum Settings_Geräte Tab",
             "link":"localhost:8000/manuals/settings",
             "keywords":[
@@ -207,7 +207,7 @@
             ]   
         },
         {
-            "ID":"settings_Berechtigungen",
+            "ID":"notifications",
             "header":"Anleitung zum Settings_berechtigungen Tab",
             "link":"localhost:8000/manuals/settings",
             "keywords":[
