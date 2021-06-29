@@ -2,7 +2,7 @@
 @section('content')
     <div class="site">
         <div class="Title">
-            <h1 id="header"></h1>
+            <h1 class="Überschrift" id="header"></h1>
         </div>
 
         <div class="texts">

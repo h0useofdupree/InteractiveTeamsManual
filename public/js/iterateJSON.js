@@ -52,7 +52,7 @@ fetch('../json/files.json')
     }
   }
 
-  function getPagesCount(){return files.article[0].pages.length;}
+  function getPagesCount(){return files.article[currentPageID].pages.length;}
 
 
 
