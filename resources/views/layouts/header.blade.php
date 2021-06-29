@@ -22,6 +22,7 @@
                         </ul>
                     </li>
                     <li class="menu-item"><a href="/bot">Chatbot</a></li>
+                    <li class="menu-item"><a href="/about">About</a></li>
                 </ul>
             </nav>
         </div>

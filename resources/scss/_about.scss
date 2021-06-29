@@ -1,16 +1,16 @@
-.title {
+.body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.content {
-    position: relative;
-    width: 50%;
-    .par {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
+    flex-direction: column;
+    .title {
+        font-weight: 600;
+    }
+    .content {
+        font-weight: 400;
+        width: 90ch;
+    }
+    .creators {
+        font-weight: 400;
     }
 }

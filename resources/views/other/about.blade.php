@@ -4,20 +4,24 @@
         <div class="title">
             <h1>Über dieses Projekt</h1>
         </div>
-        <center>
-            <div class="content">
-                <h3>
-                    (I)nteractive (T)eams (M)anual ist unsere Lösung, für alle Fragen und Probleme bezüglich Microsoft Teams
-                </h3><br>
-                <p class="par">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempore qui tenetur voluptatem quo magni
-                    eius,
-                    dolorem maiores commodi. Aliquid commodi necessitatibus dolor, quo consectetur unde atque eum culpa
-                    placeat
-                    architecto blanditiis obcaecati quos rem officia at repudiandae laboriosam facilis dicta animi eos. Quo
-                    dignissimos itaque ut perferendis dicta natus.
-                </p>
-            </div>
-        </center>
+        <div class="content">
+            <h3>
+                (I)nteractive (T)eams (M)anual ist unsere Lösung, für alle Fragen und Probleme bezüglich Microsoft Teams
+            </h3><br><br>
+            <p class="par">
+                ITM ist ein web-basiertes, interaktives Teams Manual, um allen Schülern und Lehrern, die mit dem
+                Programm Probleme haben, auf die Sprünge zu helfen. <br>
+                Die Website basiert auf einem PHP Laravel 8 Backend. <br>
+                Das Frontend wurde mit VanillaJS und ein wenig JQuery geschrieben. <br>
+                Die einzelnen Anleitungen werden dynamisch aus einer JSON Datei ausgegeben. <br>
+                Ein Umstieg auf VueJS für die dynamische Ausgabe der einzelnen Anleitungen ist geplant. <br>
+
+                DISCLAIMER: Dieses Projekt kratzt nur an der Oberfläche von dem, was Laravel zu bieten hat. Die meisten
+                Dateien sind Client-Side vorhanden und werden nicht versteckt.
+            </p><br><br>
+            <p class="creators">
+                Dieses Projekt wurde von Pascal Moritz, Joel Riekemann, Emre Il Can und Christoph Reimann entwickelt.
+            </p>
+        </div>
     </div>
 @endsection

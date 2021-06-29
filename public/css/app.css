@@ -326,22 +326,21 @@ div [id^=chatu] {
   margin-top: -30px;
 }
 
-.title {
+.body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-
-.content {
-  position: relative;
-  width: 50%;
+.body .title {
+  font-weight: 600;
 }
-.content .par {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+.body .content {
+  font-weight: 400;
+  width: 90ch;
+}
+.body .creators {
+  font-weight: 400;
 }
 
 .site {
