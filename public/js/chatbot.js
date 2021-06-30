@@ -115,7 +115,7 @@ function send_message(message,delay) {
   var timeout = setTimeout(function(){
 
     var div  = document.getElementById('container');
-    div.innerHTML += '</img><div id="chatb"><div id="pimg"><object id="object" type="image/svg+xml" data="data/bot.svg"></object></div><a id="title">' + namebot + '</a><br><br>' + message + '<br><a id="date"><br>' +  datetime() + '</a></div><span id="space"></span>';
+    div.innerHTML += '</img><div id="chatb"><div id="pimg"><object id="object" type="image/svg+xml" data="data/bot-1.svg"></object></div><a id="title">' + namebot + '</a><br><br>' + message + '<br><a id="date"><br>' +  datetime() + '</a></div><span id="space"></span>';
     gotoBottom('container');
     botwrited = true;
     c=0;
@@ -163,7 +163,7 @@ fetch("json/files.json")
           c =1;
         for(var x = 0; x < data['article'][u]['pages'].length; x++){
           if(linkvar == true){
-          writingelement = 'Informationen zu deinem gewünschtem Thema findest du hier: <a id="links" href="' + data['article'][u]['link'] + '">' + data['article'][u]['header'] + '</a>';
+          writingelement = 'Informationen zu deinem gewünschtem Thema findest du hier: <a id="links" href="http://'+ data['article'][u]['link'] + '">' + data['article'][u]['header'] + '</a>';
           b = data['article'][u]['link'];
           }else{
           writingelement += "<b>" + [x+1] + ".</b> " + data['article'][u]['pages'][x]['content'] + "<br>";
@@ -273,7 +273,7 @@ $(function() {
     if(botwrited == true){
     if(message != ""){
         var div  = document.getElementById('container');
-        var msg = '<div id="chatu">{{{ <img src="data/user.png" id="pimg" onmousedown="return false">' + user + message.replace(':)' , '🌝') + '<br><a id="date"><br>' +  datetime() + '</a>' +  ' }}}</div><br><br>';
+        var msg = '<div id="chatu">{{{ <img src="data/user-2.png" id="pimg" onmousedown="return false">' + user + message.replace(':)' , '🌝') + '<br><a id="date"><br>' +  datetime() + '</a>' +  ' }}}</div><br><br>';
         div.innerHTML += msg.replace('{{{', '').replace('}}}', "");
         lastmessage = message;
         botwrited = false;

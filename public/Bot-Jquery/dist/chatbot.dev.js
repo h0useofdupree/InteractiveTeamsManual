@@ -153,6 +153,10 @@ function send_message(message, delay) {
   }
 }
 
+function setHref(data, u) {
+  window.location = data['article'][u]['link'];
+}
+
 function bot(message) {
   if (message != "") {
     var i = message.toUpperCase();
@@ -167,7 +171,7 @@ function bot(message) {
 
               for (var x = 0; x < data['article'][u]['pages'].length; x++) {
                 if (linkvar == true) {
-                  writingelement = 'Informationen zu deinem gewünschtem Thema findest du hier: <a id="links" href="' + data['article'][u]['link'] + '">' + data['article'][u]['header'] + '</a>';
+                  writingelement = 'Informationen zu deinem gewünschtem Thema findest du hier: <a id="links" onclick="' + setHref(data, u) + '">' + data['article'][u]['header'] + '</a>';
                   b = data['article'][u]['link'];
                 } else {
                   writingelement += "<b>" + [x + 1] + ".</b> " + data['article'][u]['pages'][x]['content'] + "<br>";

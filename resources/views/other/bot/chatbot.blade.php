@@ -4,7 +4,7 @@
     <div id="container"></div>
     <div id="controls">
         <button id="options_button" title="Optionen">≡</button>
-        <textarea rows="1" maxlength="80" id="textbox" placeholder="Stelle deine Frage hier..."></textarea>
+        <textarea rows="1" maxLength="60" id="textbox" placeholder="Stelle deine Frage hier..."></textarea>
         <div id="vertical_line_01"></div>
         <button id="input_speech" title="Spracherkennung (Funktioniert nicht in jedem Browser)">🎙️</button>
         <button id="emoji" title="Emojis">😂</button>
@@ -22,6 +22,7 @@
             <button id="options_link"
                 title="Nutze die Darstellung von Text oder lass dir vom Bot einen Link für dein Problem geben">Linkdarstellung
                 aktivieren</button>
+            <!-- <button id="options_link" title="Nutze die Darstellung von Text oder lass dir vom Bot einen Link für dein Problem geben">✸</button> -->
             <br><br><input id="options_volume" title="Lautstärke von TTS (7)" type="range" name="auswertung" min="1"
                 max="12" value="7">
         </div>

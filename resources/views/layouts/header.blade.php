@@ -21,6 +21,19 @@
                             <li class="menu-item"><a href="/manuals/apps">Apps</a></li>
                         </ul>
                     </li>
+                    <li class="menu-item menu-item-with-children">
+                        <a href="/manuals/tabs">Einstellungen <i class="plus"></i></a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="/manuals/activity">Aktivität</a></li>
+                            <li class="menu-item"><a href="/manuals/chat">Chat</a></li>
+                            <li class="menu-item"><a href="/manuals/teams">Teams</a></li>
+                            <li class="menu-item"><a href="/manuals/tasks">Aufgaben</a></li>
+                            <li class="menu-item"><a href="/manuals/calender">Kalender</a></li>
+                            <li class="menu-item"><a href="/manuals/calls">Anrufe</a></li>
+                            <li class="menu-item"><a href="/manuals/files">Dateien</a></li>
+                            <li class="menu-item"><a href="/manuals/apps">Apps</a></li>
+                        </ul>
+                    </li>
                     <li class="menu-item"><a href="/bot">Chatbot</a></li>
                     <li class="menu-item"><a href="/about">About</a></li>
                 </ul>
