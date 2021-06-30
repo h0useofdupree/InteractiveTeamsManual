@@ -607,7 +607,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.logo img {
+.logo object {
   width: 600px;
   height: 300px;
   margin-top: 50px;
