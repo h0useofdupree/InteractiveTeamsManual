@@ -3,7 +3,7 @@
         {
             "ID":"install",
             "header":"Installation von Microsoft Teams",
-            "link":"localhost:8000/manuals/install",
+            "link":"localhost:8000/manuals/installation",
             "keywords":[
                 "INSTALL"
             ],
@@ -31,10 +31,10 @@
             ],
             
             "pages":[
-                {"ID":"0","content":"Gehe auf das Meeting, welches gerade gestartet ist und kicke auf 'Teilnehmen'."},
+                {"ID":"0","content":"Gehe auf das Meeting, welches gerade gestartet ist und klicke auf 'Teilnehmen'."},
                 {"ID":"1","content":"Nun klickst du auf den Reiter 'Computer Audio' damit dein Mikrofon richtig erkannt werden kann."},
                 {"ID":"2","content":"Um das Meeting wieder zu verlassen, drückst du oben rechts auf den roten Knopf 'Meeting Verlassen' "},
-                {"ID":"3","content":"Um das Mikrofon stummzuschalten drückst du oben neben 'Meeting verlassen' auf das Mikrofon Symbol um dich stummzuschalten. Das gleiche kann auch genutzt werden um das Mikrofon wieder freizugeben."}
+                {"ID":"3","content":"Um das Mikrofon stummzuschalten drückst du oben neben 'Meeting verlassen' auf das Mikrofon Symbol um dich stummzuschalten. Das gleiche kann auch genutzt werden, um das Mikrofon wieder freizugeben."}
             ]
         },
         {
@@ -56,7 +56,7 @@
                 },
                 {
                     "ID":"1",
-                    "content":"Klicke dann darauf um zu deinen Aufgaben zu gelangen.",
+                    "content":"Klicke dann darauf, um zu deinen Aufgaben zu gelangen.",
                     "pic":"../data/tabs/AufgabenErledigtUndZugewiesen.png"
                 },
                 {
@@ -71,7 +71,7 @@
                 },
                 {
                     "ID":"4",
-                    "content":"Danach suchst du die Datei heraus, die du hochladen möchtest, heraus und klickst diese einmal an. Daraufhin drückst du dann auf 'Öffnen'.",
+                    "content":"Danach suchst du die Datei, die du hochladen möchtest, heraus und klickst diese einmal an. Daraufhin drückst du dann auf 'Öffnen'.",
                     "pic":"../data/tabs/AufgabenLösungHochladen2.png"
                 },
                 {
@@ -143,7 +143,7 @@
                 },
                 {
                     "ID":"2",
-                    "content":"Wenn du wen anrufen möchtest aber ihn gerade nicht eingespeichert hast kannst du über den Verlauf auf 'Namen Eingeben' drücken. Dies öffnet dann eine Suchleiste wo du dann nach deinen Kontakt suchen kannst.",
+                    "content":"Wenn du wen anrufen möchtest aber ihn gerade nicht eingespeichert hast kannst du über den Verlauf auf 'Namen Eingeben' drücken. Dies öffnet dann eine Suchleiste wo du dann nach deinem Kontakt suchen kannst.",
                     "pic":"../data/tabs/Anrufe.png"
                 }
 
@@ -206,7 +206,7 @@
                 },
                 {
                     "ID":"3",
-                    "content":"Wenn du mit einem Lehrer/Schüler direkt Kontakt aufnehmen möchten dann kannst du auf seinem Namen gehen, um eine Kachel erscheinen zu lassen. Danach drückst du auf auf das Chat Symbol um einen Chat direkt zu starten.",
+                    "content":"Wenn du mit einem Lehrer/Schüler direkt Kontakt aufnehmen möchten dann kannst du auf seinem Namen gehen, um eine Kachel erscheinen zu lassen. Danach drückst du auf auf das Chat Symbol um, einen Chat direkt zu starten.",
                     "pic":"../data/tabs/ChatBeginnen.png"
                 },
                 {
@@ -256,7 +256,7 @@
         },
         {
             "ID":"layout",
-            "header":"Anleitung zum Layout Tab",
+            "header":"Anleitung zum Settings_Layout Tab",
             "link":"localhost:8000/manuals/settings",
             "keywords":[
                 "LAYOUT"
