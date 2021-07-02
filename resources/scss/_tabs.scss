@@ -13,7 +13,7 @@ $teams_purple_dark: #4a51be;
     position: fixed;
     left: 25%;
     .title {
-        width: 50%;
+        width: 80%;
         height: 80px;
         display: flex;
         justify-content: center;
@@ -30,6 +30,7 @@ $teams_purple_dark: #4a51be;
         border-radius: 15px;
         padding: 20px 10px 0px 10px;
         margin-top: 30px;
+        font-size: 20px;
         .text {
             color: black;
             display: flex;

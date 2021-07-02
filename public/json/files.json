@@ -52,7 +52,7 @@
                 {
                     "ID":"0",
                     "content":"Gehe auf die linke Seite des Bildschirms und klicke dort auf den Tab 'Aufgaben'.",
-                    "pic":"../data/tabs/"
+                    "pic":""
                 },
                 {
                     "ID":"1",
@@ -82,12 +82,12 @@
                 {
                     "ID":"6",
                     "content":"Wenn du dies gemacht hast suchst du dir dann den Dateityp raus, den du haben möchtest und drückst dann auf den Dateityp.",
-                    "pic":"../data/tabs/"
+                    "pic":""
                 },
                 {
                     "ID":"7",
                     "content":"Wenn du dies dann gemacht hast drückst du dann auf die neu erstellte Datei, um den Internen-Editor zu öffnen.",
-                    "pic":"../data/tabs/"
+                    "pic":""
                 },
                 {
                     "ID":"8",

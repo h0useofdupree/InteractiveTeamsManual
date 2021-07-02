@@ -25,17 +25,20 @@ fetch('../json/files.json')
   });
 
   function initialLoad(currentPageID){
+    var curPageNum = parseInt((files.article[currentPageID].pages[count].ID) + 1);
     document.getElementById("header").innerText = files.article[currentPageID].header;
-    document.getElementById("page").innerText = files.article[currentPageID].pages[0].ID + "/" + getPagesCount();
+    document.getElementById("page").innerText = curPageNum + "/" + getPagesCount();
     document.getElementById("text").innerText = files.article[currentPageID].pages[0].content;
     document.getElementById("pic").src = files.article[currentPageID].pages[0].pic;
   }
 
   function nextArticle(){
-    var pages = getPagesCount();
+    var pages = getPagesCount() -1 ;
     if (count < pages){
       count++;
-      document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID + "/" + getPagesCount();
+      var curPageNum = parseInt(files.article[currentPageID].pages[count].ID) + 1;
+      // document.getElementById("page").innerText = null;
+      document.getElementById("page").innerText = curPageNum + "/" + getPagesCount();
       document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
       document.getElementById("pic").src = files.article[currentPageID].pages[count].pic;
     }
@@ -45,7 +48,9 @@ fetch('../json/files.json')
 
     if (count > 0) {
       count--;
-      document.getElementById("page").innerText = files.article[currentPageID].pages[count].ID + "/" + getPagesCount();
+      var curPageNum = parseInt(files.article[currentPageID].pages[count].ID) + 1;
+      // document.getElementById("page").innerText = null;
+      document.getElementById("page").innerText = curPageNum + "/" + getPagesCount();
       document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
       document.getElementById("pic").src = files.article[currentPageID].pages[count].pic;
     }
@@ -59,9 +64,14 @@ fetch('../json/files.json')
     }
   }
 
-  function getPagesCount(){return files.article[currentPageID].pages.length - 1;}
+  function getPagesCount(){return files.article[currentPageID].pages.length;}
 
-
+document.getElementById("key").onkeyup = function(e){
+  if (e.keyCode == '39') {
+    console.log("test");
+    nextArticle();
+  }else if(e.keyCode == '37') prevArticle();
+}
 
 
   function logData(data){
