@@ -355,6 +355,7 @@ div [id^=chatu] {
   padding-top: 50px;
   position: fixed;
   left: 25%;
+  z-index: 30;
 }
 .site .title {
   width: 80%;
@@ -369,9 +370,9 @@ div [id^=chatu] {
 .site .texts {
   min-height: 130px;
   width: 50ch;
-  background-color: #adadad;
+  background-color: white;
   border-radius: 15px;
-  padding: 20px 10px 0px 10px;
+  padding: 40px 40px 40px 40px;
   margin-top: 30px;
   font-size: 20px;
 }
@@ -400,12 +401,12 @@ div [id^=chatu] {
 .site .picture img {
   margin-bottom: 80px;
   max-width: 400px;
-  transition: all 300ms ease-in-out;
+  transition: all 400ms ease-in-out;
   transform: translateY(40px);
 }
 .site .picture img:hover {
-  transform: translateY(-300px);
-  max-width: 1000px;
+  transform: translateY(-350px);
+  max-width: 1300px;
 }
 .site .pages {
   display: flex;
@@ -425,38 +426,88 @@ div [id^=chatu] {
   margin: 20px 20px;
   position: relative;
   top: 750px;
+  /*     #left {
+      margin-right: 1rem;
+      border-radius: 50px;
+      background: linear-gradient(225deg, #e6e6e6, #ffffff);
+      box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
+      &:hover {
+          border-radius: 50px;
+          background: linear-gradient(225deg, #e6e6e6, #ffffff);
+          box-shadow: -20px 20px 60px #808080, 20px -20px 60px #ffffff;
+      }
+      &:active {
+          border-radius: 50px;
+          background: linear-gradient(225deg, #e6e6e6, #ffffff);
+          box-shadow: -20px 20px 60px #f7f7f7, 20px -20px 60px #ffffff;
+      }
+  }
+  #right {
+      margin-left: 1rem;
+      border-radius: 50px;
+      background: linear-gradient(145deg, #e6e6e6, #ffffff);
+      box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+      &:hover {
+          border-radius: 50px;
+          background: linear-gradient(145deg, #e6e6e6, #ffffff);
+          box-shadow: 20px 20px 60px #808080, -20px -20px 60px #ffffff;
+      }
+      &:active {
+          border-radius: 50px;
+          background: linear-gradient(145deg, #e6e6e6, #ffffff);
+          box-shadow: 20px 20px 60px #f7f7f7, -20px -20px 60px #ffffff;
+      }
+  } */
 }
 .buttons button {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-color: #4a51be;
-  border: 2px solid black;
-  color: white;
+  border: none;
   padding: 15px 38px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   bottom: 0px;
-  transition: all 100ms ease-in-out;
+  transition: all 80ms ease-in-out;
 }
 .buttons button:hover {
-  z-index: 100;
-  transform: scale(1.08);
+  z-index: 20;
+  transform: scale(1.03);
 }
 .buttons #left {
-  border-left: 2px solid black;
-  border-right: 1px solid black;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  margin-left: 1rem;
+  border-radius: 50px;
+  background: #a3a8e7;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #a3a8e7;
+}
+.buttons #left:hover {
+  border-radius: 50px;
+  background: linear-gradient(225deg, #ffffff, #a3a8e7);
+  box-shadow: -20px 20px 60px #bababa, 20px -20px 60px #a3a8e7;
+}
+.buttons #left:active {
+  border-radius: 50px;
+  background: linear-gradient(225deg, #ffffff, #a3a8e7);
+  box-shadow: 5px 5px 10px #b2b8c9, -5px -5px 10px #a3a8e7;
 }
 .buttons #right {
-  border-right: 2px solid black;
-  border-left: 1px solid black;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  margin-left: 1rem;
+  border-radius: 50px;
+  background: #a3a8e7;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #a3a8e7;
+}
+.buttons #right:hover {
+  border-radius: 50px;
+  background: linear-gradient(225deg, #ffffff, #a3a8e7);
+  box-shadow: -20px 20px 60px #bababa, 20px -20px 60px #a3a8e7;
+}
+.buttons #right:active {
+  border-radius: 50px;
+  background: linear-gradient(225deg, #ffffff, #a3a8e7);
+  box-shadow: 5px 5px 10px #b2b8c9, -5px -5px 10px #a3a8e7;
 }
 
 .header {
@@ -560,7 +611,7 @@ div [id^=chatu] {
   border-radius: 15px;
   padding: 10px 0;
   border-top: 4px solid #7a81e7;
-  transform: translateY(-50px);
+  transform: translateY(-20px);
   transition: all 300ms ease-in-out;
   opacity: 0;
   visibility: hidden;
@@ -598,7 +649,7 @@ div [id^=chatu] {
 body {
   font-family: "Source Code Pro", monospace;
   font-weight: 400;
-  background-color: whitesmoke;
+  background-color: white;
   line-height: 1;
 }
 
