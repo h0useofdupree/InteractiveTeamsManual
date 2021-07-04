@@ -11,7 +11,7 @@ $teams_purple_dark: #4a51be;
 }
 
 body {
-    font-family: "Source Code Pro", monospace;
+    font-family: "Ubuntu Mono", monospace;
     font-weight: 400;
     background-color: white;
     line-height: 1;
@@ -26,6 +26,7 @@ body {
         width: 600px;
         height: 300px;
         margin-top: 50px;
+        margin-left: 50px;
     }
 }
 .burger {
@@ -63,7 +64,8 @@ body {
         width: 500px;
         background-size: 400px;
         border-radius: 6px;
-        margin: 6px;
+        margin: 2rem;
+        margin-top: 0;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

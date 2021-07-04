@@ -6,7 +6,7 @@
         </div>
         <div class="content">
             <h3>
-                (I)nteractive (T)eams (M)anual ist unsere Lösung, für alle Fragen und Probleme bezüglich Microsoft Teams
+                Interactive Teams Manual ist unsere Lösung, für alle Fragen und Probleme bezüglich Microsoft Teams
             </h3><br><br>
             <p class="par">
                 ITM ist ein web-basiertes, interaktives Teams Manual, um allen Schülern und Lehrern, die mit dem

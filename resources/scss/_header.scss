@@ -14,13 +14,14 @@ $teams_purple_dark: #4a51be;
         width: 1370px;
         max-width: 1370px;
         margin-top: 10px;
+        background-color: whitesmoke;
+        border-radius: 10px;
         .header-main {
-            background-color: white;
+            //background-color: white;
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 5px 0 0 0;
-            border-radius: 5px;
         }
         ul {
             list-style-type: none;
@@ -41,7 +42,7 @@ $teams_purple_dark: #4a51be;
         font-size: 30px;
         text-transform: capitalize;
         color: $teams_purple;
-        font-weight: 600;
+        font-weight: 700;
     }
     .nav-menu {
         padding: 0px 15px;
@@ -115,7 +116,7 @@ $teams_purple_dark: #4a51be;
             display: block;
             padding: 10px 20px;
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 700;
             color: black;
             text-transform: capitalize;
         }

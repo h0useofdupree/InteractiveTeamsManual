@@ -17,7 +17,7 @@ class ManualController extends Controller
 
     public function show($name)
     {
-        return view('other' . '.' . $name);
+        return view('other' . '.' . 'manuals' . '.' . $name);
     }
     public function bot()
     {

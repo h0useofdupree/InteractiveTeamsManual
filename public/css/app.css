@@ -334,10 +334,11 @@ div [id^=chatu] {
 }
 .body .title {
   font-weight: 600;
+  padding: 5rem;
 }
 .body .content {
   font-weight: 400;
-  width: 90ch;
+  width: 120ch;
 }
 .body .creators {
   font-weight: 400;
@@ -426,38 +427,6 @@ div [id^=chatu] {
   margin: 20px 20px;
   position: relative;
   top: 750px;
-  /*     #left {
-      margin-right: 1rem;
-      border-radius: 50px;
-      background: linear-gradient(225deg, #e6e6e6, #ffffff);
-      box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
-      &:hover {
-          border-radius: 50px;
-          background: linear-gradient(225deg, #e6e6e6, #ffffff);
-          box-shadow: -20px 20px 60px #808080, 20px -20px 60px #ffffff;
-      }
-      &:active {
-          border-radius: 50px;
-          background: linear-gradient(225deg, #e6e6e6, #ffffff);
-          box-shadow: -20px 20px 60px #f7f7f7, 20px -20px 60px #ffffff;
-      }
-  }
-  #right {
-      margin-left: 1rem;
-      border-radius: 50px;
-      background: linear-gradient(145deg, #e6e6e6, #ffffff);
-      box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-      &:hover {
-          border-radius: 50px;
-          background: linear-gradient(145deg, #e6e6e6, #ffffff);
-          box-shadow: 20px 20px 60px #808080, -20px -20px 60px #ffffff;
-      }
-      &:active {
-          border-radius: 50px;
-          background: linear-gradient(145deg, #e6e6e6, #ffffff);
-          box-shadow: 20px 20px 60px #f7f7f7, -20px -20px 60px #ffffff;
-      }
-  } */
 }
 .buttons button {
   position: relative;
@@ -465,49 +434,43 @@ div [id^=chatu] {
   justify-content: center;
   align-items: flex-end;
   border: none;
-  padding: 15px 38px;
+  padding: 30px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   bottom: 0px;
-  transition: all 80ms ease-in-out;
+  border-radius: 25px;
+  background: linear-gradient(225deg, #f0f0f0, #cacaca);
+  transition: all 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .buttons button:hover {
+  transition: all 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
   z-index: 20;
   transform: scale(1.03);
 }
+.buttons button:active {
+  transition: all 100ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 .buttons #left {
-  margin-left: 1rem;
-  border-radius: 50px;
-  background: #a3a8e7;
-  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #a3a8e7;
+  margin-right: 2rem;
+  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
 }
 .buttons #left:hover {
-  border-radius: 50px;
-  background: linear-gradient(225deg, #ffffff, #a3a8e7);
-  box-shadow: -20px 20px 60px #bababa, 20px -20px 60px #a3a8e7;
+  box-shadow: -37px 37px 74px #bebebe, 37px -37px 74px #ffffff;
 }
 .buttons #left:active {
-  border-radius: 50px;
-  background: linear-gradient(225deg, #ffffff, #a3a8e7);
-  box-shadow: 5px 5px 10px #b2b8c9, -5px -5px 10px #a3a8e7;
+  box-shadow: -5px 5px 10px #bebebe, 5px -5px 10px #ffffff;
 }
 .buttons #right {
-  margin-left: 1rem;
-  border-radius: 50px;
-  background: #a3a8e7;
-  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #a3a8e7;
+  margin-left: 2rem;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 .buttons #right:hover {
-  border-radius: 50px;
-  background: linear-gradient(225deg, #ffffff, #a3a8e7);
-  box-shadow: -20px 20px 60px #bababa, 20px -20px 60px #a3a8e7;
+  box-shadow: 37px 37px 74px #bebebe, -37px -37px 74px #ffffff;
 }
 .buttons #right:active {
-  border-radius: 50px;
-  background: linear-gradient(225deg, #ffffff, #a3a8e7);
-  box-shadow: 5px 5px 10px #b2b8c9, -5px -5px 10px #a3a8e7;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
 }
 
 .header {
@@ -524,14 +487,14 @@ div [id^=chatu] {
   width: 1370px;
   max-width: 1370px;
   margin-top: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
 }
 .header .container .header-main {
-  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px 0 0 0;
-  border-radius: 5px;
 }
 .header .container ul {
   list-style-type: none;
@@ -551,7 +514,7 @@ div [id^=chatu] {
   font-size: 30px;
   text-transform: capitalize;
   color: #7a81e7;
-  font-weight: 600;
+  font-weight: 700;
 }
 .header .nav-menu {
   padding: 0px 15px;
@@ -624,7 +587,7 @@ div [id^=chatu] {
   display: block;
   padding: 10px 20px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: black;
   text-transform: capitalize;
 }
@@ -647,7 +610,7 @@ div [id^=chatu] {
 }
 
 body {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
   background-color: white;
   line-height: 1;
@@ -663,6 +626,7 @@ body {
   width: 600px;
   height: 300px;
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 .burger {
@@ -698,7 +662,8 @@ body {
   width: 500px;
   background-size: 400px;
   border-radius: 6px;
-  margin: 6px;
+  margin: 2rem;
+  margin-top: 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

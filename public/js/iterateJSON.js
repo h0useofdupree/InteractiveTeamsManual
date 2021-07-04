@@ -39,21 +39,19 @@ fetch('../json/files.json')
     if (count < pages){
       count++;
       var curPageNum = parseInt(files.article[currentPageID].pages[count].ID) + 1;
-      // document.getElementById("page").innerText = null;
+      document.getElementById("right").style.display = "flex";
       document.getElementById("page").innerText = curPageNum + "/" + getPagesCount();
       document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
       document.getElementById("pic").src = files.article[currentPageID].pages[count].pic;
-    }
-    
+    }    
   }
 
 // Displays the previous manual, if there is one
   function prevArticle(){
-
     if (count > 0) {
       count--;
       var curPageNum = parseInt(files.article[currentPageID].pages[count].ID) + 1;
-      // document.getElementById("page").innerText = null;
+      document.getElementById("right").style.display = "flex";
       document.getElementById("page").innerText = curPageNum + "/" + getPagesCount();
       document.getElementById("text").innerText = files.article[currentPageID].pages[count].content;
       document.getElementById("pic").src = files.article[currentPageID].pages[count].pic;

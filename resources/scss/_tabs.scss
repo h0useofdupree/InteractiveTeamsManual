@@ -91,107 +91,45 @@ $teams_purple_button: #a3a8e7;
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        //background-color: $teams_purple_dark;
         border: none;
-        //color: white;
-        padding: 15px 38px;
+        padding: 30px 30px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
         bottom: 0px;
-        transition: all 80ms ease-in-out;
+
+        border-radius: 25px;
+        background: linear-gradient(225deg, #f0f0f0, #cacaca);
+
+        transition: all 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
         &:hover {
+            transition: all 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
             z-index: 20;
             transform: scale(1.03);
         }
-    }
-    /*     #left {
-        margin-right: 1rem;
-        border-radius: 50px;
-        background: linear-gradient(225deg, #e6e6e6, #ffffff);
-        box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
-        &:hover {
-            border-radius: 50px;
-            background: linear-gradient(225deg, #e6e6e6, #ffffff);
-            box-shadow: -20px 20px 60px #808080, 20px -20px 60px #ffffff;
-        }
         &:active {
-            border-radius: 50px;
-            background: linear-gradient(225deg, #e6e6e6, #ffffff);
-            box-shadow: -20px 20px 60px #f7f7f7, 20px -20px 60px #ffffff;
+            transition: all 100ms cubic-bezier(0.075, 0.82, 0.165, 1);
         }
     }
-    #right {
-        margin-left: 1rem;
-        border-radius: 50px;
-        background: linear-gradient(145deg, #e6e6e6, #ffffff);
-        box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-        &:hover {
-            border-radius: 50px;
-            background: linear-gradient(145deg, #e6e6e6, #ffffff);
-            box-shadow: 20px 20px 60px #808080, -20px -20px 60px #ffffff;
-        }
-        &:active {
-            border-radius: 50px;
-            background: linear-gradient(145deg, #e6e6e6, #ffffff);
-            box-shadow: 20px 20px 60px #f7f7f7, -20px -20px 60px #ffffff;
-        }
-    } */
     #left {
-        margin-left: 1rem;
-        -webkit-border-radius: 50px;
-        border-radius: 50px;
-        background: $teams_purple_button;
-        -webkit-box-shadow: 12px 12px 24px #b2b8c9,
-            -12px -12px 24px $teams_purple_button;
-        box-shadow: 12px 12px 24px #b2b8c9,
-            -12px -12px 24px $teams_purple_button;
+        margin-right: 2rem;
+        box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
         &:hover {
-            -webkit-border-radius: 50px;
-            border-radius: 50px;
-            background: linear-gradient(225deg, #ffffff, $teams_purple_button);
-            -webkit-box-shadow: 5px 5px 10px #b2b8c9,
-                -5px -5px 10px $teams_purple_button;
-            box-shadow: -20px 20px 60px #bababa,
-                20px -20px 60px $teams_purple_button;
+            box-shadow: -37px 37px 74px #bebebe, 37px -37px 74px #ffffff;
         }
         &:active {
-            -webkit-border-radius: 50px;
-            border-radius: 50px;
-            background: linear-gradient(225deg, #ffffff, $teams_purple_button);
-            -webkit-box-shadow: 5px 5px 10px #b2b8c9,
-                -5px -5px 10px $teams_purple_button;
-            box-shadow: 5px 5px 10px #b2b8c9,
-                -5px -5px 10px $teams_purple_button;
+            box-shadow: -5px 5px 10px #bebebe, 5px -5px 10px #ffffff;
         }
     }
     #right {
-        margin-left: 1rem;
-        -webkit-border-radius: 50px;
-        border-radius: 50px;
-        background: $teams_purple_button;
-        -webkit-box-shadow: 12px 12px 24px #b2b8c9,
-            -12px -12px 24px $teams_purple_button;
-        box-shadow: 12px 12px 24px #b2b8c9,
-            -12px -12px 24px $teams_purple_button;
+        margin-left: 2rem;
+        box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
         &:hover {
-            -webkit-border-radius: 50px;
-            border-radius: 50px;
-            background: linear-gradient(225deg, #ffffff, $teams_purple_button);
-            -webkit-box-shadow: 5px 5px 10px #b2b8c9,
-                -5px -5px 10px $teams_purple_button;
-            box-shadow: -20px 20px 60px #bababa,
-                20px -20px 60px $teams_purple_button;
+            box-shadow: 37px 37px 74px #bebebe, -37px -37px 74px #ffffff;
         }
         &:active {
-            -webkit-border-radius: 50px;
-            border-radius: 50px;
-            background: linear-gradient(225deg, #ffffff, $teams_purple_button);
-            -webkit-box-shadow: 5px 5px 10px #b2b8c9,
-                -5px -5px 10px $teams_purple_button;
-            box-shadow: 5px 5px 10px #b2b8c9,
-                -5px -5px 10px $teams_purple_button;
+            box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
         }
     }
 }
