@@ -2283,23 +2283,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
     '&': '&amp;',
     '<': '&lt;',
     '>': '&gt;',
-    '"': '&quot;',
-    "'": '&#39;'
-  };
-
-  /** Used to map HTML entities to characters. */
-  var htmlUnescapes = {
-    '&amp;': '&',
-    '&lt;': '<',
-    '&gt;': '>',
-    '&quot;': '"',
-    '&#39;': "'"
-  };
-
-  /** Used to escape characters for inclusion in compiled string literals. */
-  var stringEscapes = {
-    '\\': '\\',
-    "'": "'",
+    '"': '&quot;',localhost:8000/manuals/ins
     '\n': 'n',
     '\r': 'r',
     '\u2028': 'u2028',

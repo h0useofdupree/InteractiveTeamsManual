@@ -58,7 +58,7 @@ fetch('../json/files.json')
     }
   }
 
-// Picks the manuals from files.json according to current Route ( e.g. localhost:8000/manuals/install would grab the ID install)
+// Picks the manuals from files.json according to current Route ( e.g. localhost:8000/manuals/tabs/install would grab the ID install)
   function getFileForCurrentPage(){
     for (let index = 0; index < files.article.length; index++) {
       if (files.article[index].ID == currentPage) { // If any file's ID in JSON equals the currentPage Name
