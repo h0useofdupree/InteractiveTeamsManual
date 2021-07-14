@@ -12,5 +12,3 @@
 
 #### [Deutsch]
 [Interactive Teams Manual](https://github.com/h0useofdupree/InteractiveTeamsManual) ist eine interaktive, web-basierte 'Microsoft Teams' Anleitung, welche vor Allem für Neueinsteiger designed wurde.
-
-#####TEST
